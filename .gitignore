@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Raw source files are kept local and not versioned
+anuarios/[0-9]*/
+!anuarios/README.md
+!anuarios/manifest.generated.csv
+
+# Local environment
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
