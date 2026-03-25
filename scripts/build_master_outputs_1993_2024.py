@@ -30,6 +30,39 @@ MODULES = [
     "tamano",
     "duracion",
 ]
+MODULE_CONCEPTS = {
+    "actividad": "Rama o sector economico reportado por el anuario para clasificar las huelgas.",
+    "territorio": "Ubicacion territorial reportada por la fuente para clasificar las huelgas.",
+    "causas": "Motivo resumido de la huelga segun el cuadro anual de causas.",
+    "calificacion": "Condicion legal de la huelga segun la categoria juridica usada en cada anuario.",
+    "organizacion": "Tipo de organizacion sindical o representacion que convoca o sostiene la huelga.",
+    "tamano": "Tramo de trabajadores comprendidos por huelga segun el cuadro de tamano.",
+    "duracion": "Tramo de duracion de la huelga segun el cuadro anual de dias.",
+}
+MODULE_NOTES = {
+    "actividad": (
+        "La fuente cambia de nomenclatura sectorial entre años. "
+        "Se preserva la categoria original y se homologan sectores comparables. "
+        "No se elimina `adm_publica`: se conserva porque la fuente la reporta explicitamente."
+    ),
+    "territorio": (
+        "La fuente mezcla nivel regional y zona. "
+        "La comparabilidad requiere distinguir `nivel_territorial` y no sumar region + zona."
+    ),
+    "causas": "La serie comparable se concentra en `pliego_reclamos` y `otras_causas`.",
+    "calificacion": (
+        "La terminologia juridica cambia entre años, pero la agregacion comparable es `procedente` e `ilegal`."
+    ),
+    "organizacion": (
+        "La fuente distingue sindicatos, delegados, federaciones y confederaciones, con variantes historicas."
+    ),
+    "tamano": (
+        "Los tramos altos se subdividen desde 2014; para comparabilidad longitudinal se agregan en `300_mas`."
+    ),
+    "duracion": (
+        "El tramo largo se subdivide desde 2012; para comparabilidad longitudinal se agrega en `16_mas_dias`."
+    ),
+}
 MASTER_COLUMNS = [
     "anio",
     "modulo",
@@ -237,6 +270,97 @@ def build_year_territory(master_df: pd.DataFrame) -> tuple[pd.DataFrame, pd.Data
     return data, pivot.reset_index()
 
 
+def build_common_language_reference(
+    master_df: pd.DataFrame,
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    reference = master_df.copy()
+    reference = reference[
+        reference["categoria_homologada_agregada"].notna()
+        & reference["categoria_homologada_agregada"].astype(str).ne("")
+    ].copy()
+    reference["nivel_territorial"] = reference["nivel_territorial"].fillna("")
+    reference["regla_homologacion"] = reference["regla_homologacion"].fillna("")
+    reference["categoria_homologada_fina"] = reference["categoria_homologada_fina"].fillna("")
+
+    detail = (
+        reference.groupby(
+            [
+                "modulo",
+                "categoria_homologada_agregada",
+                "categoria_homologada_fina",
+                "regla_homologacion",
+                "nivel_territorial",
+            ],
+            as_index=False,
+        )
+        .agg(
+            anio_min=("anio", "min"),
+            anio_max=("anio", "max"),
+            n_anios=("anio", "nunique"),
+        )
+        .sort_values(
+            [
+                "modulo",
+                "categoria_homologada_agregada",
+                "categoria_homologada_fina",
+                "nivel_territorial",
+                "regla_homologacion",
+            ]
+        )
+    )
+
+    summary_rows: list[dict[str, object]] = []
+    category_rows: list[dict[str, object]] = []
+    for modulo in MODULES:
+        sub = detail[detail["modulo"] == modulo].copy()
+        agregadas = sorted(
+            x for x in sub["categoria_homologada_agregada"].dropna().astype(str).unique().tolist() if x
+        )
+        finas = sorted(
+            x for x in sub["categoria_homologada_fina"].dropna().astype(str).unique().tolist() if x
+        )
+        reglas = sorted(
+            x for x in sub["regla_homologacion"].dropna().astype(str).unique().tolist() if x
+        )
+        summary_rows.append(
+            {
+                "modulo": modulo,
+                "concepto": MODULE_CONCEPTS.get(modulo, ""),
+                "observacion_metodologica": MODULE_NOTES.get(modulo, ""),
+                "n_categorias_agregadas": len(agregadas),
+                "categorias_agregadas": " | ".join(agregadas),
+                "n_categorias_finas": len(finas),
+                "categorias_finas": " | ".join(finas),
+                "n_reglas_homologacion": len(reglas),
+            }
+        )
+        grouped_categories = (
+            sub.groupby(["categoria_homologada_agregada", "nivel_territorial"], as_index=False)
+            .agg(
+                anio_min=("anio_min", "min"),
+                anio_max=("anio_max", "max"),
+                n_anios=("n_anios", "max"),
+            )
+            .sort_values(["categoria_homologada_agregada", "nivel_territorial"])
+        )
+        for _, row in grouped_categories.iterrows():
+            category_rows.append(
+                {
+                    "modulo": modulo,
+                    "concepto": MODULE_CONCEPTS.get(modulo, ""),
+                    "categoria_homologada_agregada": row["categoria_homologada_agregada"],
+                    "nivel_territorial": row["nivel_territorial"],
+                    "anio_min": row["anio_min"],
+                    "anio_max": row["anio_max"],
+                    "n_anios_observados": row["n_anios"],
+                    "observacion_metodologica": MODULE_NOTES.get(modulo, ""),
+                }
+            )
+    summary = pd.DataFrame(summary_rows)
+    categories = pd.DataFrame(category_rows)
+    return detail, summary, categories
+
+
 def save_heatmap(df: pd.DataFrame, title: str, output_path: Path, top_n: int | None = None) -> None:
     heat = df.set_index(df.columns[0])
     if top_n is not None and heat.shape[1] > top_n:
@@ -294,6 +418,9 @@ def save_excel_bundle(
     master_df: pd.DataFrame,
     coverage_df: pd.DataFrame,
     annual_summary_df: pd.DataFrame,
+    common_language_detail: pd.DataFrame,
+    common_language_summary: pd.DataFrame,
+    common_language_categories: pd.DataFrame,
     legalidad_long: pd.DataFrame,
     legalidad_resumen: pd.DataFrame,
     verif_long: pd.DataFrame,
@@ -306,6 +433,9 @@ def save_excel_bundle(
         master_df.to_excel(writer, sheet_name="datos", index=False)
         coverage_df.to_excel(writer, sheet_name="cobertura_modulos", index=False)
         annual_summary_df.to_excel(writer, sheet_name="resumen_anual", index=False)
+        common_language_detail.to_excel(writer, sheet_name="idioma_comun", index=False)
+        common_language_summary.to_excel(writer, sheet_name="idioma_modulos", index=False)
+        common_language_categories.to_excel(writer, sheet_name="idioma_categorias", index=False)
         legalidad_long.to_excel(writer, sheet_name="legalidad_largo", index=False)
         legalidad_resumen.to_excel(writer, sheet_name="legalidad_resumen", index=False)
         verif_long.to_excel(writer, sheet_name="verif_calificacion", index=False)
@@ -333,6 +463,37 @@ No permite observar directamente:
 - `sector x territorio` para toda la serie
 
 Para esos cruces se requiere una extraccion adicional del cuadro cruzado `actividad x territorio`, que no forma parte del pipeline principal usado para homogenizar `1993-2024`.
+"""
+    note_path.write_text(text, encoding="utf-8")
+    return note_path
+
+
+def build_public_private_note() -> Path:
+    note_path = OUTPUT_DIR / "nota_sector_publico_privado.md"
+    text = """# Nota metodologica: sector privado y presencia del sector publico
+
+Varios anuarios de huelgas del MTPE aluden en su titulo a `sector privado` o sugieren una cobertura privada. Sin embargo, en los cuadros de actividad economica aparecen de forma explicita categorias como:
+
+- `administracion publica y defensa`
+- `ensenanza`
+- `servicios sociales y de salud`
+
+## Que se hizo en la homologacion
+
+- no se eliminaron esas filas
+- no se recodificaron como si fueran `sector privado`
+- no se imputo una separacion artificial entre conflicto publico y privado
+- se conservaron tal como aparecen en la fuente y se homologaron a categorias observables del idioma comun, por ejemplo `administracion publica y defensa -> adm_publica`
+
+## Interpretacion
+
+El problema no es del pipeline sino de la propia fuente oficial: la titulacion historica de algunos anuarios no coincide plenamente con el contenido de los cuadros.
+
+Por eso la base maestra debe leerse asi:
+
+- `adm_publica`, `ensenanza` y `salud_social` son categorias validas observadas en la fuente
+- su presencia documenta que el registro oficial incluye conflictividad fuera de un sector privado estricto
+- esta inconsistencia conceptual debe reportarse en cualquier uso analitico o publicacion
 """
     note_path.write_text(text, encoding="utf-8")
     return note_path
@@ -560,6 +721,7 @@ def main() -> None:
     GRAPH_DIR.mkdir(parents=True, exist_ok=True)
 
     master_df, coverage_df, validation_df, annual_summary_df = collect_outputs()
+    common_language_detail, common_language_summary, common_language_categories = build_common_language_reference(master_df)
     legalidad_long, legalidad_resumen = build_legalidad(master_df)
     verif_long, verif_resumen = build_calificacion_verification(validation_df)
     year_sector_long, year_sector_pivot = build_year_sector(master_df)
@@ -568,6 +730,9 @@ def main() -> None:
     master_df.to_csv(OUTPUT_DIR / "huelgas_modulos_maestra_1993_2024.csv", index=False, encoding="utf-8-sig")
     coverage_df.to_csv(OUTPUT_DIR / "cobertura_modulos_1993_2024.csv", index=False, encoding="utf-8-sig")
     annual_summary_df.to_csv(OUTPUT_DIR / "resumen_anual_1993_2024.csv", index=False, encoding="utf-8-sig")
+    common_language_detail.to_csv(OUTPUT_DIR / "diccionario_idioma_comun_1993_2024.csv", index=False, encoding="utf-8-sig")
+    common_language_summary.to_csv(OUTPUT_DIR / "resumen_idioma_comun_modulos.csv", index=False, encoding="utf-8-sig")
+    common_language_categories.to_csv(OUTPUT_DIR / "tabla_lenguaje_comun_categorias.csv", index=False, encoding="utf-8-sig")
     legalidad_long.to_csv(OUTPUT_DIR / "huelgas_legalidad_1996_2024_largo.csv", index=False, encoding="utf-8-sig")
     legalidad_resumen.to_csv(OUTPUT_DIR / "huelgas_legalidad_1996_2024_resumen_anual.csv", index=False, encoding="utf-8-sig")
     verif_long.to_csv(OUTPUT_DIR / "verificacion_calificacion_1993_2024_largo.csv", index=False, encoding="utf-8-sig")
@@ -581,6 +746,9 @@ def main() -> None:
         master_df,
         coverage_df,
         annual_summary_df,
+        common_language_detail,
+        common_language_summary,
+        common_language_categories,
         legalidad_long,
         legalidad_resumen,
         verif_long,
@@ -602,9 +770,11 @@ def main() -> None:
         top_n=12,
     )
     build_sector_territory_note()
+    build_public_private_note()
     create_notebook()
 
     print(f"[ok] base maestra -> {OUTPUT_DIR / 'huelgas_modulos_maestra_1993_2024.csv'}")
+    print(f"[ok] idioma comun -> {OUTPUT_DIR / 'diccionario_idioma_comun_1993_2024.csv'}")
     print(f"[ok] legalidad -> {OUTPUT_DIR / 'huelgas_legalidad_1996_2024_largo.csv'}")
     print(f"[ok] verificacion calificacion -> {OUTPUT_DIR / 'verificacion_calificacion_1993_2024_resumen.csv'}")
     print(f"[ok] notebook -> {NOTEBOOK_DIR / '02_analisis_base_maestra.ipynb'}")

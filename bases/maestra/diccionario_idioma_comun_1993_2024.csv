@@ -1,0 +1,270 @@
+﻿modulo,categoria_homologada_agregada,categoria_homologada_fina,regla_homologacion,nivel_territorial,anio_min,anio_max,n_anios
+actividad,adm_publica,adm_publica,administracion publica -> adm_publica,,2000,2024,25
+actividad,agricultura,agricultura,agricultura -> agricultura,,1994,2024,22
+actividad,comercio,comercio,comercio/hoteles -> comercio,,1995,2024,16
+actividad,comercio,comercio,comercio/restaurantes/hoteles -> comercio,,1998,2003,3
+actividad,construccion,construccion,construccion -> construccion,,1995,2024,24
+actividad,electricidad_agua,electricidad_agua,electricidad/gas/agua -> electricidad_agua,,1994,2024,25
+actividad,ensenanza,ensenanza,ensenanza -> ensenanza,,1995,2024,20
+actividad,explotacion_de_petroleo_y_gas_natural,explotacion_de_petroleo_y_gas_natural,sin traduccion adicional; se normaliza el texto,,1996,1996,1
+actividad,financiero,financiero,intermediacion financiera/AFP -> financiero,,1994,2024,12
+actividad,inmobiliario,inmobiliario,actividades inmobiliarias/alquiler -> inmobiliario,,1995,2019,13
+actividad,inmobiliario,inmobiliario,inmobiliario/alquiler -> inmobiliario,,1997,2003,5
+actividad,manufactura,manufactura,manufactura -> manufactura,,1996,2003,8
+actividad,manufactura,manufactura,manufacturas -> manufactura,,1994,2024,23
+actividad,mineria,mineria,minas y canteras -> mineria,,1994,2024,23
+actividad,mineria,mineria,minas y canteras/extraccion de petroleo -> mineria,,1996,2003,8
+actividad,otros_servicios,otros_servicios,otras actividades de servicios -> otros_servicios,,2003,2024,13
+actividad,paro_nacional,paro_nacional,paro civico/paros nacionales -> paro_nacional,,1999,2002,2
+actividad,paro_nacional,paro_nacional,paro nacional/paros -> paro_nacional,,2008,2008,1
+actividad,pesca,pesca,pesca -> pesca,,1994,2015,7
+actividad,salud_social,salud_social,servicios comunales y sociales -> salud_social,,1994,1995,2
+actividad,salud_social,salud_social,servicios comunales/sociales -> salud_social,,1996,1997,2
+actividad,salud_social,salud_social,servicios sociales y de salud -> salud_social,,1994,2024,21
+actividad,transporte,transporte,transporte/comunicaciones -> transporte,,1994,2023,28
+calificacion,ilegal,ilegal,improcedente/ilegalidad -> ilegal,,1996,2024,29
+calificacion,procedente,procedente,conforme/procedencia -> procedente,,1996,2012,17
+calificacion,procedente,procedente,procedente -> procedente,,2013,2024,12
+causas,otras_causas,otras_causas,otras causas -> otras_causas,,1994,2024,31
+causas,pliego_reclamos,pliego_reclamos,pliego reclamos -> pliego_reclamos,,1994,2024,31
+duracion,16_mas_dias,16_21_dias,16-21 dias -> fina 16_21_dias; agregada 16_mas_dias,,2012,2024,12
+duracion,16_mas_dias,16_30_dias,dieciseis a treinta dias -> fina 16_30_dias; agregada 16_mas_dias,,1996,2003,8
+duracion,16_mas_dias,16_mas_dias,16 dias a mas -> 16_mas_dias,,2005,2011,7
+duracion,16_mas_dias,22_35_dias,22-35 dias -> fina 22_35_dias; agregada 16_mas_dias,,2012,2024,12
+duracion,16_mas_dias,36_mas_dias,36+ dias -> fina 36_mas_dias; agregada 16_mas_dias,,2012,2024,10
+duracion,16_mas_dias,mas_30_dias,mas de 30 dias -> fina mas_30_dias; agregada 16_mas_dias,,2000,2003,3
+duracion,16_mas_dias,mas_30_dias,mas de treinta dias -> fina mas_30_dias; agregada 16_mas_dias,,1996,1996,1
+duracion,1_dia,1_dia,un dia -> 1_dia,,1996,2024,29
+duracion,2_3_dias,2_dias,dos dias -> fina 2_dias; agregada 2_3_dias,,1996,2024,29
+duracion,2_3_dias,3_dias,tres dias -> fina 3_dias; agregada 2_3_dias,,1996,2024,29
+duracion,4_7_dias,4_7_dias,4-7 dias -> 4_7_dias,,2004,2024,21
+duracion,4_7_dias,4_7_dias,cuatro a siete dias -> 4_7_dias,,1996,2003,8
+duracion,8_15_dias,8_15_dias,8-15 dias -> 8_15_dias,,2004,2024,21
+duracion,8_15_dias,8_15_dias,ocho a quince dias -> 8_15_dias,,1996,2003,8
+organizacion,confederacion,confederacion,confederacion(es) -> confederacion,,1994,1999,6
+organizacion,delegados_empleados,delegados_empleados,delegados de empleados -> delegados_empleados,,1997,2013,10
+organizacion,delegados_obreros,delegados_obreros,delegados de obreros -> delegados_obreros,,1997,2014,18
+organizacion,federacion,federacion,federacion(es) -> federacion,,1994,2024,30
+organizacion,sindicato_empleados,sindicato_empleados,sindicato de empleados -> sindicato_empleados,,1994,2024,28
+organizacion,sindicato_obreros,sindicato_obreros,sindicato de obreros -> sindicato_obreros,,1994,2024,31
+organizacion,sindicato_unico,sindicato_unico,sindicato unico -> sindicato_unico,,1994,2024,31
+tamano,100_199,100_199,100-199 -> 100_199,,1996,2024,29
+tamano,200_299,200_299,200-299 -> 200_299,,1996,2024,29
+tamano,20_49,20_49,20-49 -> 20_49,,1996,2024,29
+tamano,300_mas,1000_mas,1000+ -> fina 1000_mas; agregada 300_mas,,2014,2024,11
+tamano,300_mas,300_499,300-499 -> fina 300_499; agregada 300_mas,,2014,2024,11
+tamano,300_mas,300_a_mas_trabajadores,300 a mas trabajadores -> fina 300_a_mas_trabajadores; agregada 300_mas,,1996,2013,18
+tamano,300_mas,500_799,500-799 -> fina 500_799; agregada 300_mas,,2014,2024,11
+tamano,300_mas,800_999,800-999 -> fina 800_999; agregada 300_mas,,2014,2024,11
+tamano,50_99,50_99,50-99 -> 50_99,,1996,2024,29
+tamano,no_indica,no_indica,no indica -> no_indica,,2022,2022,1
+territorio,abancay,abancay,ABANCAY -> zona; region_madre=apurimac,zona,2002,2024,13
+territorio,amazonas,amazonas,AMAZONAS -> zona; region_madre=cajamarca,zona,2002,2005,3
+territorio,amazonas,amazonas,AMAZONAS -> zona; region_madre=lambayeque,zona,2003,2003,1
+territorio,amazonas,amazonas,AMAZONAS -> zona; region_madre=sin_region_padre,zona,2010,2017,5
+territorio,ancash,ancash,ANCASH -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,ancash,ancash,ANCASH -> region homologada ancash,regional,2000,2024,17
+territorio,ancash,ancash,ÁNCASH -> region homologada ancash,regional,2018,2023,3
+territorio,andres_a_caceres,andres_a_caceres,ANDRES A. CACERES -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,andres_a_caceres,andres_a_caceres,ANDRES A. CACERES -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,apurimac,apurimac,APURIMAC -> region homologada apurimac,regional,2002,2024,6
+territorio,apurimac,apurimac,APURÍMAC -> region homologada apurimac,regional,2009,2023,6
+territorio,apurimac,apurimac,APURíMAC -> region homologada apurimac,regional,2021,2021,1
+territorio,arequipa,arequipa,AREQUIPA -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,arequipa,arequipa,AREQUIPA -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,arequipa,arequipa,AREQUIPA -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,arequipa,arequipa,AREQUIPA -> region homologada arequipa,regional,2000,2024,23
+territorio,arequipa,arequipa,AREQUIPA -> ciudad/zona con mismo nombre que la cabecera territorial; region_madre=arequipa,zona,1996,1998,3
+territorio,arequipa,arequipa,AREQUIPA -> ciudad/zona con mismo nombre que la region historica; region_madre=arequipa,zona,1994,1995,2
+territorio,arequipa,arequipa,AREQUIPA -> zona con mismo nombre que la region; region_madre=arequipa,zona,2000,2024,22
+territorio,arequipa,arequipa,AREQUIPA -> zona de trabajo; region_madre=arequipa,zona,1999,1999,1
+territorio,ayacucho,ayacucho,AYACUCHO -> region homologada ayacucho,regional,2002,2023,13
+territorio,ayacucho,ayacucho,AYACUCHO -> ciudad/zona historica; region_madre=libertadores_wari,zona,1995,1995,1
+territorio,ayacucho,ayacucho,AYACUCHO -> zona con mismo nombre que la region; region_madre=ayacucho,zona,2002,2023,13
+territorio,cajamarca,cajamarca,CAJAMARCA -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,cajamarca,cajamarca,CAJAMARCA -> region homologada cajamarca,regional,2002,2024,10
+territorio,cajamarca,cajamarca,CAJAMARCA -> ciudad/zona historica; region_madre=nor_oriental_del_maranon,zona,1995,1995,1
+territorio,cajamarca,cajamarca,CAJAMARCA -> zona con mismo nombre que la region; region_madre=cajamarca,zona,2002,2024,10
+territorio,cajamarca,cajamarca,CAJAMARCA -> zona de trabajo; region_madre=cajamarca,zona,1999,1999,1
+territorio,callao,callao,CALLAO -> region homologada callao,regional,2001,2023,18
+territorio,callao,callao,CALLAO -> ciudad/zona historica; region_madre=lima,zona,1994,1998,5
+territorio,callao,callao,CALLAO -> zona con mismo nombre que la region; region_madre=callao,zona,2007,2023,9
+territorio,callao,callao,CALLAO -> zona de trabajo; region_madre=lima,zona,1999,1999,1
+territorio,camana,camana,CAMANA -> ciudad/zona historica; region_madre=arequipa,zona,1996,1998,2
+territorio,camana,camana,CAMANA -> zona de trabajo; region_madre=arequipa,zona,1999,1999,1
+territorio,camana,camana,CAMANA -> zona; region_madre=arequipa,zona,2002,2005,2
+territorio,camana,camana,CAMANÁ -> zona; region_madre=arequipa,zona,2006,2018,11
+territorio,canete,canete,CAÑETE -> zona; region_madre=callao,zona,2009,2010,2
+territorio,canete,canete,CAÑETE -> zona; region_madre=lima_provincia,zona,2003,2024,7
+territorio,casma,casma,CASMA -> ciudad/zona historica; region_madre=chavin,zona,1997,1997,1
+territorio,cerro_de_pasco,cerro_de_pasco,CERRO DE PASCO -> ciudad/zona historica; region_madre=andres_a_caceres,zona,1996,1996,1
+territorio,cerro_de_pasco,cerro_de_pasco,CERRO DE PASCO -> zona de trabajo; region_madre=pasco,zona,1999,1999,1
+territorio,cerro_de_pasco,cerro_de_pasco,CERRO DE PASCO -> zona; region_madre=pasco,zona,2000,2024,21
+territorio,chachapoyas,chachapoyas,CHACHAPOYAS -> zona; region_madre=cajamarca,zona,2002,2005,3
+territorio,chachapoyas,chachapoyas,CHACHAPOYAS -> zona; region_madre=lambayeque,zona,2003,2003,1
+territorio,chachapoyas,chachapoyas,CHACHAPOYAS -> zona; region_madre=sin_region_padre,zona,2010,2017,5
+territorio,chanka_andahuaylas,chanka_andahuaylas,CHANKA - ANDAHUAYLAS -> zona; region_madre=apurimac,zona,2012,2013,2
+territorio,chavin,chavin,CHAVIN -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,chavin,chavin,CHAVIN -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,chiclayo,chiclayo,CHICLAYO -> ciudad/zona historica; region_madre=moquegua_tacna_puno,zona,1996,1998,2
+territorio,chiclayo,chiclayo,CHICLAYO -> ciudad/zona historica; region_madre=nor_oriental_del_maranon,zona,1994,1995,2
+territorio,chiclayo,chiclayo,CHICLAYO -> zona de trabajo; region_madre=lambayeque,zona,1999,1999,1
+territorio,chiclayo,chiclayo,CHICLAYO -> zona; region_madre=lambayeque,zona,2000,2023,22
+territorio,chimbote,chimbote,CHIMBOTE -> ciudad/zona historica; region_madre=chavin,zona,1994,1998,5
+territorio,chimbote,chimbote,CHIMBOTE -> zona de trabajo; region_madre=ancash,zona,1999,1999,1
+territorio,chimbote,chimbote,CHIMBOTE -> zona; region_madre=ancash,zona,2000,2024,19
+territorio,chincha,chincha,CHINCHA -> zona; region_madre=ica,zona,2007,2018,4
+territorio,cusco,cusco,CUSCO -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,cusco,cusco,CUSCO -> region homologada cusco,regional,2000,2019,15
+territorio,cusco,cusco,CUSCO -> ciudad/zona historica; region_madre=inka,zona,1994,1998,4
+territorio,cusco,cusco,CUSCO -> zona con mismo nombre que la region; region_madre=cusco,zona,2000,2019,15
+territorio,cusco,cusco,CUSCO -> zona de trabajo; region_madre=cusco,zona,1999,1999,1
+territorio,grau,grau,GRAU -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,grau,grau,GRAU -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,huacho,huacho,HUACHO -> ciudad/zona historica; region_madre=lima,zona,1994,1998,5
+territorio,huacho,huacho,HUACHO -> zona; region_madre=callao,zona,2001,2010,7
+territorio,huacho,huacho,HUACHO -> zona; region_madre=lima_provincia,zona,2000,2024,14
+territorio,huamachuco,huamachuco,HUAMACHUCO -> zona; region_madre=la_libertad,zona,2010,2012,2
+territorio,huancavelica,huancavelica,HUANCAVELICA -> region homologada huancavelica,regional,2000,2019,19
+territorio,huancavelica,huancavelica,HUANCAVELICA -> ciudad/zona historica; region_madre=libertadores_wari,zona,1995,1998,3
+territorio,huancavelica,huancavelica,HUANCAVELICA -> zona con mismo nombre que la region; region_madre=huancavelica,zona,2000,2019,19
+territorio,huancayo,huancayo,HUANCAYO -> ciudad/zona historica; region_madre=andres_a_caceres,zona,1997,1997,1
+territorio,huancayo,huancayo,HUANCAYO -> zona de trabajo; region_madre=junin,zona,1999,1999,1
+territorio,huancayo,huancayo,HUANCAYO -> zona; region_madre=junin,zona,2000,2018,13
+territorio,huanuco,huanuco,HUANUCO -> region homologada huanuco,regional,2001,2005,5
+territorio,huanuco,huanuco,HUÁNUCO -> region homologada huanuco,regional,2007,2021,10
+territorio,huanuco,huanuco,HUANUCO -> ciudad/zona historica; region_madre=andres_a_caceres,zona,1996,1996,1
+territorio,huanuco,huanuco,HUANUCO -> zona con mismo nombre que la region; region_madre=huanuco,zona,2001,2005,5
+territorio,huanuco,huanuco,HUÁNUCO -> zona con mismo nombre que la region; region_madre=huanuco,zona,2007,2021,10
+territorio,huaraz,huaraz,HUARAZ -> ciudad/zona historica; region_madre=chavin,zona,1998,1998,1
+territorio,huaraz,huaraz,HUARAZ -> zona de trabajo; region_madre=ancash,zona,1999,1999,1
+territorio,huaraz,huaraz,HUARAZ -> zona; region_madre=ancash,zona,2000,2023,10
+territorio,ica,ica,ICA -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,ica,ica,ICA -> region homologada ica,regional,2002,2024,22
+territorio,ica,ica,ICA -> ciudad/zona historica; region_madre=libertadores_wari,zona,1994,1996,3
+territorio,ica,ica,ICA -> zona con mismo nombre que la region; region_madre=ica,zona,2002,2024,22
+territorio,ica,ica,ICA -> zona de trabajo; region_madre=ica,zona,1999,1999,1
+territorio,ilo,ilo,ILO -> ciudad/zona historica; region_madre=moquegua_tacna_puno,zona,1994,1998,4
+territorio,ilo,ilo,ILO -> zona de trabajo; region_madre=moquegua,zona,1999,1999,1
+territorio,ilo,ilo,ILO -> zona; region_madre=moquegua,zona,2003,2021,7
+territorio,inka,inka,INKA -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,inka,inka,INKA -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1994,1
+territorio,iquitos,iquitos,IQUITOS -> ciudad/zona historica; region_madre=loreto,zona,1994,1998,5
+territorio,iquitos,iquitos,IQUITOS -> zona de trabajo; region_madre=loreto,zona,1999,1999,1
+territorio,iquitos,iquitos,IQUITOS -> zona; region_madre=loreto,zona,2002,2021,14
+territorio,iquitos_maynas,iquitos_maynas,IQUITOS (MAYNAS) -> zona; region_madre=loreto,zona,2022,2022,1
+territorio,juanjui,juanjui,JUANJUÍ -> zona; region_madre=san_martin,zona,2012,2012,1
+territorio,juliaca,juliaca,JULIACA -> ciudad/zona historica; region_madre=moquegua_tacna_puno,zona,1997,1998,2
+territorio,juliaca,juliaca,JULIACA -> zona; region_madre=puno,zona,2002,2018,4
+territorio,junin,junin,JUNIN -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,junin,junin,JUNIN -> region homologada junin,regional,2000,2005,6
+territorio,junin,junin,JUNÍN -> region homologada junin,regional,2006,2024,17
+territorio,la_libertad,la_libertad,LA LIBERTAD -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,la_libertad,la_libertad,LA LIBERTAD -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,la_libertad,la_libertad,LA LIBERTAD -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,la_libertad,la_libertad,LA LIBERTAD -> region homologada la_libertad,regional,2001,2022,20
+territorio,la_oroya,la_oroya,LA OROYA -> ciudad/zona historica; region_madre=andres_a_caceres,zona,1994,1998,5
+territorio,la_oroya,la_oroya,LA OROYA -> zona de trabajo; region_madre=junin,zona,1999,1999,1
+territorio,la_oroya,la_oroya,LA OROYA -> zona; region_madre=junin,zona,2001,2024,21
+territorio,lambayeque,lambayeque,LAMBAYEQUE -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,lambayeque,lambayeque,LAMBAYEQUE -> region homologada lambayeque,regional,2000,2023,22
+territorio,libertadores_wari,libertadores_wari,LIBERTADORES WARI -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,libertadores_wari,libertadores_wari,LIBERTADORES WARI -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,lima,lima,LIMA -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,lima,lima,LIMA -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,lima,lima,LIMA -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,lima,lima,LIMA -> ciudad/zona con mismo nombre que la cabecera territorial; region_madre=lima,zona,1996,1998,3
+territorio,lima,lima,LIMA -> ciudad/zona con mismo nombre que la region historica; region_madre=lima,zona,1994,1995,2
+territorio,lima,lima,LIMA -> zona de trabajo; region_madre=lima,zona,1999,1999,1
+territorio,lima_metropolitana,lima_metropolitana,LIMA METROPOLITANA -> region homologada lima_metropolitana,regional,2011,2023,13
+territorio,lima_metropolitana,lima_metropolitana,LIMA METROPOLITANA -> region homologada lima_metropolitana; marca de paro nacional registrado en Lima Metropolitana,regional,2024,2024,1
+territorio,lima_metropolitana,lima_metropolitana,LIMA METROPOLITANA -> zona con mismo nombre que la region; region_madre=lima_metropolitana,zona,2011,2024,12
+territorio,lima_metropolitana,lima_metropolitana,LIMA METROPOLITANA -> zona con mismo nombre que la region; region_madre=lima_metropolitana; marca de paro nacional registrado en Lima Metropolitana,zona,2022,2023,2
+territorio,lima_metropolitana,lima_sede_central,LIMA SEDE CENTRAL -> zona historica; fina=lima_sede_central; agregada=lima_metropolitana; region_madre=lima_metropolitana,zona,2008,2008,1
+territorio,lima_provincia,lima_provincia,LIMA -> region homologada lima_provincia,regional,2000,2022,23
+territorio,lima_provincia,lima_provincia,LIMA PROVINCIA -> region homologada lima_provincia,regional,2023,2024,2
+territorio,lima_provincia,lima_provincia,LIMA -> zona con mismo nombre que la region; region_madre=lima_provincia,zona,2000,2010,10
+territorio,loreto,loreto,LORETO -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,loreto,loreto,LORETO -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,loreto,loreto,LORETO -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,loreto,loreto,LORETO -> region homologada loreto,regional,2002,2022,15
+territorio,madre_de_dios,madre_de_dios,MADRE DE DIOS -> zona; region_madre=apurimac,zona,2004,2005,2
+territorio,madre_de_dios,madre_de_dios,MADRE DE DIOS -> zona; region_madre=lima_provincia,zona,2013,2014,2
+territorio,madre_de_dios,madre_de_dios,MADRE DE DIOS -> zona; region_madre=loreto,zona,2010,2017,4
+territorio,mollendo,mollendo,MOLLENDO -> ciudad/zona historica; region_madre=arequipa,zona,1994,1994,1
+territorio,mollendo,mollendo,MOLLENDO -> zona de trabajo; region_madre=arequipa,zona,1999,1999,1
+territorio,mollendo,mollendo,MOLLENDO -> zona; region_madre=arequipa,zona,2002,2012,3
+territorio,moquegua,moquegua,MOQUEGUA -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,moquegua,moquegua,MOQUEGUA -> region homologada moquegua,regional,2002,2023,16
+territorio,moquegua,moquegua,MOQUEGUA -> ciudad/zona historica; region_madre=moquegua_tacna_puno,zona,1998,1998,1
+territorio,moquegua,moquegua,MOQUEGUA -> zona con mismo nombre que la region; region_madre=moquegua,zona,2002,2023,13
+territorio,moquegua,moquegua,MOQUEGUA -> zona de trabajo; region_madre=moquegua,zona,1999,1999,1
+territorio,moquegua_tacna_puno,moquegua_tacna_puno,MOQUEGUA - TACNA - PUNO -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1996,1998,3
+territorio,moquegua_tacna_puno,moquegua_tacna_puno,MOQUEGUA TACNA PUNO -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,moyobamba,moyobamba,MOYOBAMBA -> zona; region_madre=san_martin,zona,2012,2020,4
+territorio,nasca,nasca,NASCA -> ciudad/zona historica; region_madre=libertadores_wari,zona,1994,1994,1
+territorio,nor_oriental_del_maranon,nor_oriental_del_maranon,NOR ORIENTAL DEL MARAÑON -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1995,2
+territorio,nor_oriental_del_maranon,nor_oriental_del_maranon,NOR - ORIENTAL DEL MARAÑON -> ciudad/zona historica; region_madre=moquegua_tacna_puno,zona,1996,1996,1
+territorio,nor_oriental_del_maranon,nor_oriental_del_maranon,NOR ORIENTAL DEL MARAÑON -> ciudad/zona historica; region_madre=moquegua_tacna_puno,zona,1998,1998,1
+territorio,otros,otros,OTROS -> region homologada otros; marca de paro nacional registrado en Lima Metropolitana,regional,2009,2009,1
+territorio,paita,paita,PAITA -> ciudad/zona historica; region_madre=grau,zona,1994,1996,3
+territorio,paita,paita,PAITA -> zona; region_madre=piura,zona,2001,2014,12
+territorio,pasco,pasco,PASCO -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,pasco,pasco,PASCO -> region homologada pasco,regional,2000,2024,21
+territorio,pasco,pasco,PASCO -> ciudad/zona historica; region_madre=andres_a_caceres,zona,1994,1998,4
+territorio,pisco,pisco,PISCO -> ciudad/zona historica; region_madre=libertadores_wari,zona,1994,1998,3
+territorio,pisco,pisco,PISCO -> zona de trabajo; region_madre=ica,zona,1999,1999,1
+territorio,pisco,pisco,PISCO -> zona; region_madre=ica,zona,2002,2024,9
+territorio,piura,piura,PIURA -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,piura,piura,PIURA -> region homologada piura,regional,2000,2019,20
+territorio,piura,piura,PIURA -> ciudad/zona historica; region_madre=grau,zona,1994,1998,5
+territorio,piura,piura,PIURA -> zona con mismo nombre que la region; region_madre=piura,zona,2000,2019,18
+territorio,piura,piura,PIURA -> zona de trabajo; region_madre=piura,zona,1999,1999,1
+territorio,pucallpa,pucallpa,PUCALLPA -> ciudad/zona historica; region_madre=ucayali,zona,1997,1997,1
+territorio,pucallpa,pucallpa,PUCALLPA -> zona de trabajo; region_madre=ucayali,zona,1999,1999,1
+territorio,pucallpa,pucallpa,PUCALLPA -> zona; region_madre=ucayali,zona,2002,2023,16
+territorio,puerto_maldonado,puerto_maldonado,PUERTO MALDONADO -> zona; region_madre=apurimac,zona,2004,2005,2
+territorio,puerto_maldonado,puerto_maldonado,PUERTO MALDONADO -> zona; region_madre=lima_provincia,zona,2013,2014,2
+territorio,puerto_maldonado,puerto_maldonado,PUERTO MALDONADO -> zona; region_madre=loreto,zona,2010,2017,4
+territorio,puno,puno,PUNO -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,puno,puno,PUNO -> region homologada puno,regional,2000,2019,12
+territorio,puno,puno,PUNO -> ciudad/zona historica; region_madre=moquegua_tacna_puno,zona,1996,1998,2
+territorio,puno,puno,PUNO -> zona con mismo nombre que la region; region_madre=puno,zona,2000,2019,12
+territorio,puno,puno,PUNO -> zona de trabajo; region_madre=puno,zona,1999,1999,1
+territorio,quillabamba,quillabamba,QUILLABAMBA -> zona; region_madre=cusco,zona,2002,2012,2
+territorio,rioja,rioja,RIOJA -> ciudad/zona historica; region_madre=san_martin,zona,1998,1998,1
+territorio,rioja,rioja,RIOJA -> zona; region_madre=san_martin,zona,2012,2012,1
+territorio,san_martin,san_martin,SAN MARTIN -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1998,1998,1
+territorio,san_martin,san_martin,SAN MARTIN -> region historica/agrupacion territorial; se preserva sin forzar equivalencia moderna,regional,1994,1994,1
+territorio,san_martin,san_martin,SAN MARTIN -> region homologada san_martin,regional,2000,2005,4
+territorio,san_martin,san_martin,SAN MARTÍN -> region homologada san_martin,regional,2010,2022,9
+territorio,san_pedro_de_lloc,san_pedro_de_lloc,SAN PEDRO DE LLOC -> zona; region_madre=la_libertad,zona,2011,2011,1
+territorio,san_ramon,san_ramon,SAN RAMON -> zona de trabajo; region_madre=junin,zona,1999,1999,1
+territorio,san_ramon,san_ramon,SAN RAMÓN -> zona; region_madre=junin,zona,2009,2016,5
+territorio,satipo,satipo,SATIPO -> zona; region_madre=junin,zona,2012,2012,1
+territorio,sicuani,sicuani,SICUANI -> zona; region_madre=cusco,zona,2003,2012,3
+territorio,sullana,sullana,SULLANA -> ciudad/zona historica; region_madre=grau,zona,1996,1998,3
+territorio,sullana,sullana,SULLANA -> zona de trabajo; region_madre=piura,zona,1999,1999,1
+territorio,sullana,sullana,SULLANA -> zona; region_madre=piura,zona,2000,2013,11
+territorio,tacna,tacna,TACNA -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,tacna,tacna,TACNA -> region homologada tacna,regional,2002,2018,14
+territorio,tacna,tacna,TACNA -> ciudad/zona historica; region_madre=moquegua_tacna_puno,zona,1995,1996,2
+territorio,tacna,tacna,TACNA -> zona con mismo nombre que la region; region_madre=tacna,zona,2002,2018,14
+territorio,tacna,tacna,TACNA -> zona de trabajo; region_madre=tacna,zona,1999,1999,1
+territorio,talara,talara,TALARA -> ciudad/zona historica; region_madre=grau,zona,1994,1997,4
+territorio,talara,talara,TALARA -> zona de trabajo; region_madre=piura,zona,1999,1999,1
+territorio,talara,talara,TALARA -> zona; region_madre=piura,zona,2000,2015,13
+territorio,tarapoto,tarapoto,TARAPOTO -> ciudad/zona historica; region_madre=san_martin,zona,1994,1994,1
+territorio,tarapoto,tarapoto,TARAPOTO -> zona; region_madre=san_martin,zona,2000,2022,11
+territorio,tarma,tarma,TARMA -> ciudad/zona historica; region_madre=andres_a_caceres,zona,1994,1998,2
+territorio,tarma,tarma,TARMA -> zona; region_madre=junin,zona,2012,2012,1
+territorio,tocache,tocache,TOCACHE -> zona; region_madre=san_martin,zona,2012,2013,2
+territorio,trujillo,trujillo,TRUJILLO -> ciudad/zona historica; region_madre=la_libertad,zona,1994,1998,5
+territorio,trujillo,trujillo,TRUJILLO -> zona de trabajo; region_madre=la_libertad,zona,1999,1999,1
+territorio,trujillo,trujillo,TRUJILLO -> zona; region_madre=la_libertad,zona,2001,2022,20
+territorio,tumbes,tumbes,TUMBES -> region homologada tumbes,regional,2002,2024,14
+territorio,tumbes,tumbes,TUMBES -> zona con mismo nombre que la region; region_madre=tumbes,zona,2002,2024,14
+territorio,ucayali,ucayali,UCAYALI -> cabecera territorial historica; se preserva sin forzar equivalencia moderna,regional,1997,1997,1
+territorio,ucayali,ucayali,UCAYALI -> direccion regional; se preserva el doble registro regional/zona,regional,1999,1999,1
+territorio,ucayali,ucayali,UCAYALI -> region homologada ucayali,regional,2002,2023,16
+territorio,yurimaguas,yurimaguas,YURIMAGUAS -> zona; region_madre=loreto,zona,2012,2012,1

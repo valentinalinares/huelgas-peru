@@ -1,0 +1,28 @@
+territorio_fuente,territorio_label_fuente,territorio_mapa,territorio_label_mapa,nivel_mapa,nota
+amazonas,Amazonas,amazonas,Amazonas,territorio_homologado,Derivado del departamento original.
+ancash,Ancash,ancash,Ancash,territorio_homologado,Derivado del departamento original.
+apurimac,Apurimac,apurimac,Apurimac,territorio_homologado,Derivado del departamento original.
+arequipa,Arequipa,arequipa,Arequipa,territorio_homologado,Derivado del departamento original.
+ayacucho,Ayacucho,ayacucho,Ayacucho,territorio_homologado,Derivado del departamento original.
+cajamarca,Cajamarca,cajamarca,Cajamarca,territorio_homologado,Derivado del departamento original.
+callao,Callao,callao,Callao,territorio_homologado,Equivale al Callao como unidad propia.
+cusco,Cusco,cusco,Cusco,territorio_homologado,Derivado del departamento original.
+huancavelica,Huancavelica,huancavelica,Huancavelica,territorio_homologado,Derivado del departamento original.
+huanuco,Huanuco,huanuco,Huanuco,territorio_homologado,Derivado del departamento original.
+ica,Ica,ica,Ica,territorio_homologado,Derivado del departamento original.
+junin,Junin,junin,Junin,territorio_homologado,Derivado del departamento original.
+la_libertad,La Libertad,la_libertad,La Libertad,territorio_homologado,Derivado del departamento original.
+lambayeque,Lambayeque,lambayeque,Lambayeque,territorio_homologado,Derivado del departamento original.
+lima,Lima,lima_total,Lima Total,territorio_historico,Categoria historica de la fuente; para mapas temporales se agrega a lima_total.
+lima_metropolitana,Lima Metropolitana,lima_total,Lima Total,territorio_homologado,Se construye con la provincia de Lima.
+lima_provincia,Lima Provincia,lima_total,Lima Total,territorio_homologado,Se construye con el resto de provincias del departamento de Lima.
+loreto,Loreto,loreto,Loreto,territorio_homologado,Derivado del departamento original.
+madre_de_dios,Madre De Dios,madre_de_dios,Madre De Dios,territorio_homologado,Derivado del departamento original.
+moquegua,Moquegua,moquegua,Moquegua,territorio_homologado,Derivado del departamento original.
+pasco,Pasco,pasco,Pasco,territorio_homologado,Derivado del departamento original.
+piura,Piura,piura,Piura,territorio_homologado,Derivado del departamento original.
+puno,Puno,puno,Puno,territorio_homologado,Derivado del departamento original.
+san_martin,San Martin,san_martin,San Martin,territorio_homologado,Derivado del departamento original.
+tacna,Tacna,tacna,Tacna,territorio_homologado,Derivado del departamento original.
+tumbes,Tumbes,tumbes,Tumbes,territorio_homologado,Derivado del departamento original.
+ucayali,Ucayali,ucayali,Ucayali,territorio_homologado,Derivado del departamento original.

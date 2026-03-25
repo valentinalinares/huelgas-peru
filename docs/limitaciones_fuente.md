@@ -63,8 +63,27 @@ No existe, en la base principal:
 
 El cruce `sector x territorio` no forma parte de la base maestra principal. Sin embargo, el repositorio sí incluye una extracción complementaria del cuadro `actividad x territorio` para `2001-2024`.
 
+La razón de ese corte temporal no es que la base maestra empiece en `2001`. La base maestra cubre `1993-2024` con sus salvedades ya descritas. Lo que empieza en `2001` es solo la base complementaria del cuadro cruzado, porque:
+
+- ese cuadro no está disponible de forma útil o homogénea en todos los años anteriores
+- la fase complementaria se construyó solo donde el cuadro `actividad x territorio` existe y pudo extraerse con un criterio consistente
+
 Esa base complementaria debe leerse con su propia validación:
 
 - varios años quedan completamente en `ok`
 - otros quedan como `ok_con_salvedad` por filas sin total absoluto en la fuente
 - algunos años aún quedan `revisar` y requieren revisión adicional del cuadro cruzado
+
+## Mapas territoriales
+
+Los mapas interactivos del notebook `03` tampoco cubren exactamente toda la serie maestra.
+
+- la base maestra sigue siendo `1993-2024`
+- los mapas territoriales comparables usan `1999-2024`
+- el mapa de minería usa `2001-2024`
+
+La razón es geográfica:
+
+- `1996-1998` todavía usan regiones históricas no equivalentes 1 a 1 con la capa contemporánea
+- para cartografía temporal se optó por empezar en `1999`
+- además, para visualización se colapsan `lima`, `lima_metropolitana` y `lima_provincia` en `lima_total`
