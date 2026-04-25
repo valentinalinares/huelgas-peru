@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Construir una base longitudinal comparable de huelgas para Perú a partir de anuarios oficiales con layouts cambiantes entre `1993` y `2024`.
+Construir una base longitudinal comparable de huelgas para Perú a partir de anuarios oficiales con layouts cambiantes entre `1993` y `2025`.
 
 ## Qué consigue la homologación
 
@@ -18,7 +18,7 @@ La homologación traduce cada anuario a un idioma común para poder comparar añ
 
 - `1993`: excluido del pipeline tabular, porque solo existe en `.DOC`
 - `1994-1995`: años parciales
-- `1996-2024`: años homologados en formato tabular
+- `1996-2025`: años homologados en formato tabular
 
 ## Eras
 
@@ -39,7 +39,7 @@ La homologación traduce cada anuario a un idioma común para poder comparar añ
 - estructura muy estable
 - módulos comparables con reglas ya cerradas
 
-### Era 3: 2021-2024
+### Era 3: 2021-2025
 
 - mismos módulos que la era estable
 - cambia la numeración de hojas dentro del anuario
@@ -60,7 +60,7 @@ Además de la base maestra principal, el proyecto incluye una extracción separa
 
 - no entra a la base principal porque no existe para toda la serie
 - se publica como base complementaria en `bases/cruce_sector_territorio/`
-- en el estado actual cubre `2001-2024`
+- en el estado actual cubre `2001-2025`
 - su validación se reporta por separado
 
 ## Reglas centrales

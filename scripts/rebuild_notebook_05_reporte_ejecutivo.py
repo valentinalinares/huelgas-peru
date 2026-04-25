@@ -58,7 +58,7 @@ if not (REPORTES / 'resumen_ejecutivo_anual.csv').exists():
 
 resumen_anual = pd.read_csv(REPORTES / 'resumen_ejecutivo_anual.csv')
 resumen_region = pd.read_csv(REPORTES / 'resumen_region_anual.csv')
-resumen_region_sector = pd.read_csv(REPORTES / 'resumen_region_sector_dominante_2001_2024.csv')
+resumen_region_sector = pd.read_csv(REPORTES / 'resumen_region_sector_dominante_2001_2025.csv')
 """
     ),
     md("## Resumen anual ejecutivo"),
@@ -139,7 +139,7 @@ Aquí puedes cambiar `anio_objetivo` para ver el detalle exacto de un año.
 """
     ),
     code(
-        """anio_objetivo = 2024
+        """anio_objetivo = 2025
 tabla_region_anio = (
     resumen_region[resumen_region['anio'] == anio_objetivo]
     .sort_values(['huelgas', 'trabajadores_comprendidos'], ascending=False)
@@ -153,12 +153,12 @@ tabla_region_anio
     md(
         """## Sector dominante dentro de cada región
 
-Este bloque usa la base complementaria `sector x territorio`, por lo que cubre `2001-2024`.
+Este bloque usa la base complementaria `sector x territorio`, por lo que cubre `2001-2025`.
 """
     ),
     code("resumen_region_sector.head(10)"),
     code(
-        """anio_region_objetivo = 2024
+        """anio_region_objetivo = 2025
 tabla_sector_region = (
     resumen_region_sector[resumen_region_sector['anio'] == anio_region_objetivo]
     .sort_values(['sector_principal_huelgas', 'huelgas_region_total'], ascending=False)
@@ -176,7 +176,7 @@ Este notebook se apoya en tres tablas que quedan listas para consulta o exportac
 
 - `bases/reportes/resumen_ejecutivo_anual.csv`
 - `bases/reportes/resumen_region_anual.csv`
-- `bases/reportes/resumen_region_sector_dominante_2001_2024.csv`
+- `bases/reportes/resumen_region_sector_dominante_2001_2025.csv`
 """
     ),
 ]

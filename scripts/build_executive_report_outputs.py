@@ -14,7 +14,7 @@ OUTPUT_DIR = ROOT / "bases" / "reportes"
 def build_resumen_ejecutivo_anual() -> pd.DataFrame:
     anio_sector = pd.read_csv(MAESTRA_DIR / "cruce_anio_sector_largo.csv")
     anio_territorio = pd.read_csv(MAESTRA_DIR / "cruce_anio_territorio_regional_largo.csv")
-    legalidad = pd.read_csv(MAESTRA_DIR / "huelgas_legalidad_1996_2024_resumen_anual.csv")
+    legalidad = pd.read_csv(MAESTRA_DIR / "huelgas_legalidad_1996_2025_resumen_anual.csv")
 
     totals = (
         anio_sector.groupby("anio", as_index=False)[
@@ -130,19 +130,27 @@ def build_resumen_region_anual() -> pd.DataFrame:
 
 
 def build_resumen_region_sector_dominante() -> pd.DataFrame:
-    cross = pd.read_csv(CRUCE_DIR / "sector_territorio_2001_2024.csv")
-    regional = cross[cross["nivel_territorial"] == "regional"].copy()
+    cross = pd.read_csv(CRUCE_DIR / "sector_territorio_2001_2025.csv")
+    regional = cross.copy()
+    regional["region"] = regional["territorio_homologado_agregado"]
+    zona_con_padre = (
+        regional["nivel_territorial"].eq("zona")
+        & regional["territorio_padre"].notna()
+        & regional["territorio_padre"].ne("sin_region_padre")
+    )
+    regional.loc[zona_con_padre, "region"] = regional.loc[zona_con_padre, "territorio_padre"]
+    regional = regional[regional["region"].notna() & regional["region"].ne("sin_region_padre")].copy()
 
     grouped = (
         regional.groupby(
-            ["anio", "territorio_homologado_agregado", "actividad_homologada_agregada"],
+            ["anio", "region", "actividad_homologada_agregada"],
             as_index=False,
         )[["huelgas", "trabajadores_comprendidos", "horas_hombre_perdidas"]]
         .sum()
     )
 
     totals = (
-        grouped.groupby(["anio", "territorio_homologado_agregado"], as_index=False)[
+        grouped.groupby(["anio", "region"], as_index=False)[
             ["huelgas", "trabajadores_comprendidos", "horas_hombre_perdidas"]
         ]
         .sum()
@@ -157,14 +165,13 @@ def build_resumen_region_sector_dominante() -> pd.DataFrame:
 
     top = (
         grouped.sort_values(
-            ["anio", "territorio_homologado_agregado", "huelgas", "trabajadores_comprendidos"],
+            ["anio", "region", "huelgas", "trabajadores_comprendidos"],
             ascending=[True, True, False, False],
         )
-        .drop_duplicates(["anio", "territorio_homologado_agregado"])
-        .merge(totals, on=["anio", "territorio_homologado_agregado"], how="left")
+        .drop_duplicates(["anio", "region"])
+        .merge(totals, on=["anio", "region"], how="left")
         .rename(
             columns={
-                "territorio_homologado_agregado": "region",
                 "actividad_homologada_agregada": "sector_principal_region",
                 "huelgas": "sector_principal_huelgas",
                 "trabajadores_comprendidos": "sector_principal_trabajadores",
@@ -188,14 +195,14 @@ def main() -> None:
     resumen_anual.to_csv(OUTPUT_DIR / "resumen_ejecutivo_anual.csv", index=False, encoding="utf-8-sig")
     resumen_region.to_csv(OUTPUT_DIR / "resumen_region_anual.csv", index=False, encoding="utf-8-sig")
     resumen_region_sector.to_csv(
-        OUTPUT_DIR / "resumen_region_sector_dominante_2001_2024.csv",
+        OUTPUT_DIR / "resumen_region_sector_dominante_2001_2025.csv",
         index=False,
         encoding="utf-8-sig",
     )
 
     print(f"[ok] {OUTPUT_DIR / 'resumen_ejecutivo_anual.csv'}")
     print(f"[ok] {OUTPUT_DIR / 'resumen_region_anual.csv'}")
-    print(f"[ok] {OUTPUT_DIR / 'resumen_region_sector_dominante_2001_2024.csv'}")
+    print(f"[ok] {OUTPUT_DIR / 'resumen_region_sector_dominante_2001_2025.csv'}")
 
 
 if __name__ == "__main__":

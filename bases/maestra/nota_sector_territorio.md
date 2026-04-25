@@ -14,4 +14,4 @@ No permite observar directamente:
 - `legalidad x territorio`
 - `sector x territorio` para toda la serie
 
-Para esos cruces se requiere una extraccion adicional del cuadro cruzado `actividad x territorio`, que no forma parte del pipeline principal usado para homogenizar `1993-2024`.
+Para esos cruces se requiere una extraccion adicional del cuadro cruzado `actividad x territorio`, que no forma parte del pipeline principal usado para homogenizar `1993-2025`.

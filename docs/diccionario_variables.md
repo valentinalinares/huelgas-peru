@@ -4,11 +4,11 @@
 
 Archivo principal:
 
-- `bases/maestra/huelgas_modulos_maestra_1993_2024.csv`
+- `bases/maestra/huelgas_modulos_maestra_1993_2025.csv`
 
 Archivos de referencia del idioma comun:
 
-- `bases/maestra/diccionario_idioma_comun_1993_2024.csv`
+- `bases/maestra/diccionario_idioma_comun_1993_2025.csv`
 - `bases/maestra/resumen_idioma_comun_modulos.csv`
 - `bases/maestra/tabla_lenguaje_comun_categorias.csv`
 
@@ -172,11 +172,11 @@ Nota:
 
 ## Bases auxiliares
 
-- `diccionario_idioma_comun_1993_2024.csv`: tabla detallada del idioma común por módulo, categoría fina, categoría agregada y regla observada en la base
+- `diccionario_idioma_comun_1993_2025.csv`: tabla detallada del idioma común por módulo, categoría fina, categoría agregada y regla observada en la base
 - `resumen_idioma_comun_modulos.csv`: resumen por módulo con concepto, nota metodológica y categorías homologadas disponibles
 - `tabla_lenguaje_comun_categorias.csv`: tabla canónica por módulo y categoría agregada del lenguaje homologado
-- `huelgas_legalidad_1996_2024_largo.csv`: legalidad por año en formato largo
-- `huelgas_legalidad_1996_2024_resumen_anual.csv`: resumen anual de legalidad
-- `verificacion_calificacion_1993_2024_resumen.csv`: verificación de consistencia del módulo de calificación
+- `huelgas_legalidad_1996_2025_largo.csv`: legalidad por año en formato largo
+- `huelgas_legalidad_1996_2025_resumen_anual.csv`: resumen anual de legalidad
+- `verificacion_calificacion_1993_2025_resumen.csv`: verificación de consistencia del módulo de calificación
 - `cruce_anio_sector_largo.csv`: cruce observable `año x sector`
 - `cruce_anio_territorio_regional_largo.csv`: cruce observable `año x territorio regional`

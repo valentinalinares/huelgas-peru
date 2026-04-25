@@ -1,4 +1,4 @@
-# Guía del repositorio: Huelgas Perú 1993–2024
+# Guía del repositorio: Huelgas Perú 1993–2025
 
 Este documento explica qué contiene el repositorio, cómo está organizado, qué decisiones metodológicas se tomaron y por qué. Está pensado para quien necesite presentar, defender o replicar el trabajo, ya sea ante un colega, un revisor o en una publicación académica.
 
@@ -6,7 +6,7 @@ Este documento explica qué contiene el repositorio, cómo está organizado, qu�
 
 ## Qué es este repositorio
 
-Este repositorio construye una base longitudinal homologada de huelgas en Perú para el período 1993–2024, a partir de los anuarios estadísticos oficiales del Ministerio de Trabajo y Promoción del Empleo (MTPE).
+Este repositorio construye una base longitudinal homologada de huelgas en Perú para el período 1993–2025, a partir de los anuarios estadísticos oficiales del Ministerio de Trabajo y Promoción del Empleo (MTPE).
 
 La fuente oficial es valiosa pero no está pensada para el análisis comparativo. Cada anuario tiene su propio layout, su propia numeración de hojas, sus propias etiquetas de categorías y sus propios criterios de presentación. Comparar 1999 con 2019 directamente no es posible sin un trabajo previo de traducción sistemática. A eso se llama homologación, y es exactamente lo que este pipeline hace.
 
@@ -25,8 +25,8 @@ github/
 │   ├── era2_homologados_1996_1999/
 │   ├── era2_homologados_2000_2003/
 │   ├── era2_homologados_2004_2020/
-│   ├── era3_homologados/          Años 2021–2024
-│   ├── cruce_sector_territorio/   Base complementaria (2001–2024)
+│   ├── era3_homologados/          Años 2021–2025
+│   ├── cruce_sector_territorio/   Base complementaria (2001–2025)
 │   ├── mapas_folium/  Mapas interactivos exportados (.html)
 │   └── reportes/      Tablas de reporte ejecutivo
 ├── scripts/           Extractores y consolidadores Python
@@ -41,7 +41,7 @@ github/
 
 En línea con las recomendaciones metodológicas del proyecto, el repositorio produce tres productos tabulares diferenciados, en lugar de intentar una megabase que lo haga todo.
 
-### Base 1: `huelgas_modulos_maestra_1993_2024.csv`
+### Base 1: `huelgas_modulos_maestra_1993_2025.csv`
 
 Es la base principal. Cada fila representa una combinación de año + módulo + categoría. Por ejemplo:
 
@@ -53,17 +53,17 @@ Es la base principal. Cada fila representa una combinación de año + módulo + 
 
 Con esta base se puede responder casi todo lo analíticamente importante: en qué sectores se concentra la huelga, si cambian las causas entre años, si sube la improcedencia, si predominan las huelgas cortas, si el impacto se concentra en pocos conflictos grandes. Es el corazón del análisis.
 
-### Base 2: `resumen_anual_1993_2024.csv`
+### Base 2: `resumen_anual_1993_2025.csv`
 
 Es la base resumen histórica. Una fila por año, con totales nacionales. Sirve para contextualizar la serie larga, mostrar años pico, visualizar el desacople entre frecuencia e intensidad, y construir la introducción del paper.
 
-### Base complementaria: `sector_territorio_2001_2024.csv`
+### Base complementaria: `sector_territorio_2001_2025.csv`
 
 Es la extracción del cuadro cruzado `actividad × territorio`, que la fuente solo ofrece de forma homogénea a partir de 2001. No reemplaza a la base maestra sino que amplía los cruces observables: permite ver, por ejemplo, en qué región se concentra la conflictividad minera en cada año.
 
-Esta base tiene su propia validación (`validacion_sector_territorio_2001_2024.csv`) y varios años están marcados como `ok`, `ok_con_salvedad` o `revisar`. Debe usarse con esa advertencia.
+Esta base tiene su propia validación (`validacion_sector_territorio_2001_2025.csv`) y varios años están marcados como `ok`, `ok_con_salvedad` o `revisar`. Debe usarse con esa advertencia.
 
-**Importante:** que la base complementaria empiece en 2001 no significa que la base maestra empiece ahí. La base maestra cubre 1993–2024. Lo que empieza en 2001 es solo el cruce específico `actividad × territorio`.
+**Importante:** que la base complementaria empiece en 2001 no significa que la base maestra empiece ahí. La base maestra cubre 1993–2025. Lo que empieza en 2001 es solo el cruce específico `actividad × territorio`.
 
 ---
 
@@ -73,10 +73,10 @@ No todos los productos del repositorio cubren exactamente el mismo rango tempora
 
 | Producto | Cobertura |
 |----------|-----------|
-| Base maestra (módulos simples) | 1993–2024 con salvedades en 1993–1995 |
-| Módulos completos comparables | 1996–2024 |
-| Mapas territoriales | 1999–2024 |
-| Cruce complementario sector × territorio | 2001–2024 |
+| Base maestra (módulos simples) | 1993–2025 con salvedades en 1993–1995 |
+| Módulos completos comparables | 1996–2025 |
+| Mapas territoriales | 1999–2025 |
+| Cruce complementario sector × territorio | 2001–2025 |
 
 El año 1993 está excluido del pipeline tabular porque los anuarios de ese año solo existen en formato `.DOC` y no contienen una tabla estructurada. Los años 1994 y 1995 son parciales: tienen datos de actividad, causas, organización y territorio, pero no existe en la fuente el módulo de calificación, tamaño ni duración.
 
@@ -92,7 +92,7 @@ Los anuarios del MTPE no cambiaron de golpe: cambiaron gradualmente. Para maneja
 
 **Era 2 estable (2004–2020):** estructura muy consistente. Es el bloque donde la comparación es más directa y las reglas de homologación más claras.
 
-**Era 3 (2021–2024):** mismos módulos que la era estable, pero cambia la numeración de hojas dentro del anuario. Se procesan con extractores separados para no contaminar la lógica de la era anterior.
+**Era 3 (2021–2025):** mismos módulos que la era estable, pero cambia la numeración de hojas dentro del anuario. Se procesan con extractores separados para no contaminar la lógica de la era anterior.
 
 Esta división no es arbitraria: refleja cuándo cambia materialmente la estructura del anuario, no cuándo cambia el gobierno o la política laboral.
 
@@ -126,13 +126,13 @@ Ejemplos en tamaño (mismo principio):
 |--------------------------------|--------------------------------|
 | `300-499`, `500-799`, `800-999`, `1000+` | `300_mas` |
 
-La validación de la homologación no es solo documental: para el módulo de calificación, en todos los años con módulo disponible se verificó que `procedente + ilegal` en huelgas, trabajadores y horas coincide con el total fuente. Los resultados están en `verificacion_calificacion_1993_2024_resumen.csv`.
+La validación de la homologación no es solo documental: para el módulo de calificación, en todos los años con módulo disponible se verificó que `procedente + ilegal` en huelgas, trabajadores y horas coincide con el total fuente. Los resultados están en `verificacion_calificacion_1993_2025_resumen.csv`.
 
 ---
 
 ## Advertencia metodológica 1: el arrastre de horas-hombre
 
-Esta es una limitación de la fuente oficial, no del pipeline. En varios anuarios, el propio MTPE aclara en notas al pie que las `horas_hombre_perdidas` no corresponden exclusivamente al período inmediato del cuadro, sino que pueden incluir horas generadas por huelgas provenientes del mes anterior. En el caso del cuadro cruzado de 2024, la nota es todavía más amplia y menciona `año y/o mes anterior`.
+Esta es una limitación de la fuente oficial, no del pipeline. En varios anuarios, el propio MTPE aclara en notas al pie que las `horas_hombre_perdidas` no corresponden exclusivamente al período inmediato del cuadro, sino que pueden incluir horas generadas por huelgas provenientes del mes anterior. En 2024 y 2025 aparecen arrastres desde el año y/o mes anterior.
 
 Lo que esto significa en concreto: si una huelga comienza el 28 de agosto y sigue hasta el 3 de septiembre, el anuario puede imputar las horas de esa continuación al cuadro de septiembre, aunque la huelga no haya nacido ese mes. El dato de horas es correcto como medición oficial acumulada del período reportado; lo que no puede asumirse es que esas horas correspondan solo a huelgas iniciadas en ese período.
 
@@ -140,11 +140,12 @@ Lo que esto significa en concreto: si una huelga comienza el 28 de agosto y sigu
 
 Los años y módulos afectados son:
 
-- **Causas (hoja C-6 o equivalente):** 2003–2008, 2012, 2015–2018, 2021–2024
+- **Causas (hoja C-6 o equivalente):** 2003–2008, 2012, 2015–2018, 2021–2025
 - **Territorio (hoja C-5 o equivalente):** 2017
 - **Actividad (hoja C-94):** 2024
+- **Territorio (Anexo 09):** 2025
 
-En la base complementaria `sector × territorio`, el caso más fuerte está en 2024 (hoja C-102), donde la nota habla explícitamente de `año y/o mes anterior`.
+En la base complementaria `sector × territorio`, los casos más fuertes están en 2024 (hoja C-102) y 2025 (Anexo 18), donde las notas documentan arrastres desde el año y/o mes anterior.
 
 Para análisis de totales anuales agregados, este efecto es menor. Para análisis de distribución mensual o comparación de horas por módulo en esos años específicos, la advertencia es relevante y debe reportarse.
 
@@ -162,7 +163,7 @@ Esta no es una contradicción del pipeline sino una inconsistencia de la fuente 
 
 **Lo que se hizo:** esas categorías no se eliminaron, no se forzaron a "sector privado" y no se imputó una separación artificial entre conflictividad pública y privada. Se conservaron exactamente como aparecen en la fuente y se tradujeron a las categorías del lenguaje común (`adm_publica`, `ensenanza`, `salud_social`).
 
-La presencia de `adm_publica` en la base maestra va de 2000 a 2024, ininterrumpida. Eso no es un artefacto de la homologación: es exactamente lo que la fuente oficial reporta. Cualquier análisis que quiera hacer distinciones entre conflicto público y privado tendrá que partir de esa limitación declarada de la estadística oficial, no resolverla artificialmente.
+La presencia de `adm_publica` en la base maestra va de 2000 a 2025, ininterrumpida. Eso no es un artefacto de la homologación: es exactamente lo que la fuente oficial reporta. Cualquier análisis que quiera hacer distinciones entre conflicto público y privado tendrá que partir de esa limitación declarada de la estadística oficial, no resolverla artificialmente.
 
 ---
 
@@ -200,7 +201,7 @@ Hay cruces analíticos que suenan razonables pero que no existen como cuadros ob
 
 Estos cruces no pueden construirse sin asumir independencia estadística o hacer imputaciones que la fuente no respalda. No se hicieron.
 
-El cruce `sector × territorio` tampoco forma parte de la base maestra principal, porque no existe de forma homogénea para toda la serie. Sí existe como base complementaria para 2001–2024, con su propia validación. Esa base debe usarse con la advertencia de que algunos años están marcados como `revisar`.
+El cruce `sector × territorio` tampoco forma parte de la base maestra principal, porque no existe de forma homogénea para toda la serie. Sí existe como base complementaria para 2001–2025, con su propia validación. Esa base debe usarse con la advertencia de que algunos años están marcados como `revisar`.
 
 ---
 
@@ -214,7 +215,7 @@ Además, Lima cambia de etiqueta a lo largo de la serie:
 
 - 1994–1999: aparece como `lima`
 - 2000–2010: aparece como `lima_provincia`
-- 2011–2024: aparece como `lima_metropolitana` (y en algunos años también `lima_provincia` por separado)
+- 2011–2025: aparece como `lima_metropolitana` (y en algunos años también `lima_provincia` por separado)
 
 Estas etiquetas no son tres territorios distintos: son la evolución de cómo la fuente nombra a la misma región a lo largo del tiempo. No deben compararse directamente sin una decisión analítica explícita. Para los mapas interactivos se adoptó una solución cartográfica conservadora: `lima`, `lima_metropolitana` y `lima_provincia` se colapsan en `lima_total`, exclusivamente para fines de visualización. Eso no afecta a la base maestra, donde las etiquetas originales se conservan.
 
@@ -277,7 +278,7 @@ Y en `bases/maestra/`:
 - `nota_sector_publico_privado.md`: explicación de la inconsistencia conceptual de la fuente respecto al sector privado
 - `nota_sector_territorio.md`: consideraciones sobre el cruce sector × territorio
 - `tabla_lenguaje_comun_categorias.csv`: tabla canónica con todas las categorías del idioma homologado, su rango temporal y notas metodológicas
-- `diccionario_idioma_comun_1993_2024.csv`: detalle de cada traducción aplicada, con la regla observada en la base
+- `diccionario_idioma_comun_1993_2025.csv`: detalle de cada traducción aplicada, con la regla observada en la base
 
 ---
 

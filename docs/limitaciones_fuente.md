@@ -27,7 +27,7 @@ Además, la serie de Lima cambia históricamente:
 
 - `1994-1999`: aparece `lima` como categoría histórica
 - `2000-2010`: aparece `lima_provincia`
-- `2011-2024`: aparece `lima_metropolitana` y `lima_provincia`
+- `2011-2025`: aparece `lima_metropolitana` y `lima_provincia`
 
 Estas etiquetas no deben leerse como tres territorios plenamente equivalentes dentro de una misma serie sin una decisión analítica adicional.
 
@@ -45,7 +45,7 @@ Esto debe leerse como una limitación conceptual de la estadística oficial, no 
 
 En varios años la propia fuente advierte que las `horas_hombre_perdidas` incluyen horas generadas por huelgas provenientes del `mes anterior`.
 
-En `2024`, en al menos un cuadro, la nota es todavía más fuerte y habla de `año y/o mes anterior`.
+En `2024` y `2025`, algunas notas son todavía más fuertes y hablan de arrastres desde el año y/o mes anterior.
 
 Por eso, este indicador debe leerse como una medida oficial acumulada/reportada por el anuario, no siempre como horas generadas exclusivamente dentro del período inmediato del cuadro.
 
@@ -61,9 +61,9 @@ No existe, en la base principal:
 - `legalidad x territorio`
 - `legalidad x organizacion`
 
-El cruce `sector x territorio` no forma parte de la base maestra principal. Sin embargo, el repositorio sí incluye una extracción complementaria del cuadro `actividad x territorio` para `2001-2024`.
+El cruce `sector x territorio` no forma parte de la base maestra principal. Sin embargo, el repositorio sí incluye una extracción complementaria del cuadro `actividad x territorio` para `2001-2025`.
 
-La razón de ese corte temporal no es que la base maestra empiece en `2001`. La base maestra cubre `1993-2024` con sus salvedades ya descritas. Lo que empieza en `2001` es solo la base complementaria del cuadro cruzado, porque:
+La razón de ese corte temporal no es que la base maestra empiece en `2001`. La base maestra cubre `1993-2025` con sus salvedades ya descritas. Lo que empieza en `2001` es solo la base complementaria del cuadro cruzado, porque:
 
 - ese cuadro no está disponible de forma útil o homogénea en todos los años anteriores
 - la fase complementaria se construyó solo donde el cuadro `actividad x territorio` existe y pudo extraerse con un criterio consistente
@@ -78,9 +78,9 @@ Esa base complementaria debe leerse con su propia validación:
 
 Los mapas interactivos del notebook `03` tampoco cubren exactamente toda la serie maestra.
 
-- la base maestra sigue siendo `1993-2024`
-- los mapas territoriales comparables usan `1999-2024`
-- el mapa de minería usa `2001-2024`
+- la base maestra sigue siendo `1993-2025`
+- los mapas territoriales comparables usan `1999-2025`
+- el mapa de minería usa `2001-2025`
 
 La razón es geográfica:
 

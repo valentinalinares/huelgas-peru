@@ -14,7 +14,7 @@ PIPELINE = [
     "extract_era2_huelgas_2000_2003.py",
     "extract_era2_huelgas_2004_2020.py",
     "extract_era3_huelgas.py",
-    "build_master_outputs_1993_2024.py",
+    "build_master_outputs_1993_2025.py",
 ]
 
 

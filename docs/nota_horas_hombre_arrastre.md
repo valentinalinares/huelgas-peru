@@ -2,7 +2,7 @@
 
 En varios anuarios, la propia fuente aclara que las `horas_hombre_perdidas` no corresponden siempre solo al período inmediato del cuadro, sino que incluyen horas generadas por huelgas provenientes del `mes anterior`.
 
-En `2024`, además, aparece una formulación todavía más amplia en un cuadro cruzado: `año y/o mes anterior`.
+En `2024` y `2025`, además, aparecen formulaciones más amplias: `año y/o mes anterior` y arrastres desde huelgas iniciadas el año previo.
 
 ## Años identificados en la base homologada principal
 
@@ -25,6 +25,7 @@ En `2024`, además, aparece una formulación todavía más amplia en un cuadro c
 | 2023 | causas | C-97 | horas-hombre generadas por huelgas provenientes del mes anterior |
 | 2024 | actividad | C-94 | horas-hombre generadas por huelgas provenientes del mes anterior |
 | 2024 | causas | C-97 | horas-hombre generadas por huelgas provenientes del mes anterior |
+| 2025 | territorio | Anexo 09 | ICA registra HHP provenientes de una huelga iniciada en 2024 |
 
 ## Fase 2: cuadro cruzado actividad x territorio
 
@@ -33,6 +34,7 @@ En la extracción complementaria de `sector x territorio`, el caso más fuerte d
 | anio | hoja | texto resumido de la nota |
 |---|---|---|
 | 2024 | C-102 | horas-hombre generadas por huelgas provenientes del año y/o mes anterior |
+| 2025 | Anexo 18 | horas-hombre con arrastre desde 2024 en al menos una fila territorial |
 
 ## Cómo leer este problema
 

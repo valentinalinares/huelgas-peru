@@ -80,6 +80,7 @@ YEAR_CONFIG = {
 
 
 REGION_ALIASES = {
+    "AMAZONAS": "amazonas",
     "ANCASH": "ancash",
     "ÁNCASH": "ancash",
     "APURIMAC": "apurimac",

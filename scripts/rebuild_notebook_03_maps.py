@@ -38,8 +38,8 @@ Decisiones metodológicas:
 
 - para mapas se usa `territorio_mapa`
 - `lima`, `lima_metropolitana` y `lima_provincia` se colapsan en `lima_total`
-- los mapas generales usan `1999-2024`
-- el mapa de minería usa `2001-2024`
+- los mapas generales usan `1999-2025`
+- el mapa de minería usa `2001-2025`
 - solo se usan territorios de nivel `regional` en el mapa de minería
 
 Por qué no se mapea desde `1993`:
@@ -75,9 +75,9 @@ SHAPES = project_root / 'shapes'
 OUTPUTS = project_root / 'bases' / 'mapas_folium'
 OUTPUTS.mkdir(parents=True, exist_ok=True)
 
-cobertura = pd.read_csv(BASE_MAESTRA / 'cobertura_modulos_1993_2024.csv')
+cobertura = pd.read_csv(BASE_MAESTRA / 'cobertura_modulos_1993_2025.csv')
 territorio_raw = pd.read_csv(BASE_MAESTRA / 'cruce_anio_territorio_regional_largo.csv')
-sector_territorio = pd.read_csv(BASE_CRUCE / 'sector_territorio_2001_2024.csv')
+sector_territorio = pd.read_csv(BASE_CRUCE / 'sector_territorio_2001_2025.csv')
 equiv = pd.read_csv(SHAPES / 'equivalencias_territorio_mapa.csv')
 geo = gpd.read_file(SHAPES / 'peru_territorios_huelga_lima_total.geojson')
 
@@ -104,8 +104,8 @@ resumen_anual.tail(12)
 - `1993` queda fuera porque no tiene Excel fuente
 - `1994-1995` quedan fuera porque son años parciales
 - `1996-1998` quedan fuera del mapa contemporáneo porque usan regiones históricas no equivalentes 1 a 1
-- `1999-2024` entran al mapa general
-- `2001-2024` entran al mapa de minería
+- `1999-2025` entran al mapa general
+- `2001-2025` entran al mapa de minería
 """
     ),
     code(
@@ -170,13 +170,23 @@ mapa_general.head(12)
     code(
         """mineria_raw = sector_territorio[
     sector_territorio['anio'].isin(anios_mapa_mineria)
-    & sector_territorio['nivel_territorial'].eq('regional')
     & sector_territorio['actividad_homologada_agregada'].eq('mineria')
 ].copy()
+mineria_raw['region_mapa_fuente'] = mineria_raw['territorio_homologado_agregado']
+zona_con_padre = (
+    mineria_raw['nivel_territorial'].eq('zona')
+    & mineria_raw['territorio_padre'].notna()
+    & mineria_raw['territorio_padre'].ne('sin_region_padre')
+)
+mineria_raw.loc[zona_con_padre, 'region_mapa_fuente'] = mineria_raw.loc[zona_con_padre, 'territorio_padre']
+mineria_raw = mineria_raw[
+    mineria_raw['region_mapa_fuente'].notna()
+    & mineria_raw['region_mapa_fuente'].ne('sin_region_padre')
+]
 
 mineria_mapeada = mineria_raw.merge(
     equiv[['territorio_fuente', 'territorio_mapa', 'territorio_label_mapa']],
-    left_on='territorio_homologado_agregado',
+    left_on='region_mapa_fuente',
     right_on='territorio_fuente',
     how='left'
 )
@@ -399,7 +409,7 @@ mapa_folium_huelgas = render_layered_map(
     data_df=mapa_general[['anio', 'territorio_mapa', 'territorio_label', 'huelgas']],
     geo_df=geo_map,
     metric='huelgas',
-    title='Huelgas por territorio y año (1999-2024)',
+    title='Huelgas por territorio y año (1999-2025)',
     outfile=outfile_huelgas,
     palette_key='huelgas',
     years=anios_mapa_general,
@@ -415,7 +425,7 @@ mapa_folium_trabajadores = render_layered_map(
     data_df=mapa_general[['anio', 'territorio_mapa', 'territorio_label', 'trabajadores_comprendidos']],
     geo_df=geo_map,
     metric='trabajadores_comprendidos',
-    title='Trabajadores comprendidos por territorio y año (1999-2024)',
+    title='Trabajadores comprendidos por territorio y año (1999-2025)',
     outfile=outfile_trabajadores,
     palette_key='trabajadores_comprendidos',
     years=anios_mapa_general,
@@ -427,7 +437,7 @@ mapa_folium_trabajadores
     md(
         """## 3. Horas-hombre perdidas por territorio y año
 
-Advertencia: en varios años las horas-hombre pueden incluir arrastre desde el mes anterior y en `2024` incluso desde el año y/o mes anterior.
+Advertencia: en varios años las horas-hombre pueden incluir arrastre desde el mes anterior; en `2024` y `2025` aparecen arrastres desde el año y/o mes anterior.
 """
     ),
     code(
@@ -436,7 +446,7 @@ mapa_folium_horas = render_layered_map(
     data_df=mapa_general[['anio', 'territorio_mapa', 'territorio_label', 'horas_hombre_perdidas']],
     geo_df=geo_map,
     metric='horas_hombre_perdidas',
-    title='Horas-hombre perdidas por territorio y año (1999-2024)',
+    title='Horas-hombre perdidas por territorio y año (1999-2025)',
     outfile=outfile_horas,
     palette_key='horas_hombre_perdidas',
     years=anios_mapa_general,
@@ -452,7 +462,7 @@ mapa_folium_mineria = render_layered_map(
     data_df=mapa_mineria[['anio', 'territorio_mapa', 'territorio_label', 'huelgas']],
     geo_df=geo_map,
     metric='huelgas',
-    title='Huelgas de minería por territorio y año (2001-2024)',
+    title='Huelgas de minería por territorio y año (2001-2025)',
     outfile=outfile_mineria,
     palette_key='mineria',
     years=anios_mapa_mineria,

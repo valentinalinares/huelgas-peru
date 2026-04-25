@@ -7,7 +7,7 @@ import pandas as pd
 from extract_era2_huelgas_2000_2003 import YEAR_CONFIG as YEAR_CONFIG_2000_2003
 from extract_era2_huelgas_2004_2020 import YEAR_CONFIG as YEAR_CONFIG_2004_2020
 from extract_era3_huelgas import (
-    YEAR_CONFIG as YEAR_CONFIG_2021_2024,
+    YEAR_CONFIG as YEAR_CONFIG_ERA3,
     REGION_ALIASES,
     ROOT,
     as_number,
@@ -22,7 +22,7 @@ from extract_era3_huelgas import (
 
 
 OUTPUT_DIR = ROOT / "bases" / "cruce_sector_territorio"
-YEARS_ALL = list(range(1993, 2025))
+YEARS_ALL = list(range(1993, 2026))
 
 
 def cross_year_config() -> dict[int, dict[str, object]]:
@@ -39,12 +39,17 @@ def cross_year_config() -> dict[int, dict[str, object]]:
             "sheet": "C-11",
             "nota": "Cuadro cruzado actividad x territorio disponible en C-11.",
         }
-    for year, cfg in YEAR_CONFIG_2021_2024.items():
+    for year, cfg in YEAR_CONFIG_ERA3.items():
         config[year] = {
             "path": cfg["path"],
             "sheet": cfg["sheets"]["cruce"],
             "nota": f"Cuadro cruzado actividad x territorio disponible en {cfg['sheets']['cruce']}.",
         }
+    config[2025] = {
+        "path": ROOT / "anuarios" / "2025" / "7798830-anexos-cuadros-estadisticos-2025.xlsx",
+        "sheet": "Anexo 18",
+        "nota": "Cuadro cruzado actividad x territorio disponible en Anexo 18.",
+    }
     return config
 
 
@@ -159,7 +164,7 @@ def metric_name(label: str) -> str | None:
         return "trabajadores_comprendidos"
     if "HORAS-HOMBRE PERDIDAS" in folded or "HORAS - HOMBRE PERDIDAS" in folded or "NO. H/HP" in folded:
         return "horas_hombre_perdidas"
-    if folded == "HUELGAS" or "NO. H." in folded:
+    if folded in {"HUELGA", "HUELGAS"} or "NO. H." in folded:
         return "huelgas"
     return None
 
@@ -289,7 +294,26 @@ def parse_cross_table(
         if not label:
             continue
         folded = fold_text(label)
-        if folded in {"TOTAL", "ABSOLUTO", "%"}:
+        if folded == "TOTAL":
+            if current_territory and metrics and current_meta is not None:
+                block_rows, block_validation = emit_block(
+                    year=year,
+                    sheet_name=sheet_name,
+                    territory_original=current_territory,
+                    territory_meta=current_meta,
+                    activity_cols=activity_cols,
+                    metrics=metrics,
+                    totals=totals,
+                    note=note,
+                )
+                rows.extend(block_rows)
+                validation_rows.extend(block_validation)
+            current_territory = None
+            current_meta = None
+            metrics = {}
+            totals = {}
+            continue
+        if folded in {"ABSOLUTO", "%"}:
             continue
         if any(
             token in folded
@@ -361,7 +385,7 @@ def write_note(coverage: pd.DataFrame) -> None:
         f"- anos disponibles en esta fase: {available[0]}-{available[-1]}",
         "- la base resultante no reemplaza la base maestra principal; la complementa",
         "- en `2001-2013` varias zonas quedan sin `territorio_padre` inferido automaticamente para evitar asignaciones territoriales equivocadas en los layouts antiguos",
-        "- en `2014-2024` se aprovecha mejor la jerarquia region/zona del cuadro",
+        "- en `2014-2025` se aprovecha mejor la jerarquia region/zona del cuadro",
         "",
         "## Años sin cuadro cruzado disponible en esta fase",
         "",
@@ -372,7 +396,7 @@ def write_note(coverage: pd.DataFrame) -> None:
     lines.append("## Validacion")
     lines.append("")
     lines.append("Para cada territorio se verifico, por metrica, que la suma de sectores coincida con el total absoluto del mismo cuadro.")
-    lines.append("La validacion se guarda en `validacion_sector_territorio_2001_2024.csv`.")
+    lines.append("La validacion se guarda en `validacion_sector_territorio_2001_2025.csv`.")
     (OUTPUT_DIR / "nota_metodologica.md").write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -415,17 +439,17 @@ def main() -> None:
     coverage_df = pd.DataFrame(coverage_rows)
 
     cross_df.to_csv(
-        OUTPUT_DIR / "sector_territorio_2001_2024.csv",
+        OUTPUT_DIR / "sector_territorio_2001_2025.csv",
         index=False,
         encoding="utf-8-sig",
     )
     validation_df.to_csv(
-        OUTPUT_DIR / "validacion_sector_territorio_2001_2024.csv",
+        OUTPUT_DIR / "validacion_sector_territorio_2001_2025.csv",
         index=False,
         encoding="utf-8-sig",
     )
     coverage_df.to_csv(
-        OUTPUT_DIR / "cobertura_sector_territorio_1993_2024.csv",
+        OUTPUT_DIR / "cobertura_sector_territorio_1993_2025.csv",
         index=False,
         encoding="utf-8-sig",
     )
