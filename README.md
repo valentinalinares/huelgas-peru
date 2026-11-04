@@ -178,6 +178,14 @@ python scripts/validate_planilla_historica.py
 python scripts/plot_planilla_historica.py
 ```
 
+Para reconstruir, validar y graficar las series de Registro Sindical:
+
+```bash
+python scripts/extract_registros_sindicales.py
+python scripts/validate_registros_sindicales.py
+python scripts/plot_registros_sindicales.py
+```
+
 ## Límites importantes
 
 - `territorio` mezcla nivel regional y nivel zona en la fuente; por eso se usa con advertencia de `estructura_mixta`
@@ -194,6 +202,9 @@ python scripts/plot_planilla_historica.py
 - la base complementaria `sector x territorio` no reemplaza a la base maestra: solo amplía los cruces observables donde el cuadro cruzado existe
 - en negociación colectiva, la categoría `explotación de minas y canteras` no equivale exactamente a minería metálica y puede omitir contratistas clasificados en otras actividades
 - el MTPE indica que el dato de negociación colectiva de `2025` incluye convenios solucionados en `2019-2024` cuya vigencia comprende 2025; no debe interpretarse automáticamente como convenios nuevos firmados durante 2025
+- los registros sindicales son flujos administrativos y no equivalen al stock de sindicatos activos; el único stock nacional hallado en estos anuarios corresponde a `2002` y se conserva en una base separada
+- en Registro Sindical, el cuadro por actividad del Anuario `2008` suma `203` sindicatos, mientras la serie retrospectiva del Anuario `2025` informa `201`; ambos valores se preservan y la diferencia queda marcada en los controles
+- en Registro Sindical, `explotación de minas y canteras` tampoco equivale exactamente a minería metálica y puede omitir contratistas clasificados en otras actividades
 
 ## Sobre los HTML de mapas
 

@@ -1,0 +1,395 @@
+﻿control,anio,detalle,valor_fuente,valor_calculado,diferencia,resultado
+suma_meses_igual_total_publicado,2002,"AGRICULTURA, GANADERIA, CAZA Y SILVICULTURA",2,2,0,ok
+suma_meses_igual_total_publicado,2002,PESCA,1,1,0,ok
+suma_meses_igual_total_publicado,2002,EXPLOTACION DE MINAS Y CANTERAS,1,1,0,ok
+suma_meses_igual_total_publicado,2002,INDUSTRIA MANUFACTURERA,14,14,0,ok
+suma_meses_igual_total_publicado,2002,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",5,5,0,ok
+suma_meses_igual_total_publicado,2002,CONSTRUCCION,4,4,0,ok
+suma_meses_igual_total_publicado,2002,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHICULOS",23,23,0,ok
+suma_meses_igual_total_publicado,2002,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",10,10,0,ok
+suma_meses_igual_total_publicado,2002,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE SERV.",1,1,0,ok
+suma_meses_igual_total_publicado,2002,ADMINISTRACION PUBLICA,36,36,0,ok
+suma_meses_igual_total_publicado,2002,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2002,SALUD,1,1,0,ok
+suma_meses_igual_total_publicado,2002,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",14,14,0,ok
+suma_meses_igual_total_publicado,2002,TOTAL,114,114,0,ok
+suma_meses_igual_total_publicado,2003,"AGRICULTURA, GANADERIA, CAZA Y SILVICULTURA",5,5,0,ok
+suma_meses_igual_total_publicado,2003,PESCA,3,3,0,ok
+suma_meses_igual_total_publicado,2003,EXPLOTACION DE MINAS Y CANTERAS,6,6,0,ok
+suma_meses_igual_total_publicado,2003,INDUSTRIA MANUFACTURERA,19,19,0,ok
+suma_meses_igual_total_publicado,2003,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",7,7,0,ok
+suma_meses_igual_total_publicado,2003,CONSTRUCCION,17,17,0,ok
+suma_meses_igual_total_publicado,2003,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHICULOS",31,31,0,ok
+suma_meses_igual_total_publicado,2003,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",12,12,0,ok
+suma_meses_igual_total_publicado,2003,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE SERV.",1,1,0,ok
+suma_meses_igual_total_publicado,2003,ADMINISTRACION PUBLICA,37,37,0,ok
+suma_meses_igual_total_publicado,2003,ENSEÑANZA,3,3,0,ok
+suma_meses_igual_total_publicado,2003,SALUD,3,3,0,ok
+suma_meses_igual_total_publicado,2003,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",3,3,0,ok
+suma_meses_igual_total_publicado,2003,TOTAL,147,147,0,ok
+suma_meses_igual_total_publicado,2004,"AGRICULTURA, GANADERIA, CAZA Y SILVICULTURA",1,1,0,ok
+suma_meses_igual_total_publicado,2004,PESCA,1,1,0,ok
+suma_meses_igual_total_publicado,2004,EXPLOTACION DE MINAS Y CANTERAS,6,6,0,ok
+suma_meses_igual_total_publicado,2004,INDUSTRIA MANUFACTURERA,10,10,0,ok
+suma_meses_igual_total_publicado,2004,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",3,3,0,ok
+suma_meses_igual_total_publicado,2004,CONSTRUCCION,15,15,0,ok
+suma_meses_igual_total_publicado,2004,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHICULOS",26,26,0,ok
+suma_meses_igual_total_publicado,2004,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2004,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",12,12,0,ok
+suma_meses_igual_total_publicado,2004,INTERMEDIACION FINANCIERA,1,1,0,ok
+suma_meses_igual_total_publicado,2004,ENSEÑANZA,5,5,0,ok
+suma_meses_igual_total_publicado,2004,SERVICIOS SOCIALES Y DE SALUD,1,1,0,ok
+suma_meses_igual_total_publicado,2004,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",4,4,0,ok
+suma_meses_igual_total_publicado,2004,TOTAL,86,86,0,ok
+suma_meses_igual_total_publicado,2005,"AGRICULTURA, GANADERIA, CAZA Y SILVICULTURA",9,9,0,ok
+suma_meses_igual_total_publicado,2005,PESCA,7,7,0,ok
+suma_meses_igual_total_publicado,2005,EXPLOTACION DE MINAS Y CANTERAS,6,6,0,ok
+suma_meses_igual_total_publicado,2005,INDUSTRIA MANUFACTURERA,15,15,0,ok
+suma_meses_igual_total_publicado,2005,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",5,5,0,ok
+suma_meses_igual_total_publicado,2005,CONSTRUCCION,18,18,0,ok
+suma_meses_igual_total_publicado,2005,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHICULOS",30,30,0,ok
+suma_meses_igual_total_publicado,2005,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",12,12,0,ok
+suma_meses_igual_total_publicado,2005,INTERMEDIACION FINANCIERA,2,2,0,ok
+suma_meses_igual_total_publicado,2005,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2005,SERVICIOS SOCIALES Y DE SALUD,2,2,0,ok
+suma_meses_igual_total_publicado,2005,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",10,10,0,ok
+suma_meses_igual_total_publicado,2005,TOTAL,118,118,0,ok
+suma_meses_igual_total_publicado,2006,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",6,6,0,ok
+suma_meses_igual_total_publicado,2006,PESCA,4,4,0,ok
+suma_meses_igual_total_publicado,2006,EXPLOTACIÓN DE MINAS Y CANTERAS,11,11,0,ok
+suma_meses_igual_total_publicado,2006,INDUSTRIA MANUFACTURERA,9,9,0,ok
+suma_meses_igual_total_publicado,2006,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",5,5,0,ok
+suma_meses_igual_total_publicado,2006,CONSTRUCCIÓN,29,29,0,ok
+suma_meses_igual_total_publicado,2006,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍCULOS",30,30,0,ok
+suma_meses_igual_total_publicado,2006,HOTELES Y RESTAURANTES,2,2,0,ok
+suma_meses_igual_total_publicado,2006,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",15,15,0,ok
+suma_meses_igual_total_publicado,2006,ENSEÑANZA,5,5,0,ok
+suma_meses_igual_total_publicado,2006,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",7,7,0,ok
+suma_meses_igual_total_publicado,2006,TOTAL,123,123,0,ok
+suma_meses_igual_total_publicado,2007,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",11,11,0,ok
+suma_meses_igual_total_publicado,2007,PESCA,3,3,0,ok
+suma_meses_igual_total_publicado,2007,EXPLOTACIÓN DE MINAS Y CANTERAS,18,18,0,ok
+suma_meses_igual_total_publicado,2007,INDUSTRIAS MANUFACTURERAS,27,27,0,ok
+suma_meses_igual_total_publicado,2007,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",3,3,0,ok
+suma_meses_igual_total_publicado,2007,CONSTRUCCIÓN,67,67,0,ok
+suma_meses_igual_total_publicado,2007,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",20,20,0,ok
+suma_meses_igual_total_publicado,2007,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2007,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",25,25,0,ok
+suma_meses_igual_total_publicado,2007,INTERMEDIACIÓN FINANCIERA,1,1,0,ok
+suma_meses_igual_total_publicado,2007,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",1,1,0,ok
+suma_meses_igual_total_publicado,2007,ENSEÑANZA,4,4,0,ok
+suma_meses_igual_total_publicado,2007,SERVICIOS SOCIALES Y DE SALUD,2,2,0,ok
+suma_meses_igual_total_publicado,2007,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",7,7,0,ok
+suma_meses_igual_total_publicado,2007,NO DETERMINADA,6,6,0,ok
+suma_meses_igual_total_publicado,2007,TOTAL,196,196,0,ok
+suma_meses_igual_total_publicado,2008,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",3,3,0,ok
+suma_meses_igual_total_publicado,2008,PESCA,2,2,0,ok
+suma_meses_igual_total_publicado,2008,EXPLOTACIÓN DE MINAS Y CANTERAS,18,18,0,ok
+suma_meses_igual_total_publicado,2008,INDUSTRIAS MANUFACTURERAS,25,25,0,ok
+suma_meses_igual_total_publicado,2008,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",8,8,0,ok
+suma_meses_igual_total_publicado,2008,CONSTRUCCIÓN,90,90,0,ok
+suma_meses_igual_total_publicado,2008,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",15,15,0,ok
+suma_meses_igual_total_publicado,2008,HOTELES Y RESTAURANTES,0,0,0,ok
+suma_meses_igual_total_publicado,2008,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",17,17,0,ok
+suma_meses_igual_total_publicado,2008,INTERMEDIACIÓN FINANCIERA,4,4,0,ok
+suma_meses_igual_total_publicado,2008,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",4,4,0,ok
+suma_meses_igual_total_publicado,2008,ENSEÑANZA,3,3,0,ok
+suma_meses_igual_total_publicado,2008,SERVICIOS SOCIALES Y DE SALUD,1,1,0,ok
+suma_meses_igual_total_publicado,2008,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",3,3,0,ok
+suma_meses_igual_total_publicado,2008,NO DETERMINADA,10,10,0,ok
+suma_meses_igual_total_publicado,2008,TOTAL,203,203,0,ok
+suma_meses_igual_total_publicado,2009,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",2,2,0,ok
+suma_meses_igual_total_publicado,2009,PESCA,8,8,0,ok
+suma_meses_igual_total_publicado,2009,EXPLOTACIÓN DE MINAS Y CANTERAS,14,14,0,ok
+suma_meses_igual_total_publicado,2009,INDUSTRIAS MANUFACTURERAS,29,29,0,ok
+suma_meses_igual_total_publicado,2009,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",2,2,0,ok
+suma_meses_igual_total_publicado,2009,CONSTRUCCIÓN,82,82,0,ok
+suma_meses_igual_total_publicado,2009,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",23,23,0,ok
+suma_meses_igual_total_publicado,2009,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",16,16,0,ok
+suma_meses_igual_total_publicado,2009,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",5,5,0,ok
+suma_meses_igual_total_publicado,2009,ENSEÑANZA,1,1,0,ok
+suma_meses_igual_total_publicado,2009,SERVICIOS SOCIALES Y DE SALUD,1,1,0,ok
+suma_meses_igual_total_publicado,2009,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",14,14,0,ok
+suma_meses_igual_total_publicado,2009,NO DETERMINADO,5,5,0,ok
+suma_meses_igual_total_publicado,2009,TOTAL,202,202,0,ok
+suma_meses_igual_total_publicado,2010,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",6,6,0,ok
+suma_meses_igual_total_publicado,2010,PESCA,2,2,0,ok
+suma_meses_igual_total_publicado,2010,EXPLOTACIÓN DE MINAS Y CANTERAS,8,8,0,ok
+suma_meses_igual_total_publicado,2010,INDUSTRIAS MANUFACTURERAS,23,23,0,ok
+suma_meses_igual_total_publicado,2010,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",4,4,0,ok
+suma_meses_igual_total_publicado,2010,CONSTRUCCIÓN,128,128,0,ok
+suma_meses_igual_total_publicado,2010,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",22,22,0,ok
+suma_meses_igual_total_publicado,2010,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2010,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",15,15,0,ok
+suma_meses_igual_total_publicado,2010,"INTERMEDIACIÓN FINANCIERA, AFP",3,3,0,ok
+suma_meses_igual_total_publicado,2010,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",2,2,0,ok
+suma_meses_igual_total_publicado,2010,ENSEÑANZA,5,5,0,ok
+suma_meses_igual_total_publicado,2010,SERVICIOS SOCIALES Y DE SALUD,2,2,0,ok
+suma_meses_igual_total_publicado,2010,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",17,17,0,ok
+suma_meses_igual_total_publicado,2010,NO DETERMINADO,2,2,0,ok
+suma_meses_igual_total_publicado,2010,TOTAL,240,240,0,ok
+suma_meses_igual_total_publicado,2011,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",2,2,0,ok
+suma_meses_igual_total_publicado,2011,PESCA,3,3,0,ok
+suma_meses_igual_total_publicado,2011,EXPLOTACIÓN DE MINAS Y CANTERAS,7,7,0,ok
+suma_meses_igual_total_publicado,2011,INDUSTRIAS MANUFACTURERAS,35,35,0,ok
+suma_meses_igual_total_publicado,2011,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",2,2,0,ok
+suma_meses_igual_total_publicado,2011,CONSTRUCCIÓN,123,123,0,ok
+suma_meses_igual_total_publicado,2011,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",23,23,0,ok
+suma_meses_igual_total_publicado,2011,HOTELES Y RESTAURANTES,0,0,0,ok
+suma_meses_igual_total_publicado,2011,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",12,12,0,ok
+suma_meses_igual_total_publicado,2011,"INTERMEDIACIÓN FINANCIERA, AFP",2,2,0,ok
+suma_meses_igual_total_publicado,2011,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",4,4,0,ok
+suma_meses_igual_total_publicado,2011,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2011,SERVICIOS SOCIALES Y DE SALUD,3,3,0,ok
+suma_meses_igual_total_publicado,2011,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",15,15,0,ok
+suma_meses_igual_total_publicado,2011,NO DETERMINADO,2,2,0,ok
+suma_meses_igual_total_publicado,2011,TOTAL,235,235,0,ok
+suma_meses_igual_total_publicado,2012,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",8,8,0,ok
+suma_meses_igual_total_publicado,2012,PESCA,7,7,0,ok
+suma_meses_igual_total_publicado,2012,EXPLOTACIÓN DE MINAS Y CANTERAS,15,15,0,ok
+suma_meses_igual_total_publicado,2012,INDUSTRIAS MANUFACTURERAS,36,36,0,ok
+suma_meses_igual_total_publicado,2012,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",10,10,0,ok
+suma_meses_igual_total_publicado,2012,CONSTRUCCIÓN,115,115,0,ok
+suma_meses_igual_total_publicado,2012,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",15,15,0,ok
+suma_meses_igual_total_publicado,2012,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2012,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",18,18,0,ok
+suma_meses_igual_total_publicado,2012,"INTERMEDIACIÓN FINANCIERA, AFP",3,3,0,ok
+suma_meses_igual_total_publicado,2012,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",2,2,0,ok
+suma_meses_igual_total_publicado,2012,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2012,SERVICIOS SOCIALES Y DE SALUD,4,4,0,ok
+suma_meses_igual_total_publicado,2012,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",28,28,0,ok
+suma_meses_igual_total_publicado,2012,NO DETERMINADO,1,1,0,ok
+suma_meses_igual_total_publicado,2012,TOTAL,265,265,0,ok
+suma_meses_igual_total_publicado,2013,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",3,3,0,ok
+suma_meses_igual_total_publicado,2013,PESCA,4,4,0,ok
+suma_meses_igual_total_publicado,2013,EXPLOTACIÓN DE MINAS Y CANTERAS,18,18,0,ok
+suma_meses_igual_total_publicado,2013,INDUSTRIAS MANUFACTURERAS,27,27,0,ok
+suma_meses_igual_total_publicado,2013,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",3,3,0,ok
+suma_meses_igual_total_publicado,2013,CONSTRUCCIÓN,75,75,0,ok
+suma_meses_igual_total_publicado,2013,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",14,14,0,ok
+suma_meses_igual_total_publicado,2013,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2013,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",18,18,0,ok
+suma_meses_igual_total_publicado,2013,"INTERMEDIACIÓN FINANCIERA, AFP",5,5,0,ok
+suma_meses_igual_total_publicado,2013,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",4,4,0,ok
+suma_meses_igual_total_publicado,2013,ENSEÑANZA,7,7,0,ok
+suma_meses_igual_total_publicado,2013,SERVICIOS SOCIALES Y DE SALUD,0,0,0,ok
+suma_meses_igual_total_publicado,2013,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",21,21,0,ok
+suma_meses_igual_total_publicado,2013,NO DETERMINADO,0,0,0,ok
+suma_meses_igual_total_publicado,2013,TOTAL,200,200,0,ok
+suma_meses_igual_total_publicado,2014,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",3,3,0,ok
+suma_meses_igual_total_publicado,2014,PESCA,4,4,0,ok
+suma_meses_igual_total_publicado,2014,EXPLOTACIÓN DE MINAS Y CANTERAS,11,11,0,ok
+suma_meses_igual_total_publicado,2014,INDUSTRIAS MANUFACTURERAS,18,18,0,ok
+suma_meses_igual_total_publicado,2014,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",2,2,0,ok
+suma_meses_igual_total_publicado,2014,CONSTRUCCIÓN,66,66,0,ok
+suma_meses_igual_total_publicado,2014,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",36,36,0,ok
+suma_meses_igual_total_publicado,2014,HOTELES Y RESTAURANTES,0,0,0,ok
+suma_meses_igual_total_publicado,2014,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",15,15,0,ok
+suma_meses_igual_total_publicado,2014,"INTERMEDIACIÓN FINANCIERA, AFP",2,2,0,ok
+suma_meses_igual_total_publicado,2014,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",4,4,0,ok
+suma_meses_igual_total_publicado,2014,ENSEÑANZA,4,4,0,ok
+suma_meses_igual_total_publicado,2014,SERVICIOS SOCIALES Y DE SALUD,0,0,0,ok
+suma_meses_igual_total_publicado,2014,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",13,13,0,ok
+suma_meses_igual_total_publicado,2014,NO DETERMINADO,3,3,0,ok
+suma_meses_igual_total_publicado,2014,TOTAL,181,181,0,ok
+suma_meses_igual_total_publicado,2015,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",13,13,0,ok
+suma_meses_igual_total_publicado,2015,PESCA,5,5,0,ok
+suma_meses_igual_total_publicado,2015,EXPLOTACIÓN DE MINAS Y CANTERAS,9,9,0,ok
+suma_meses_igual_total_publicado,2015,INDUSTRIAS MANUFACTURERAS,19,19,0,ok
+suma_meses_igual_total_publicado,2015,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",2,2,0,ok
+suma_meses_igual_total_publicado,2015,CONSTRUCCIÓN,121,121,0,ok
+suma_meses_igual_total_publicado,2015,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",24,24,0,ok
+suma_meses_igual_total_publicado,2015,HOTELES Y RESTAURANTES,0,0,0,ok
+suma_meses_igual_total_publicado,2015,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",12,12,0,ok
+suma_meses_igual_total_publicado,2015,"INTERMEDIACIÓN FINANCIERA, AFP",4,4,0,ok
+suma_meses_igual_total_publicado,2015,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",8,8,0,ok
+suma_meses_igual_total_publicado,2015,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2015,SERVICIOS SOCIALES Y DE SALUD,2,2,0,ok
+suma_meses_igual_total_publicado,2015,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",6,6,0,ok
+suma_meses_igual_total_publicado,2015,NO DETERMINADO,7,7,0,ok
+suma_meses_igual_total_publicado,2015,TOTAL,234,234,0,ok
+suma_meses_igual_total_publicado,2016,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",6,6,0,ok
+suma_meses_igual_total_publicado,2016,PESCA,3,3,0,ok
+suma_meses_igual_total_publicado,2016,EXPLOTACIÓN DE MINAS Y CANTERAS,4,4,0,ok
+suma_meses_igual_total_publicado,2016,INDUSTRIAS MANUFACTURERAS,11,11,0,ok
+suma_meses_igual_total_publicado,2016,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",0,0,0,ok
+suma_meses_igual_total_publicado,2016,CONSTRUCCIÓN,65,65,0,ok
+suma_meses_igual_total_publicado,2016,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",16,16,0,ok
+suma_meses_igual_total_publicado,2016,HOTELES Y RESTAURANTES,0,0,0,ok
+suma_meses_igual_total_publicado,2016,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",14,14,0,ok
+suma_meses_igual_total_publicado,2016,"INTERMEDIACIÓN FINANCIERA, AFP",2,2,0,ok
+suma_meses_igual_total_publicado,2016,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",4,4,0,ok
+suma_meses_igual_total_publicado,2016,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2016,SERVICIOS SOCIALES Y DE SALUD,0,0,0,ok
+suma_meses_igual_total_publicado,2016,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",14,14,0,ok
+suma_meses_igual_total_publicado,2016,NO DETERMINADO,0,0,0,ok
+suma_meses_igual_total_publicado,2016,TOTAL,141,141,0,ok
+suma_meses_igual_total_publicado,2017,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",3,3,0,ok
+suma_meses_igual_total_publicado,2017,PESCA,5,5,0,ok
+suma_meses_igual_total_publicado,2017,EXPLOTACIÓN DE MINAS Y CANTERAS,6,6,0,ok
+suma_meses_igual_total_publicado,2017,INDUSTRIAS MANUFACTURERAS,13,13,0,ok
+suma_meses_igual_total_publicado,2017,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",3,3,0,ok
+suma_meses_igual_total_publicado,2017,CONSTRUCCIÓN,87,87,0,ok
+suma_meses_igual_total_publicado,2017,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",9,9,0,ok
+suma_meses_igual_total_publicado,2017,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2017,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",9,9,0,ok
+suma_meses_igual_total_publicado,2017,"INTERMEDIACIÓN FINANCIERA, AFP",1,1,0,ok
+suma_meses_igual_total_publicado,2017,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",9,9,0,ok
+suma_meses_igual_total_publicado,2017,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2017,SERVICIOS SOCIALES Y DE SALUD,2,2,0,ok
+suma_meses_igual_total_publicado,2017,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",9,9,0,ok
+suma_meses_igual_total_publicado,2017,NO DETERMINADO,0,0,0,ok
+suma_meses_igual_total_publicado,2017,TOTAL,159,159,0,ok
+suma_meses_igual_total_publicado,2018,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",6,6,0,ok
+suma_meses_igual_total_publicado,2018,PESCA,3,3,0,ok
+suma_meses_igual_total_publicado,2018,EXPLOTACIÓN DE MINAS Y CANTERAS,6,6,0,ok
+suma_meses_igual_total_publicado,2018,INDUSTRIAS MANUFACTURERAS,12,12,0,ok
+suma_meses_igual_total_publicado,2018,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",3,3,0,ok
+suma_meses_igual_total_publicado,2018,CONSTRUCCIÓN,69,69,0,ok
+suma_meses_igual_total_publicado,2018,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",14,14,0,ok
+suma_meses_igual_total_publicado,2018,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2018,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",3,3,0,ok
+suma_meses_igual_total_publicado,2018,"INTERMEDIACIÓN FINANCIERA, AFP",1,1,0,ok
+suma_meses_igual_total_publicado,2018,ADMINISTRACIÓN PÚBLICA Y DEFENSA,1,1,0,ok
+suma_meses_igual_total_publicado,2018,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",2,2,0,ok
+suma_meses_igual_total_publicado,2018,ENSEÑANZA,4,4,0,ok
+suma_meses_igual_total_publicado,2018,SERVICIOS SOCIALES Y DE SALUD,3,3,0,ok
+suma_meses_igual_total_publicado,2018,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",17,17,0,ok
+suma_meses_igual_total_publicado,2018,TOTAL,145,145,0,ok
+suma_meses_igual_total_publicado,2019,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",6,6,0,ok
+suma_meses_igual_total_publicado,2019,PESCA,3,3,0,ok
+suma_meses_igual_total_publicado,2019,EXPLOTACIÓN DE MINAS Y CANTERAS,4,4,0,ok
+suma_meses_igual_total_publicado,2019,INDUSTRIAS MANUFACTURERAS,16,16,0,ok
+suma_meses_igual_total_publicado,2019,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",0,0,0,ok
+suma_meses_igual_total_publicado,2019,CONSTRUCCIÓN,78,78,0,ok
+suma_meses_igual_total_publicado,2019,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",13,13,0,ok
+suma_meses_igual_total_publicado,2019,HOTELES Y RESTAURANTES,0,0,0,ok
+suma_meses_igual_total_publicado,2019,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",6,6,0,ok
+suma_meses_igual_total_publicado,2019,"INTERMEDIACIÓN FINANCIERA, AFP",0,0,0,ok
+suma_meses_igual_total_publicado,2019,ADMINISTRACIÓN PÚBLICA Y DEFENSA,7,7,0,ok
+suma_meses_igual_total_publicado,2019,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",5,5,0,ok
+suma_meses_igual_total_publicado,2019,ENSEÑANZA,5,5,0,ok
+suma_meses_igual_total_publicado,2019,SERVICIOS SOCIALES Y DE SALUD,0,0,0,ok
+suma_meses_igual_total_publicado,2019,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",7,7,0,ok
+suma_meses_igual_total_publicado,2019,TOTAL,150,150,0,ok
+suma_meses_igual_total_publicado,2020,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",2,2,0,ok
+suma_meses_igual_total_publicado,2020,PESCA,0,0,0,ok
+suma_meses_igual_total_publicado,2020,EXPLOTACIÓN DE MINAS Y CANTERAS,0,0,0,ok
+suma_meses_igual_total_publicado,2020,INDUSTRIAS MANUFACTURERAS,3,3,0,ok
+suma_meses_igual_total_publicado,2020,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",0,0,0,ok
+suma_meses_igual_total_publicado,2020,CONSTRUCCIÓN,12,12,0,ok
+suma_meses_igual_total_publicado,2020,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",2,2,0,ok
+suma_meses_igual_total_publicado,2020,HOTELES Y RESTAURANTES,0,0,0,ok
+suma_meses_igual_total_publicado,2020,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",4,4,0,ok
+suma_meses_igual_total_publicado,2020,"INTERMEDIACIÓN FINANCIERA, AFP",2,2,0,ok
+suma_meses_igual_total_publicado,2020,ADMINISTRACIÓN PÚBLICA Y DEFENSA,0,0,0,ok
+suma_meses_igual_total_publicado,2020,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",0,0,0,ok
+suma_meses_igual_total_publicado,2020,ENSEÑANZA,1,1,0,ok
+suma_meses_igual_total_publicado,2020,SERVICIOS SOCIALES Y DE SALUD,1,1,0,ok
+suma_meses_igual_total_publicado,2020,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",0,0,0,ok
+suma_meses_igual_total_publicado,2020,TOTAL,27,27,0,ok
+suma_meses_igual_total_publicado,2021,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",12,12,0,ok
+suma_meses_igual_total_publicado,2021,PESCA,0,0,0,ok
+suma_meses_igual_total_publicado,2021,EXPLOTACIÓN DE MINAS Y CANTERAS,9,9,0,ok
+suma_meses_igual_total_publicado,2021,INDUSTRIAS MANUFACTURERAS,11,11,0,ok
+suma_meses_igual_total_publicado,2021,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",0,0,0,ok
+suma_meses_igual_total_publicado,2021,CONSTRUCCIÓN,50,50,0,ok
+suma_meses_igual_total_publicado,2021,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",7,7,0,ok
+suma_meses_igual_total_publicado,2021,HOTELES Y RESTAURANTES,0,0,0,ok
+suma_meses_igual_total_publicado,2021,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",6,6,0,ok
+suma_meses_igual_total_publicado,2021,"INTERMEDIACIÓN FINANCIERA, AFP",2,2,0,ok
+suma_meses_igual_total_publicado,2021,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",1,1,0,ok
+suma_meses_igual_total_publicado,2021,ADMINISTRACIÓN PÚBLICA Y DEFENSA,0,0,0,ok
+suma_meses_igual_total_publicado,2021,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2021,SERVICIOS SOCIALES Y DE SALUD,2,2,0,ok
+suma_meses_igual_total_publicado,2021,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",5,5,0,ok
+suma_meses_igual_total_publicado,2021,TOTAL,107,107,0,ok
+suma_meses_igual_total_publicado,2022,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",3,3,0,ok
+suma_meses_igual_total_publicado,2022,PESCA,1,1,0,ok
+suma_meses_igual_total_publicado,2022,EXPLOTACIÓN DE MINAS Y CANTERAS,3,3,0,ok
+suma_meses_igual_total_publicado,2022,INDUSTRIAS MANUFACTURERAS,25,25,0,ok
+suma_meses_igual_total_publicado,2022,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",3,3,0,ok
+suma_meses_igual_total_publicado,2022,CONSTRUCCIÓN,49,49,0,ok
+suma_meses_igual_total_publicado,2022,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",9,9,0,ok
+suma_meses_igual_total_publicado,2022,HOTELES Y RESTAURANTES,3,3,0,ok
+suma_meses_igual_total_publicado,2022,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",11,11,0,ok
+suma_meses_igual_total_publicado,2022,"INTERMEDIACIÓN FINANCIERA, AFP",2,2,0,ok
+suma_meses_igual_total_publicado,2022,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",3,3,0,ok
+suma_meses_igual_total_publicado,2022,ADMINISTRACIÓN PÚBLICA Y DEFENSA,0,0,0,ok
+suma_meses_igual_total_publicado,2022,ENSEÑANZA,2,2,0,ok
+suma_meses_igual_total_publicado,2022,SERVICIOS SOCIALES Y DE SALUD,1,1,0,ok
+suma_meses_igual_total_publicado,2022,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",8,8,0,ok
+suma_meses_igual_total_publicado,2022,TOTAL,123,123,0,ok
+suma_meses_igual_total_publicado,2023,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",4,4,0,ok
+suma_meses_igual_total_publicado,2023,PESCA,0,0,0,ok
+suma_meses_igual_total_publicado,2023,EXPLOTACIÓN DE MINAS Y CANTERAS,5,5,0,ok
+suma_meses_igual_total_publicado,2023,INDUSTRIAS MANUFACTURERAS,15,15,0,ok
+suma_meses_igual_total_publicado,2023,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",4,4,0,ok
+suma_meses_igual_total_publicado,2023,CONSTRUCCIÓN,63,63,0,ok
+suma_meses_igual_total_publicado,2023,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",6,6,0,ok
+suma_meses_igual_total_publicado,2023,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2023,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",10,10,0,ok
+suma_meses_igual_total_publicado,2023,"INTERMEDIACIÓN FINANCIERA, AFP",1,1,0,ok
+suma_meses_igual_total_publicado,2023,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",1,1,0,ok
+suma_meses_igual_total_publicado,2023,ADMINISTRACIÓN PÚBLICA Y DEFENSA,1,1,0,ok
+suma_meses_igual_total_publicado,2023,ENSEÑANZA,3,3,0,ok
+suma_meses_igual_total_publicado,2023,SERVICIOS SOCIALES Y DE SALUD,0,0,0,ok
+suma_meses_igual_total_publicado,2023,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",12,12,0,ok
+suma_meses_igual_total_publicado,2023,TOTAL,126,126,0,ok
+suma_meses_igual_total_publicado,2024,CONSTRUCCIÓN,98,98,0,ok
+suma_meses_igual_total_publicado,2024,INDUSTRIAS MANUFACTURERAS,13,13,0,ok
+suma_meses_igual_total_publicado,2024,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",12,12,0,ok
+suma_meses_igual_total_publicado,2024,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",9,9,0,ok
+suma_meses_igual_total_publicado,2024,EXPLOTACIÓN DE MINAS Y CANTERAS,6,6,0,ok
+suma_meses_igual_total_publicado,2024,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",4,4,0,ok
+suma_meses_igual_total_publicado,2024,HOTELES Y RESTAURANTES,3,3,0,ok
+suma_meses_igual_total_publicado,2024,"ACTIVIDADES INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",3,3,0,ok
+suma_meses_igual_total_publicado,2024,ENSEÑANZA,3,3,0,ok
+suma_meses_igual_total_publicado,2024,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",2,2,0,ok
+suma_meses_igual_total_publicado,2024,"INTERMEDIACIÓN FINANCIERA, AFP",2,2,0,ok
+suma_meses_igual_total_publicado,2024,ADMINISTRACIÓN PÚBLICA Y DEFENSA,2,2,0,ok
+suma_meses_igual_total_publicado,2024,PESCA,1,1,0,ok
+suma_meses_igual_total_publicado,2024,SERVICIOS SOCIALES Y DE SALUD,1,1,0,ok
+suma_meses_igual_total_publicado,2024,"OTRAS ACTIVID. DE SERV. COMUNITARIAS, SOC. Y PERS.",26,26,0,ok
+suma_meses_igual_total_publicado,2024,TOTAL,185,185,0,ok
+suma_meses_igual_total_publicado,2025,CONSTRUCCIÓN,102,102,0,ok
+suma_meses_igual_total_publicado,2025,INDUSTRIAS MANUFACTURERAS,16,16,0,ok
+suma_meses_igual_total_publicado,2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",6,6,0,ok
+suma_meses_igual_total_publicado,2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",6,6,0,ok
+suma_meses_igual_total_publicado,2025,ENSEÑANZA,6,6,0,ok
+suma_meses_igual_total_publicado,2025,PESCA,5,5,0,ok
+suma_meses_igual_total_publicado,2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",5,5,0,ok
+suma_meses_igual_total_publicado,2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",5,5,0,ok
+suma_meses_igual_total_publicado,2025,EXPLOTACIÓN DE MINAS Y CANTERAS,4,4,0,ok
+suma_meses_igual_total_publicado,2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",4,4,0,ok
+suma_meses_igual_total_publicado,2025,SERVICIOS SOCIALES Y DE SALUD,3,3,0,ok
+suma_meses_igual_total_publicado,2025,HOGARES PRIVADOS CON SERVICIO DOMÉSTICO,3,3,0,ok
+suma_meses_igual_total_publicado,2025,INTERMEDIACIÓN FINANCIERA,2,2,0,ok
+suma_meses_igual_total_publicado,2025,HOTELES Y RESTAURANTES,1,1,0,ok
+suma_meses_igual_total_publicado,2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,1,1,0,ok
+suma_meses_igual_total_publicado,2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",4,4,0,ok
+suma_meses_igual_total_publicado,2025,TOTAL,173,173,0,ok
+total_actividad_igual_registros_sindicatos_privados,2002,total nacional,114,114,0,ok
+total_actividad_igual_registros_sindicatos_privados,2003,total nacional,147,147,0,ok
+total_actividad_igual_registros_sindicatos_privados,2004,total nacional,86,86,0,ok
+total_actividad_igual_registros_sindicatos_privados,2005,total nacional,118,118,0,ok
+total_actividad_igual_registros_sindicatos_privados,2006,total nacional,123,123,0,ok
+total_actividad_igual_registros_sindicatos_privados,2007,total nacional,196,196,0,ok
+total_actividad_igual_registros_sindicatos_privados,2008,total nacional,201,203,2,revisar
+total_actividad_igual_registros_sindicatos_privados,2009,total nacional,202,202,0,ok
+total_actividad_igual_registros_sindicatos_privados,2010,total nacional,240,240,0,ok
+total_actividad_igual_registros_sindicatos_privados,2011,total nacional,235,235,0,ok
+total_actividad_igual_registros_sindicatos_privados,2012,total nacional,265,265,0,ok
+total_actividad_igual_registros_sindicatos_privados,2013,total nacional,200,200,0,ok
+total_actividad_igual_registros_sindicatos_privados,2014,total nacional,181,181,0,ok
+total_actividad_igual_registros_sindicatos_privados,2015,total nacional,234,234,0,ok
+total_actividad_igual_registros_sindicatos_privados,2016,total nacional,141,141,0,ok
+total_actividad_igual_registros_sindicatos_privados,2017,total nacional,159,159,0,ok
+total_actividad_igual_registros_sindicatos_privados,2018,total nacional,145,145,0,ok
+total_actividad_igual_registros_sindicatos_privados,2019,total nacional,150,150,0,ok
+total_actividad_igual_registros_sindicatos_privados,2020,total nacional,27,27,0,ok
+total_actividad_igual_registros_sindicatos_privados,2021,total nacional,107,107,0,ok
+total_actividad_igual_registros_sindicatos_privados,2022,total nacional,123,123,0,ok
+total_actividad_igual_registros_sindicatos_privados,2023,total nacional,126,126,0,ok
+total_actividad_igual_registros_sindicatos_privados,2024,total nacional,185,185,0,ok
+total_actividad_igual_registros_sindicatos_privados,2025,total nacional,173,173,0,ok
