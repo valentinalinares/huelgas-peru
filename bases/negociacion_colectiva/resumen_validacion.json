@@ -1,0 +1,14 @@
+{
+  "periodo": "1995-2025",
+  "filas_base_larga": 496,
+  "anios": 31,
+  "actividades_mas_total": 16,
+  "anios_que_cuadran_con_total_publicado": 31,
+  "celdas_historicas_comparadas_2024_vs_2025": 480,
+  "celdas_historicas_revisadas": 0,
+  "valor_2025_mineria_minas_y_canteras": 39,
+  "valor_2025_manufactura": 162,
+  "valor_2025_total_nacional": 402,
+  "fuente_maestra": "anuarios\\2025\\CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx",
+  "fuente_control": "anuarios\\2024\\CAP 02 - NEGOCIACIONES COLECTIVAS_2024.xlsx"
+}

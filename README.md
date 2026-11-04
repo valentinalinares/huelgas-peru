@@ -29,6 +29,7 @@ El resultado principal es una base maestra donde cada año fue traducido a un id
 - `scripts/`: extractores y consolidadores
 - `notebooks/`: procesamiento narrado, análisis, mapas interactivos y exploración del cruce sector-territorio
 - `bases/maestra/`: outputs finales ya generados
+- `bases/negociacion_colectiva/`: serie histórica del cuadro C-56 del MTPE para 1995-2025
 - `bases/cruce_sector_territorio/`: extracción complementaria del cuadro cruzado `actividad x territorio`
 - `bases/reportes/`: tablas de reporte ejecutivo para consulta rápida
 - `shapes/`: capas geográficas preparadas para mapas
@@ -84,6 +85,13 @@ En `bases/reportes/` están:
 - `resumen_ejecutivo_anual.csv`
 - `resumen_region_anual.csv`
 - `resumen_region_sector_dominante_2001_2025.csv`
+
+En `bases/negociacion_colectiva/` están:
+
+- `base_negociacion_colectiva_c56_1995_2025.csv`: base larga con las 15 actividades y el total nacional
+- `serie_mineria_manufactura_total_1995_2025.csv`: comparación anual de minas y canteras, manufactura y total nacional
+- `validacion_c56_2024_vs_2025.csv`: auditoría de los 480 valores comunes entre ambos anuarios
+- `NOTA_METODOLOGICA.md`: criterios, fuente y precauciones de comparabilidad
 
 ## Cobertura real
 
@@ -142,6 +150,12 @@ Si quieres reconstruir también la base complementaria del cuadro cruzado:
 python scripts/extract_sector_territorio_phase2.py
 ```
 
+Para reconstruir la serie de negociación colectiva del cuadro C-56:
+
+```bash
+python scripts/extract_negociacion_colectiva_c56.py
+```
+
 ## Límites importantes
 
 - `territorio` mezcla nivel regional y nivel zona en la fuente; por eso se usa con advertencia de `estructura_mixta`
@@ -156,6 +170,8 @@ python scripts/extract_sector_territorio_phase2.py
 - no existe cruce observado `legalidad x territorio`
 - la base maestra principal no incluye `sector x territorio`; ese cruce quedó separado como base complementaria y hoy está disponible para `2001-2025`, con validación propia y algunos años marcados `revisar`
 - la base complementaria `sector x territorio` no reemplaza a la base maestra: solo amplía los cruces observables donde el cuadro cruzado existe
+- en negociación colectiva, la categoría `explotación de minas y canteras` no equivale exactamente a minería metálica y puede omitir contratistas clasificados en otras actividades
+- el MTPE indica que el dato de negociación colectiva de `2025` incluye convenios solucionados en `2019-2024` cuya vigencia comprende 2025; no debe interpretarse automáticamente como convenios nuevos firmados durante 2025
 
 ## Sobre los HTML de mapas
 
