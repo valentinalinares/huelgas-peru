@@ -1,0 +1,267 @@
+﻿control,clave,observado,referencia,diferencia,resultado
+suma_etapas_numericas_C50,1997,627,627,0,coincide
+suma_etapas_numericas_C50,1998,564,564,0,coincide
+suma_etapas_numericas_C50,1999,468,468,0,coincide
+suma_etapas_numericas_C50,2000,409,409,0,coincide
+suma_etapas_numericas_C50,2001,418,418,0,coincide
+suma_etapas_numericas_C50,2002,444,444,0,coincide
+suma_etapas_numericas_C50,2003,371,371,0,coincide
+suma_etapas_numericas_C50,2004,384,384,0,coincide
+suma_etapas_numericas_C50,2005,390,390,0,coincide
+suma_etapas_numericas_C50,2006,453,453,0,coincide
+suma_etapas_numericas_C50,2007,478,478,0,coincide
+suma_etapas_numericas_C50,2008,419,419,0,coincide
+suma_etapas_numericas_C50,2009,454,454,0,coincide
+suma_etapas_numericas_C50,2010,502,502,0,coincide
+suma_etapas_numericas_C50,2011,550,550,0,coincide
+suma_etapas_numericas_C50,2012,435,435,0,coincide
+suma_etapas_numericas_C50,2013,455,455,0,coincide
+suma_etapas_numericas_C50,2014,443,443,0,coincide
+suma_etapas_numericas_C50,2015,332,332,0,coincide
+suma_etapas_numericas_C50,2016,352,352,0,coincide
+suma_etapas_numericas_C50,2017,305,305,0,coincide
+suma_etapas_numericas_C50,2018,337,337,0,coincide
+suma_etapas_numericas_C50,2019,298,298,0,coincide
+suma_etapas_numericas_C50,2020,132,132,0,coincide
+suma_etapas_numericas_C50,2021,186,186,0,coincide
+suma_etapas_numericas_C50,2022,269,269,0,coincide
+suma_etapas_numericas_C50,2023,233,233,0,coincide
+suma_etapas_numericas_C50,2024,242,242,0,coincide
+suma_etapas_numericas_C50,2025,402,402,0,coincide
+total_C50_vs_C56,1997,627,627,0,coincide
+total_C50_vs_C56,1998,564,564,0,coincide
+total_C50_vs_C56,1999,468,468,0,coincide
+total_C50_vs_C56,2000,409,409,0,coincide
+total_C50_vs_C56,2001,418,418,0,coincide
+total_C50_vs_C56,2002,444,444,0,coincide
+total_C50_vs_C56,2003,371,371,0,coincide
+total_C50_vs_C56,2004,384,384,0,coincide
+total_C50_vs_C56,2005,390,390,0,coincide
+total_C50_vs_C56,2006,453,453,0,coincide
+total_C50_vs_C56,2007,478,478,0,coincide
+total_C50_vs_C56,2008,419,419,0,coincide
+total_C50_vs_C56,2009,454,454,0,coincide
+total_C50_vs_C56,2010,502,502,0,coincide
+total_C50_vs_C56,2011,550,550,0,coincide
+total_C50_vs_C56,2012,435,435,0,coincide
+total_C50_vs_C56,2013,455,455,0,coincide
+total_C50_vs_C56,2014,443,443,0,coincide
+total_C50_vs_C56,2015,332,332,0,coincide
+total_C50_vs_C56,2016,352,352,0,coincide
+total_C50_vs_C56,2017,305,305,0,coincide
+total_C50_vs_C56,2018,337,337,0,coincide
+total_C50_vs_C56,2019,298,298,0,coincide
+total_C50_vs_C56,2020,132,132,0,coincide
+total_C50_vs_C56,2021,186,186,0,coincide
+total_C50_vs_C56,2022,269,269,0,coincide
+total_C50_vs_C56,2023,233,233,0,coincide
+total_C50_vs_C56,2024,242,242,0,coincide
+total_C50_vs_C56,2025,402,402,0,coincide
+suma_categorias_C-60,INDUSTRIAS MANUFACTURERAS,162,162,0,coincide
+C-60_vs_C56,INDUSTRIAS MANUFACTURERAS,162,162,0,coincide
+suma_categorias_C-60,EXPLOTACIÓN DE MINAS Y CANTERAS,39,39,0,coincide
+C-60_vs_C56,EXPLOTACIÓN DE MINAS Y CANTERAS,39,39,0,coincide
+suma_categorias_C-60,ADMINISTRACIÓN PÚBLICA Y DEFENSA,32,32,0,coincide
+C-60_vs_C56,ADMINISTRACIÓN PÚBLICA Y DEFENSA,32,32,0,coincide
+suma_categorias_C-60,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",25,25,0,coincide
+C-60_vs_C56,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",25,25,0,coincide
+suma_categorias_C-60,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",20,20,0,coincide
+C-60_vs_C56,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",20,20,0,coincide
+suma_categorias_C-60,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",17,17,0,coincide
+C-60_vs_C56,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",17,17,0,coincide
+suma_categorias_C-60,ENSEÑANZA,16,16,0,coincide
+C-60_vs_C56,ENSEÑANZA,16,16,0,coincide
+suma_categorias_C-60,SERVICIOS SOCIALES Y DE SALUD,10,10,0,coincide
+C-60_vs_C56,SERVICIOS SOCIALES Y DE SALUD,10,10,0,coincide
+suma_categorias_C-60,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",9,9,0,coincide
+C-60_vs_C56,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",9,9,0,coincide
+suma_categorias_C-60,PESCA,8,8,0,coincide
+C-60_vs_C56,PESCA,8,8,0,coincide
+suma_categorias_C-60,HOTELES Y RESTAURANTES,6,6,0,coincide
+C-60_vs_C56,HOTELES Y RESTAURANTES,6,6,0,coincide
+suma_categorias_C-60,INTERMEDIACIÓN FINANCIERA,6,6,0,coincide
+C-60_vs_C56,INTERMEDIACIÓN FINANCIERA,6,6,0,coincide
+suma_categorias_C-60,CONSTRUCCIÓN,5,5,0,coincide
+C-60_vs_C56,CONSTRUCCIÓN,5,5,0,coincide
+suma_categorias_C-60,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",5,5,0,coincide
+C-60_vs_C56,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",5,5,0,coincide
+suma_categorias_C-60,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",42,42,0,coincide
+C-60_vs_C56,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",42,42,0,coincide
+suma_categorias_C-60,Total nacional,402,402,0,coincide
+C-60_vs_C56,Total nacional,402,402,0,coincide
+suma_actividades_C-60,negociacion_directa,350,350,0,coincide
+suma_actividades_C-60,conciliacion,44,44,0,coincide
+suma_actividades_C-60,extra_proceso,7,7,0,coincide
+suma_actividades_C-60,huelga,1,1,0,coincide
+suma_actividades_C-60,arbitraje_acuerdo_partes,0,0,0,coincide
+suma_actividades_C-60,arbitraje_unipersonal,0,0,0,coincide
+suma_actividades_C-60,arbitraje_potestativo,0,0,0,coincide
+suma_actividades_C-60,total,402,402,0,coincide
+suma_categorias_C-62,INDUSTRIAS MANUFACTURERAS,162,162,0,coincide
+C-62_vs_C56,INDUSTRIAS MANUFACTURERAS,162,162,0,coincide
+suma_categorias_C-62,EXPLOTACIÓN DE MINAS Y CANTERAS,39,39,0,coincide
+C-62_vs_C56,EXPLOTACIÓN DE MINAS Y CANTERAS,39,39,0,coincide
+suma_categorias_C-62,ADMINISTRACIÓN PÚBLICA Y DEFENSA,32,32,0,coincide
+C-62_vs_C56,ADMINISTRACIÓN PÚBLICA Y DEFENSA,32,32,0,coincide
+suma_categorias_C-62,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",25,25,0,coincide
+C-62_vs_C56,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",25,25,0,coincide
+suma_categorias_C-62,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",20,20,0,coincide
+C-62_vs_C56,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",20,20,0,coincide
+suma_categorias_C-62,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",17,17,0,coincide
+C-62_vs_C56,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",17,17,0,coincide
+suma_categorias_C-62,ENSEÑANZA,16,16,0,coincide
+C-62_vs_C56,ENSEÑANZA,16,16,0,coincide
+suma_categorias_C-62,SERVICIOS SOCIALES Y DE SALUD,10,10,0,coincide
+C-62_vs_C56,SERVICIOS SOCIALES Y DE SALUD,10,10,0,coincide
+suma_categorias_C-62,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",9,9,0,coincide
+C-62_vs_C56,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",9,9,0,coincide
+suma_categorias_C-62,PESCA,8,8,0,coincide
+C-62_vs_C56,PESCA,8,8,0,coincide
+suma_categorias_C-62,HOTELES Y RESTAURANTES,6,6,0,coincide
+C-62_vs_C56,HOTELES Y RESTAURANTES,6,6,0,coincide
+suma_categorias_C-62,INTERMEDIACIÓN FINANCIERA,6,6,0,coincide
+C-62_vs_C56,INTERMEDIACIÓN FINANCIERA,6,6,0,coincide
+suma_categorias_C-62,CONSTRUCCIÓN,5,5,0,coincide
+C-62_vs_C56,CONSTRUCCIÓN,5,5,0,coincide
+suma_categorias_C-62,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",5,5,0,coincide
+C-62_vs_C56,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",5,5,0,coincide
+suma_categorias_C-62,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",42,42,0,coincide
+C-62_vs_C56,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",42,42,0,coincide
+suma_categorias_C-62,Total nacional,402,402,0,coincide
+C-62_vs_C56,Total nacional,402,402,0,coincide
+suma_actividades_C-62,federacion,2,2,0,coincide
+suma_actividades_C-62,sindicato_empleados,71,71,0,coincide
+suma_actividades_C-62,sindicato_obreros,204,204,0,coincide
+suma_actividades_C-62,sindicato_unico,121,121,0,coincide
+suma_actividades_C-62,delegados_empleados,2,2,0,coincide
+suma_actividades_C-62,delegados_obreros,2,2,0,coincide
+suma_actividades_C-62,delegados_empleados_obreros,0,0,0,coincide
+suma_actividades_C-62,total,402,402,0,coincide
+suma_actividades_C68,1993,67,67,0,coincide
+suma_actividades_C68,1994,85,85,0,coincide
+suma_actividades_C68,1995,48,48,0,coincide
+suma_actividades_C68,1996,28,28,0,coincide
+suma_actividades_C68,1997,12,12,0,coincide
+suma_actividades_C68,1998,7,7,0,coincide
+suma_actividades_C68,1999,4,4,0,coincide
+suma_actividades_C68,2000,4,4,0,coincide
+suma_actividades_C68,2001,8,8,0,coincide
+suma_actividades_C68,2002,7,7,0,coincide
+suma_actividades_C68,2003,6,6,0,coincide
+suma_actividades_C68,2004,6,6,0,coincide
+suma_actividades_C68,2005,5,5,0,coincide
+suma_actividades_C68,2006,7,7,0,coincide
+suma_actividades_C68,2007,14,14,0,coincide
+suma_actividades_C68,2008,5,5,0,coincide
+suma_actividades_C68,2009,5,5,0,coincide
+suma_actividades_C68,2010,10,10,0,coincide
+suma_actividades_C68,2011,15,15,0,coincide
+suma_actividades_C68,2012,30,30,0,coincide
+suma_actividades_C68,2013,32,32,0,coincide
+suma_actividades_C68,2014,27,27,0,coincide
+suma_actividades_C68,2015,10,10,0,coincide
+suma_actividades_C68,2016,16,16,0,coincide
+suma_actividades_C68,2017,7,7,0,coincide
+suma_actividades_C68,2018,7,7,0,coincide
+suma_actividades_C68,2019,4,4,0,coincide
+suma_actividades_C68,2020,0,0,0,coincide
+suma_actividades_C68,2021,0,0,0,coincide
+suma_actividades_C68,2022,2,2,0,coincide
+suma_actividades_C68,2023,1,1,0,coincide
+suma_actividades_C68,2024,0,0,0,coincide
+suma_actividades_C68,2025,0,0,0,coincide
+suma_designacion_C70,1993,67,67,0,coincide
+total_C70_vs_C68,1993,67,67,0,coincide
+suma_designacion_C70,1994,85,85,0,coincide
+total_C70_vs_C68,1994,85,85,0,coincide
+suma_designacion_C70,1995,48,48,0,coincide
+total_C70_vs_C68,1995,48,48,0,coincide
+suma_designacion_C70,1996,28,28,0,coincide
+total_C70_vs_C68,1996,28,28,0,coincide
+suma_designacion_C70,1997,12,12,0,coincide
+total_C70_vs_C68,1997,12,12,0,coincide
+arbitraje_C50_vs_C68,1997,12,12,0,coincide
+suma_designacion_C70,1998,7,7,0,coincide
+total_C70_vs_C68,1998,7,7,0,coincide
+arbitraje_C50_vs_C68,1998,8,7,1,revisar_fuente
+suma_designacion_C70,1999,4,4,0,coincide
+total_C70_vs_C68,1999,4,4,0,coincide
+arbitraje_C50_vs_C68,1999,5,4,1,revisar_fuente
+suma_designacion_C70,2000,4,4,0,coincide
+total_C70_vs_C68,2000,4,4,0,coincide
+arbitraje_C50_vs_C68,2000,4,4,0,coincide
+suma_designacion_C70,2001,8,8,0,coincide
+total_C70_vs_C68,2001,8,8,0,coincide
+arbitraje_C50_vs_C68,2001,8,8,0,coincide
+suma_designacion_C70,2002,7,7,0,coincide
+total_C70_vs_C68,2002,7,7,0,coincide
+arbitraje_C50_vs_C68,2002,7,7,0,coincide
+suma_designacion_C70,2003,6,6,0,coincide
+total_C70_vs_C68,2003,6,6,0,coincide
+arbitraje_C50_vs_C68,2003,6,6,0,coincide
+suma_designacion_C70,2004,6,6,0,coincide
+total_C70_vs_C68,2004,6,6,0,coincide
+arbitraje_C50_vs_C68,2004,6,6,0,coincide
+suma_designacion_C70,2005,5,5,0,coincide
+total_C70_vs_C68,2005,5,5,0,coincide
+arbitraje_C50_vs_C68,2005,5,5,0,coincide
+suma_designacion_C70,2006,7,7,0,coincide
+total_C70_vs_C68,2006,7,7,0,coincide
+arbitraje_C50_vs_C68,2006,7,7,0,coincide
+suma_designacion_C70,2007,14,14,0,coincide
+total_C70_vs_C68,2007,14,14,0,coincide
+arbitraje_C50_vs_C68,2007,14,14,0,coincide
+suma_designacion_C70,2008,5,5,0,coincide
+total_C70_vs_C68,2008,5,5,0,coincide
+arbitraje_C50_vs_C68,2008,5,5,0,coincide
+suma_designacion_C70,2009,5,5,0,coincide
+total_C70_vs_C68,2009,5,5,0,coincide
+arbitraje_C50_vs_C68,2009,5,5,0,coincide
+suma_designacion_C70,2010,10,10,0,coincide
+total_C70_vs_C68,2010,10,10,0,coincide
+arbitraje_C50_vs_C68,2010,10,10,0,coincide
+suma_designacion_C70,2011,15,15,0,coincide
+total_C70_vs_C68,2011,15,15,0,coincide
+arbitraje_C50_vs_C68,2011,15,15,0,coincide
+suma_designacion_C70,2012,30,30,0,coincide
+total_C70_vs_C68,2012,30,30,0,coincide
+arbitraje_C50_vs_C68,2012,30,30,0,coincide
+suma_designacion_C70,2013,32,32,0,coincide
+total_C70_vs_C68,2013,32,32,0,coincide
+arbitraje_C50_vs_C68,2013,32,32,0,coincide
+suma_designacion_C70,2014,27,27,0,coincide
+total_C70_vs_C68,2014,27,27,0,coincide
+arbitraje_C50_vs_C68,2014,27,27,0,coincide
+suma_designacion_C70,2015,10,10,0,coincide
+total_C70_vs_C68,2015,10,10,0,coincide
+arbitraje_C50_vs_C68,2015,10,10,0,coincide
+suma_designacion_C70,2016,16,16,0,coincide
+total_C70_vs_C68,2016,16,16,0,coincide
+arbitraje_C50_vs_C68,2016,16,16,0,coincide
+suma_designacion_C70,2017,7,7,0,coincide
+total_C70_vs_C68,2017,7,7,0,coincide
+arbitraje_C50_vs_C68,2017,7,7,0,coincide
+suma_designacion_C70,2018,7,7,0,coincide
+total_C70_vs_C68,2018,7,7,0,coincide
+arbitraje_C50_vs_C68,2018,7,7,0,coincide
+suma_designacion_C70,2019,4,4,0,coincide
+total_C70_vs_C68,2019,4,4,0,coincide
+arbitraje_C50_vs_C68,2019,4,4,0,coincide
+suma_designacion_C70,2020,0,0,0,coincide
+total_C70_vs_C68,2020,0,0,0,coincide
+arbitraje_C50_vs_C68,2020,0,0,0,coincide
+suma_designacion_C70,2021,0,0,0,coincide
+total_C70_vs_C68,2021,0,0,0,coincide
+arbitraje_C50_vs_C68,2021,0,0,0,coincide
+suma_designacion_C70,2022,2,2,0,coincide
+total_C70_vs_C68,2022,2,2,0,coincide
+arbitraje_C50_vs_C68,2022,2,2,0,coincide
+suma_designacion_C70,2023,1,1,0,coincide
+total_C70_vs_C68,2023,1,1,0,coincide
+arbitraje_C50_vs_C68,2023,1,1,0,coincide
+suma_designacion_C70,2024,0,0,0,coincide
+total_C70_vs_C68,2024,0,0,0,coincide
+arbitraje_C50_vs_C68,2024,0,0,0,coincide
+suma_designacion_C70,2025,0,0,0,coincide
+total_C70_vs_C68,2025,0,0,0,coincide
+arbitraje_C50_vs_C68,2025,0,0,0,coincide

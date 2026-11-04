@@ -8,7 +8,7 @@ Salidas:
 El archivo fuente usa dos bloques de años y contiene celdas de formato muy por
 debajo del cuadro. Por eso la extracción identifica los años de cada encabezado
 y usa una tabla explícita de filas/etiquetas, evitando depender del rango usado
-de Excel o de los caracteres dañados que aparecen en algunos rótulos.
+de Excel o de las abreviaturas de algunos rótulos.
 """
 
 from __future__ import annotations

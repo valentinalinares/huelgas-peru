@@ -21,7 +21,7 @@ Todos los CSV están codificados como UTF-8 con firma para conservar las tildes 
 
 ## Criterios de limpieza y validación
 
-1. Se extraen los dos bloques de años del cuadro C-56 y se normalizan los rótulos dañados en el Excel original.
+1. Se extraen los dos bloques de años del cuadro C-56 y se normalizan abreviaturas y espacios de los rótulos. Las tildes del archivo original se conservan; su visualización defectuosa en algunas salidas de consola no implica daño en la fuente.
 2. Se mantiene el rótulo original del MTPE en una columna separada para trazabilidad.
 3. Cada observación identifica el archivo fuente, año del anuario, hoja y cuadro.
 4. Se comprueba que no existan duplicados por año–actividad ni valores negativos o faltantes.
@@ -43,3 +43,7 @@ python scripts/extract_negociacion_colectiva_c56.py
 ```
 
 El programa vuelve a leer los anuarios originales, reconstruye los tres CSV y detiene la ejecución si falla alguna validación.
+
+## Ampliación del capítulo 2
+
+La carpeta `complementos/` contiene etapas de solución nacionales 1997–2025, laudos por actividad y designación 1993–2025, y cruces por actividad con etapa de solución y organización para 2025. Su `README.md` documenta coberturas, celdas fuente y discrepancias. La carpeta `graficos/` presenta la serie C-56 y las etapas de solución de 2025; se reproduce con `python scripts/plot_negociacion_colectiva.py`.

@@ -92,6 +92,10 @@ En `bases/negociacion_colectiva/` están:
 - `serie_mineria_manufactura_total_1995_2025.csv`: comparación anual de minas y canteras, manufactura y total nacional
 - `validacion_c56_2024_vs_2025.csv`: auditoría de los 480 valores comunes entre ambos anuarios
 - `NOTA_METODOLOGICA.md`: criterios, fuente y precauciones de comparabilidad
+- `complementos/`: etapas nacionales (1997–2025), laudos (1993–2025) y cruces por actividad con etapas y organizaciones (2025), con celdas fuente y controles. Se conservan dos diferencias entre cuadros en arbitraje de 1998 y 1999.
+- `graficos/`: evolución de los convenios y etapas de solución en 2025.
+
+La ampliación de negociación colectiva se desarrolló posteriormente al artículo citado; no forma parte de sus insumos originales. Los cruces complementarios sectoriales de etapas y organizaciones aún deben extenderse a anuarios anteriores.
 
 ## Cobertura real
 
@@ -154,6 +158,13 @@ Para reconstruir la serie de negociación colectiva del cuadro C-56:
 
 ```bash
 python scripts/extract_negociacion_colectiva_c56.py
+```
+
+Para extraer los complementos y reproducir los gráficos:
+
+```bash
+python scripts/extract_negociacion_complementos.py
+python scripts/plot_negociacion_colectiva.py
 ```
 
 ## Límites importantes

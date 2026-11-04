@@ -1,0 +1,129 @@
+﻿anio,actividad_economica,categoria,valor,valor_original,estado_valor,unidad,fuente_documento,cuadro,celda,nota
+2025,INDUSTRIAS MANUFACTURERAS,negociacion_directa,147,147,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E12,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INDUSTRIAS MANUFACTURERAS,conciliacion,11,11,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F12,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INDUSTRIAS MANUFACTURERAS,extra_proceso,4,4,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G12,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INDUSTRIAS MANUFACTURERAS,huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H12,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INDUSTRIAS MANUFACTURERAS,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I12,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INDUSTRIAS MANUFACTURERAS,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J12,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INDUSTRIAS MANUFACTURERAS,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K12,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INDUSTRIAS MANUFACTURERAS,total,162,162,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L12,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,EXPLOTACIÓN DE MINAS Y CANTERAS,negociacion_directa,34,34,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E13,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,EXPLOTACIÓN DE MINAS Y CANTERAS,conciliacion,4,4,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F13,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,EXPLOTACIÓN DE MINAS Y CANTERAS,extra_proceso,1,1,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G13,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,EXPLOTACIÓN DE MINAS Y CANTERAS,huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H13,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,EXPLOTACIÓN DE MINAS Y CANTERAS,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I13,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,EXPLOTACIÓN DE MINAS Y CANTERAS,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J13,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,EXPLOTACIÓN DE MINAS Y CANTERAS,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K13,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,EXPLOTACIÓN DE MINAS Y CANTERAS,total,39,39,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L13,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,negociacion_directa,24,24,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E14,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,conciliacion,7,7,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F14,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G14,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,huelga,1,1,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H14,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I14,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J14,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K14,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ADMINISTRACIÓN PÚBLICA Y DEFENSA,total,32,32,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L14,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",negociacion_directa,21,21,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E15,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",conciliacion,4,4,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F15,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G15,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H15,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I15,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J15,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K15,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"SUMINISTRO DE ELECTRICIDAD, GAS Y AGUA",total,25,25,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L15,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",negociacion_directa,16,16,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E16,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",conciliacion,3,3,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F16,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",extra_proceso,1,1,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G16,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H16,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I16,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J16,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K16,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"TRANSPORTE, ALMACENAMIENTO Y COMUNICACIONES",total,20,20,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L16,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",negociacion_directa,14,14,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E17,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",conciliacion,3,3,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F17,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G17,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H17,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I17,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J17,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K17,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"AGRICULTURA, GANADERÍA, CAZA Y SILVICULTURA",total,17,17,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L17,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ENSEÑANZA,negociacion_directa,15,15,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E18,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ENSEÑANZA,conciliacion,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F18,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ENSEÑANZA,extra_proceso,1,1,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G18,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ENSEÑANZA,huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H18,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ENSEÑANZA,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I18,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ENSEÑANZA,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J18,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ENSEÑANZA,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K18,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,ENSEÑANZA,total,16,16,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L18,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,SERVICIOS SOCIALES Y DE SALUD,negociacion_directa,6,6,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E19,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,SERVICIOS SOCIALES Y DE SALUD,conciliacion,4,4,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F19,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,SERVICIOS SOCIALES Y DE SALUD,extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G19,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,SERVICIOS SOCIALES Y DE SALUD,huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H19,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,SERVICIOS SOCIALES Y DE SALUD,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I19,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,SERVICIOS SOCIALES Y DE SALUD,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J19,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,SERVICIOS SOCIALES Y DE SALUD,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K19,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,SERVICIOS SOCIALES Y DE SALUD,total,10,10,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L19,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",negociacion_directa,9,9,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E20,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",conciliacion,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F20,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G20,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H20,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I20,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J20,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K20,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"COMERCIO POR MAYOR Y MENOR, REP. DE VEHÍC. AUTOM.",total,9,9,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L20,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,PESCA,negociacion_directa,8,8,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E21,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,PESCA,conciliacion,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F21,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,PESCA,extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G21,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,PESCA,huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H21,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,PESCA,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I21,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,PESCA,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J21,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,PESCA,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K21,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,PESCA,total,8,8,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L21,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,HOTELES Y RESTAURANTES,negociacion_directa,6,6,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E22,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,HOTELES Y RESTAURANTES,conciliacion,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F22,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,HOTELES Y RESTAURANTES,extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G22,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,HOTELES Y RESTAURANTES,huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H22,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,HOTELES Y RESTAURANTES,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I22,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,HOTELES Y RESTAURANTES,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J22,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,HOTELES Y RESTAURANTES,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K22,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,HOTELES Y RESTAURANTES,total,6,6,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L22,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INTERMEDIACIÓN FINANCIERA,negociacion_directa,5,5,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E23,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INTERMEDIACIÓN FINANCIERA,conciliacion,1,1,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F23,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INTERMEDIACIÓN FINANCIERA,extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G23,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INTERMEDIACIÓN FINANCIERA,huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H23,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INTERMEDIACIÓN FINANCIERA,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I23,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INTERMEDIACIÓN FINANCIERA,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J23,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INTERMEDIACIÓN FINANCIERA,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K23,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,INTERMEDIACIÓN FINANCIERA,total,6,6,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L23,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,CONSTRUCCIÓN,negociacion_directa,5,5,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E24,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,CONSTRUCCIÓN,conciliacion,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F24,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,CONSTRUCCIÓN,extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G24,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,CONSTRUCCIÓN,huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H24,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,CONSTRUCCIÓN,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I24,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,CONSTRUCCIÓN,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J24,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,CONSTRUCCIÓN,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K24,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,CONSTRUCCIÓN,total,5,5,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L24,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",negociacion_directa,4,4,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E25,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",conciliacion,1,1,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F25,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G25,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H25,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I25,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J25,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K25,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"ACTIVID. INMOBILIARIAS, EMPRESARIALES Y DE ALQUILER",total,5,5,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L25,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",negociacion_directa,36,36,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E26,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",conciliacion,6,6,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F26,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",extra_proceso,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G26,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",huelga,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H26,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I26,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J26,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K26,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,"OTRAS ACTIVID. DE SERV. COMUNITARIOS, SOC. Y PERS.",total,42,42,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L26,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,Total nacional,negociacion_directa,350,350,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,E27,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,Total nacional,conciliacion,44,44,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,F27,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,Total nacional,extra_proceso,7,7,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,G27,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,Total nacional,huelga,1,1,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,H27,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,Total nacional,arbitraje_acuerdo_partes,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,I27,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,Total nacional,arbitraje_unipersonal,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,J27,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,Total nacional,arbitraje_potestativo,0,0,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,K27,Incluye convenios de 2019–2024 vigentes en 2025.
+2025,Total nacional,total,402,402,numerico,convenios,CAP 02 - NEGOCIACIONES COLECTIVAS_2025_v2-MEE.xlsx,C-60,L27,Incluye convenios de 2019–2024 vigentes en 2025.
