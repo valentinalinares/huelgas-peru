@@ -12,6 +12,7 @@ anuarios/
   1994/
   ...
   2024/
+  2025/
 ```
 
 Cada subcarpeta debe contener los archivos originales del anuario de huelgas usados por los scripts de `scripts/`.
@@ -25,11 +26,11 @@ Ese script:
 - entra a la página índice oficial
 - detecta los enlaces por año
 - resuelve las páginas intermedias de `gob.pe` cuando el portal no da el ZIP directo
-- descarga los `.zip`
+- descarga los `.zip` y, cuando la publicación oficial lo ofrece, el PDF completo
 - los descomprime dentro de `anuarios/<año>/`
 - genera además un `manifest.generated.csv` con lo que encontró
 
-Ese `manifest.generated.csv` funciona como inventario automático de las URLs detectadas en el portal para `1993-2024`.
+Ese `manifest.generated.csv` funciona como inventario automático de las URLs detectadas en el portal para `1993-2025`. Desde julio de 2026, el portal oficial expone el PDF y el ZIP del Anuario 2025, y el script los descarga automáticamente.
 
 ## Archivos incluidos
 
@@ -59,7 +60,7 @@ python scripts/download_anuarios.py --overwrite
 Si quieres bajar solo algunos años:
 
 ```bash
-python scripts/download_anuarios.py --years 2021 2022 2023 2024
+python scripts/download_anuarios.py --years 2021 2022 2023 2024 2025
 ```
 
 Si usas `--years`, el script filtra solo la descarga, pero mantiene `manifest.generated.csv` con el inventario completo detectado en el portal.

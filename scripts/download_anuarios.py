@@ -114,7 +114,15 @@ def sha256_of_bytes(data: bytes) -> str:
 
 def save_manifest(rows: list[dict[str, object]], destination: Path) -> None:
     destination.parent.mkdir(parents=True, exist_ok=True)
-    fieldnames = ["year", "zip_url", "zip_filename", "source_page", "source_type"]
+    fieldnames = [
+        "year",
+        "zip_url",
+        "zip_filename",
+        "pdf_url",
+        "pdf_filename",
+        "source_page",
+        "source_type",
+    ]
     with destination.open("w", encoding="utf-8-sig", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
@@ -125,21 +133,27 @@ def save_manifest(rows: list[dict[str, object]], destination: Path) -> None:
 def parse_gob_page(publication_url: str, timeout: int) -> dict[str, object] | None:
     html = request_text(publication_url, timeout)
     soup = BeautifulSoup(html, "html.parser")
-    candidates = []
+    zip_candidates = []
+    pdf_candidates = []
     for anchor in soup.find_all("a", href=True):
         href = clean_url(anchor["href"])
         if ".zip" in href.lower():
-            candidates.append(href)
-    if not candidates:
+            zip_candidates.append(href)
+        elif ".pdf" in href.lower():
+            pdf_candidates.append(href)
+    if not zip_candidates and not pdf_candidates:
         return None
     year = year_from_text(publication_url) or year_from_text(soup.get_text(" ", strip=True))
     if year is None:
         return None
-    zip_url = candidates[0]
+    zip_url = zip_candidates[0] if zip_candidates else ""
+    pdf_url = pdf_candidates[0] if pdf_candidates else ""
     return {
         "year": year,
         "zip_url": zip_url,
-        "zip_filename": filename_from_url(zip_url),
+        "zip_filename": filename_from_url(zip_url) if zip_url else "",
+        "pdf_url": pdf_url,
+        "pdf_filename": filename_from_url(pdf_url) if pdf_url else "",
         "source_page": publication_url,
         "source_type": "gob_page",
     }
@@ -174,6 +188,8 @@ def parse_portal(portal_url: str, timeout: int) -> list[dict[str, object]]:
             "year": year,
             "zip_url": href,
             "zip_filename": filename_from_url(href),
+            "pdf_url": "",
+            "pdf_filename": "",
             "source_page": portal_url,
             "source_type": "direct_zip",
         }
@@ -206,24 +222,37 @@ def download_and_extract(
 ) -> None:
     year = int(row["year"])
     year_dir = target_root / str(year)
-    zip_filename = str(row["zip_filename"])
-    zip_path = year_dir / zip_filename
+    zip_url = str(row.get("zip_url", ""))
+    zip_filename = str(row.get("zip_filename", ""))
+    if zip_url and zip_filename:
+        zip_path = year_dir / zip_filename
+        if zip_path.exists() and not overwrite:
+            print(f"[skip] {year} | {zip_filename} ya existe")
+        elif dry_run:
+            print(f"[dry-run] {year} | {zip_url} -> {zip_path}")
+        else:
+            print(f"[download] {year} | {zip_url}")
+            data = request_binary(zip_url, timeout)
+            year_dir.mkdir(parents=True, exist_ok=True)
+            zip_path.write_bytes(data)
+            print(f"[saved] {zip_path} | sha256={sha256_of_bytes(data)}")
+            safe_extract_zip(data, year_dir)
+            print(f"[extracted] {year_dir}")
 
-    if zip_path.exists() and not overwrite:
-        print(f"[skip] {year} | {zip_filename} ya existe")
-        return
-
-    if dry_run:
-        print(f"[dry-run] {year} | {row['zip_url']} -> {zip_path}")
-        return
-
-    print(f"[download] {year} | {row['zip_url']}")
-    data = request_binary(str(row["zip_url"]), timeout)
-    year_dir.mkdir(parents=True, exist_ok=True)
-    zip_path.write_bytes(data)
-    print(f"[saved] {zip_path} | sha256={sha256_of_bytes(data)}")
-    safe_extract_zip(data, year_dir)
-    print(f"[extracted] {year_dir}")
+    pdf_url = str(row.get("pdf_url", ""))
+    pdf_filename = str(row.get("pdf_filename", ""))
+    if pdf_url and pdf_filename:
+        pdf_path = year_dir / pdf_filename
+        if pdf_path.exists() and not overwrite:
+            print(f"[skip] {year} | {pdf_filename} ya existe")
+        elif dry_run:
+            print(f"[dry-run] {year} | {pdf_url} -> {pdf_path}")
+        else:
+            print(f"[download] {year} | {pdf_url}")
+            data = request_binary(pdf_url, timeout)
+            year_dir.mkdir(parents=True, exist_ok=True)
+            pdf_path.write_bytes(data)
+            print(f"[saved] {pdf_path} | sha256={sha256_of_bytes(data)}")
 
 
 def main() -> None:
