@@ -2,6 +2,14 @@
 
 Repositorio de procesamiento, homologación y análisis de los anuarios de huelgas del MTPE para Perú.
 
+## Artículo asociado
+
+Este repositorio documenta y permite reproducir el procesamiento de datos desarrollado para el artículo:
+
+> Manky, Omar y Durga V. Linares Herrera. 2026. “Huelgas masivas sin institucionalización: Perú, 1994–2025”. *Estudios Sociológicos de El Colegio de México*, 44: 1–27. [https://doi.org/10.24201/es.2026v44.e3114](https://doi.org/10.24201/es.2026v44.e3114).
+
+El artículo fue publicado el 21 de octubre de 2026 y está disponible en la [página de *Estudios Sociológicos*](https://estudiossociologicos.colmex.mx/index.php/es/es/article/view/3114).
+
 ## Qué hace este proyecto
 
 Este proyecto construye una base longitudinal homologada de huelgas para `1993-2025` a partir de los anuarios oficiales del MTPE.
