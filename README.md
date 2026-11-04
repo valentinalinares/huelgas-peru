@@ -30,6 +30,7 @@ El resultado principal es una base maestra donde cada año fue traducido a un id
 - `notebooks/`: procesamiento narrado, análisis, mapas interactivos y exploración del cruce sector-territorio
 - `bases/maestra/`: outputs finales ya generados
 - `bases/negociacion_colectiva/`: serie histórica del cuadro C-56 del MTPE para 1995-2025
+- `bases/planilla_electronica/`: empleo, sindicalizados y remuneraciones (2008–2025), intermediación (2009–2025) y tercerización (2011–2025), para minería, manufactura y total nacional privado
 - `bases/cruce_sector_territorio/`: extracción complementaria del cuadro cruzado `actividad x territorio`
 - `bases/reportes/`: tablas de reporte ejecutivo para consulta rápida
 - `shapes/`: capas geográficas preparadas para mapas
@@ -96,6 +97,8 @@ En `bases/negociacion_colectiva/` están:
 - `graficos/`: evolución de los convenios y etapas de solución en 2025.
 
 La ampliación de negociación colectiva se desarrolló posteriormente al artículo citado; no forma parte de sus insumos originales. Los cruces complementarios sectoriales de etapas y organizaciones aún deben extenderse a anuarios anteriores.
+
+La ampliación posterior de Planilla Electrónica contiene bases mensuales y anuales, tasa de sindicalización, celdas fuente, inventario con huellas de archivos, controles y gráficos. Para sindicalización y remuneraciones, 2008–2011 conserva promedios publicados; desde 2012 se calculan medias simples de doce meses. Las remuneraciones están en soles nominales. Véase `bases/planilla_electronica/README.md` para límites y una diferencia de dos trabajadores en el total de sindicalizados de junio de 2015. Los cortes de junio de las Hojas de Resumen anteriores a 2008 aún no se incorporan.
 
 ## Cobertura real
 
@@ -165,6 +168,14 @@ Para extraer los complementos y reproducir los gráficos:
 ```bash
 python scripts/extract_negociacion_complementos.py
 python scripts/plot_negociacion_colectiva.py
+```
+
+Para reconstruir, validar y graficar las series de Planilla Electrónica:
+
+```bash
+python scripts/extract_planilla_historica.py
+python scripts/validate_planilla_historica.py
+python scripts/plot_planilla_historica.py
 ```
 
 ## Límites importantes
