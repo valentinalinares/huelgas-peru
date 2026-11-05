@@ -14,7 +14,7 @@ inventory=pd.read_csv(out/'inventario_fuentes.csv')
 records=pd.concat([m,a[a.metodo_anual=='promedio_publicado_MTPE']],ignore_index=True)
 checked=0
 for file,group in records.groupby('archivo'):
-    path=root/file
+    path=root/Path(*file.replace('\\','/').split('/'))  # rutas guardadas en Windows o Linux
     assert hashlib.sha256(path.read_bytes()).hexdigest()==inventory[inventory.archivo==file].sha256.iloc[0]
     excel=pd.ExcelFile(path)
     for sheet,rows in group.groupby('hoja'):

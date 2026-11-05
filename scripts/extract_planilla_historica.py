@@ -16,6 +16,15 @@ MONTHS='ENERO FEBRERO MARZO ABRIL MAYO JUNIO JULIO AGOSTO SETIEMBRE OCTUBRE NOVI
 INDICATORS=['empleo','sindicalizados','intermediacion','tercerizacion','remuneracion']
 
 
+RUPTURAS_SINDICALIZACION={
+    2012:('Año de transición: la fuente declara PDT 0601 y T-Registro/PLAME. Los sindicalizados suben entre '
+          'octubre de 2012 y enero de 2013 sin un salto equivalente del empleo.'),
+    2013:('Primer año solo con T-Registro/PLAME. El promedio anual de sindicalizados sube 56% en el total, '
+          '37% en minería y 34% en manufactura respecto de 2012. Comparar con años previos con cautela.'),
+}
+RUPTURA_CORTA={2012:'transicion_PDT0601_a_T-Registro_PLAME',2013:'primer_anio_T-Registro_PLAME'}
+
+
 def norm(value):
     return re.sub(r'\s+',' ',''.join(c for c in unicodedata.normalize('NFD',str(value).upper())
                                    if not unicodedata.combining(c))).strip()
@@ -156,6 +165,9 @@ def main():
         annual.append(item)
     a=pd.DataFrame(annual).sort_values(['anio','indicador','sector'])
     assert not a.duplicated(['anio','sector','indicador']).any()
+    # Posible ruptura de sindicalización por el cambio de registro (PDT 0601 a T-Registro/PLAME).
+    a['posible_ruptura']=[RUPTURAS_SINDICALIZACION.get(r.anio,'') if r.indicador=='sindicalizados' else ''
+                          for r in a.itertuples()]
     for rec in early_controls:
         employment=a[(a.anio==rec['anio'])&(a.sector==rec['sector'])&(a.indicador=='empleo')].valor.iloc[0]
         delta=float(rec['empleo_promedio_publicado']-employment)
@@ -176,6 +188,7 @@ def main():
                 metodo=g.metodo_anual.iloc[0] if len(g) else ''))
     wide=a.pivot(index=['anio','sector'],columns='indicador',values='valor').reset_index()
     wide['tasa_sindicalizacion_pct']=100*wide.sindicalizados/wide.empleo
+    wide['posible_ruptura_sindicalizacion']=wide.anio.map(lambda y:RUPTURA_CORTA.get(y,''))
     assert wide.tasa_sindicalizacion_pct.between(0,100).all()
     for name,frame in [('base_mensual',m),('base_anual',a),('resumen_anual',wide),
                        ('inventario_fuentes',pd.DataFrame(inventory)),('cobertura',pd.DataFrame(coverage)),

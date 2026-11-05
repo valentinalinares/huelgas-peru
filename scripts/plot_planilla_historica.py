@@ -15,7 +15,7 @@ labels={'mineria':'Minas y canteras','manufactura':'Manufactura','total_nacional
 plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False})
 
 
-def line(ax,indicator,groups,title,unit,scale=1,mark=False):
+def line(ax,indicator,groups,title,unit,scale=1,mark=False,ruptura=False):
     for sector in groups:
         g=d[d.sector==sector].dropna(subset=[indicator])
         ax.plot(g.anio,g[indicator]/scale,label=labels[sector],color=palette[sector],lw=2)
@@ -27,15 +27,18 @@ def line(ax,indicator,groups,title,unit,scale=1,mark=False):
     ax.legend(frameon=False,fontsize=9)
     if mark:
         ax.axvline(2011.5,color='#9A9A9A',linestyle=':',lw=1)
+    if ruptura:
+        ax.axvline(2012.5,color='#5F5F5F',linestyle='--',lw=1)
+        ax.annotate('T-Registro/PLAME',xy=(2012.6,ax.get_ylim()[1]*0.97),fontsize=8,color='#5F5F5F',va='top')
 
 
 fig,axs=plt.subplots(2,2,figsize=(12,8))
 line(axs[0,0],'empleo',['mineria','manufactura'],'Empleo: minería y manufactura','Miles de trabajadores',1000)
 line(axs[0,1],'empleo',['total_nacional'],'Empleo: total nacional privado','Millones de trabajadores',1e6)
-line(axs[1,0],'tasa_sindicalizacion_pct',list(palette),'Sindicalización','% de trabajadores',mark=True)
+line(axs[1,0],'tasa_sindicalizacion_pct',list(palette),'Sindicalización','% de trabajadores',mark=True,ruptura=True)
 line(axs[1,1],'remuneracion',list(palette),'Remuneración promedio','Soles nominales',mark=True)
 fig.suptitle('Planilla Electrónica de Perú, 2008–2025',fontsize=16)
-fig.text(.07,.025,'Fuente: MTPE, anuarios 2008–2025. Promedios simples de 12 meses; sindicalización y remuneración 2008–2011: promedios publicados.\nLínea vertical: cambio de origen del promedio en 2012. Tasa = promedio de sindicalizados / promedio de empleo × 100.\nMinería corresponde a minas y canteras; total nacional limitado al sector privado registrado. Remuneraciones sin ajuste por inflación.',fontsize=9)
+fig.text(.07,.025,'Fuente: MTPE, anuarios 2008–2025. Promedios simples de 12 meses; sindicalización y remuneración 2008–2011: promedios publicados.\nLínea punteada: cambio de origen del promedio en 2012. Línea discontinua: posible ruptura de sindicalización entre 2012 y 2013 (paso de PDT 0601 a T-Registro/PLAME).\nTasa = promedio de sindicalizados / promedio de empleo × 100.\nMinería corresponde a minas y canteras; total nacional limitado al sector privado registrado. Remuneraciones sin ajuste por inflación.',fontsize=9)
 fig.tight_layout(rect=(0,.12,1,.95))
 fig.savefig(out/'planilla_2008_2025.png',dpi=180)
 plt.close(fig)

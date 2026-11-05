@@ -32,6 +32,7 @@ El resultado principal es una base maestra donde cada año fue traducido a un id
 - `bases/negociacion_colectiva/`: serie histórica del cuadro C-56 del MTPE para 1995-2025
 - `bases/inventario_anuarios/`: catálogo reproducible de 544 archivos y 8.155 hojas/cuadros de los anuarios 1993–2025
 - `bases/planilla_electronica/`: empleo, sindicalizados y remuneraciones (2008–2025), intermediación (2009–2025) y tercerización (2011–2025), para minería, manufactura y total nacional privado
+- `bases/huelgas_sectores/`: huelgas, trabajadores comprendidos y horas-hombre perdidas del total nacional (1970–2025) y de minería y manufactura (1990–2025), desde los cuadros retrospectivos del Anuario 2025
 - `bases/cruce_sector_territorio/`: extracción complementaria del cuadro cruzado `actividad x territorio`
 - `bases/reportes/`: tablas de reporte ejecutivo para consulta rápida
 - `shapes/`: capas geográficas preparadas para mapas
@@ -158,17 +159,27 @@ Si quieres reconstruir también la base complementaria del cuadro cruzado:
 python scripts/extract_sector_territorio_phase2.py
 ```
 
+Para reconstruir en orden todas las series laborales de minería, manufactura y total nacional (inventario, negociación colectiva, Planilla Electrónica, registros sindicales, huelgas por sector y MINEM):
+
+```bash
+python scripts/run_series_mineria.py
+```
+
+Con `--lista` muestra el orden de ejecución, con `--solo <módulo>` corre un módulo y con `--sin-graficos` omite las figuras. El inventario debe correr antes que los cruces de negociación, porque estos lo usan para elegir los cuadros fuente. Los bloques siguientes muestran los mismos pasos uno por uno.
+
 Para reconstruir la serie de negociación colectiva del cuadro C-56:
 
 ```bash
 python scripts/extract_negociacion_colectiva_c56.py
 ```
 
-Para extraer los complementos y reproducir los gráficos:
+Para extraer los complementos y reproducir los gráficos (requiere el inventario de anuarios):
 
 ```bash
+python scripts/build_inventario_anuarios.py
 python scripts/extract_negociacion_complementos.py
 python scripts/extract_negociacion_cruces_historicos.py
+python scripts/extract_convenios_supraregionales.py
 python scripts/plot_negociacion_colectiva.py
 ```
 
@@ -195,6 +206,13 @@ Para reconstruir, validar y graficar las series de Registro Sindical:
 python scripts/extract_registros_sindicales.py
 python scripts/validate_registros_sindicales.py
 python scripts/plot_registros_sindicales.py
+```
+
+Para reconstruir y graficar la serie de huelgas por sector (total desde 1970; minería y manufactura desde 1990):
+
+```bash
+python scripts/build_huelgas_sectores.py
+python scripts/plot_huelgas_sectores.py
 ```
 
 Para reconstruir, validar y graficar el módulo externo MINEM de empleo minero regional:
