@@ -1,6 +1,6 @@
 # Planilla Electrónica: minería, manufactura y total nacional privado
 
-Primera versión de las series históricas solicitadas en el memo de trabajo. Fuente: capítulos de Planilla Electrónica de los anuarios del MTPE, ediciones 2008–2025. Esta ampliación es posterior al artículo de huelgas publicado.
+Primera versión de las series históricas. Fuente: capítulos de Planilla Electrónica de los anuarios del MTPE, ediciones 2008–2025. Esta ampliación es posterior al artículo de huelgas publicado.
 
 ## Cobertura recuperada
 
@@ -30,7 +30,7 @@ Hay 2.808 observaciones mensuales y 258 observaciones anuales. Los datos mensual
 
 1. Se seleccionan cuadros por su contenido y ámbito. No se usa la posición de minería en la tabla: las actividades cambian de orden. Las hojas de Lima Metropolitana se excluyen de estas series nacionales.
 2. Los nombres de hoja y los números impresos del cuadro se guardan por separado: no siempre coinciden. Por ejemplo, en 2014 empleo nacional está en la hoja `C-52`, pero su título dice cuadro 51.
-3. Los indicadores mensuales se resumen con **promedio simple de enero a diciembre**, siguiendo la anotación del memo. No se suman trabajadores a lo largo del año, porque eso no produciría personas únicas.
+3. Los indicadores mensuales se resumen con **promedio simple de enero a diciembre**. No se suman trabajadores a lo largo del año, porque eso no produciría personas únicas.
 4. Para 2008–2011 se conserva el subtotal publicado de trabajadores sindicalizados y el total promedio mensual publicado de remuneraciones. No se les atribuyen doce datos mensuales que no se extrajeron. Se marca el cambio de método/origen en 2012.
 5. La remuneración anual desde 2012 es la media simple de los doce promedios mensuales. No equivale a ingreso anual individual, remuneración real ni media ponderada anual de personas. Se conserva la precisión original; los gráficos y resúmenes pueden redondear para presentación.
 6. Para la remuneración nacional se utiliza el **promedio general publicado** de cada mes. No se suman los promedios sectoriales ni se calcula una media simple entre actividades.

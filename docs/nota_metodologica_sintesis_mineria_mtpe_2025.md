@@ -2,8 +2,8 @@
 
 ## 1. Alcance
 
-Esta nota sintetiza los productos construidos a partir del memo de Omar del 3
-de noviembre de 2026. El objetivo es conservar la mayor extensión histórica
+Esta nota sintetiza las series sobre trabajo en minería construidas en
+noviembre de 2026. El objetivo es conservar la mayor extensión histórica
 disponible hasta 2025 para empleo, remuneraciones, sindicalización, negociación
 colectiva y huelgas, comparando cuando es posible:
 
@@ -141,7 +141,7 @@ manualmente los 511 archivos almacenados en las carpetas anuales.
 
 ## 6. Pendientes opcionales para una segunda etapa
 
-El encargo agregado del memo queda cubierto. Como ampliaciones opcionales:
+Quedan como ampliaciones opcionales:
 
 - extraer y homologar los listados nominativos de convenios por empresa/razón
   social identificados en 1997, 2002, 2003, 2005, 2011 y 2014–2019;
