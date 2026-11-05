@@ -252,4 +252,5 @@ En otras palabras:
 - `bases/maestra/nota_sector_publico_privado.md`
 - `docs/nota_horas_hombre_arrastre.md`
 - `docs/actualizacion_huelgas_2025_articulo.md`
+- `docs/nota_metodologica_sintesis_mineria_mtpe_2025.md`
 - `docs/checklist_publicacion.md`

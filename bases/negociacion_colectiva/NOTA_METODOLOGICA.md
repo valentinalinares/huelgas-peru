@@ -46,4 +46,9 @@ El programa vuelve a leer los anuarios originales, reconstruye los tres CSV y de
 
 ## Ampliación del capítulo 2
 
-La carpeta `complementos/` contiene etapas de solución nacionales 1997–2025, laudos por actividad y designación 1993–2025, y cruces por actividad con etapa de solución y organización para 2025. Su `README.md` documenta coberturas, celdas fuente y discrepancias. La carpeta `graficos/` presenta la serie C-56 y las etapas de solución de 2025; se reproduce con `python scripts/plot_negociacion_colectiva.py`.
+La carpeta `complementos/` contiene etapas de solución nacionales 1997–2025,
+laudos por actividad y designación 1993–2025, y cruces por actividad con etapa
+de solución y organización para 1995–2025. Su `README.md` documenta coberturas,
+celdas fuente, símbolos y diferencias entre arbitrajes y laudos. La carpeta
+`graficos/` presenta cuatro figuras reproducibles de convenios, etapas y tipos
+de organización; se genera con `python scripts/plot_negociacion_colectiva.py`.

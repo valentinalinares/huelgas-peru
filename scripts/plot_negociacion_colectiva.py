@@ -48,3 +48,56 @@ fig.text(.08,.03,'Fuente: MTPE, Anuario 2025, C-60. Incluye convenios anteriores
 fig.tight_layout(rect=(0,.19,1,1))
 fig.savefig(out/'etapas_solucion_2025.png',dpi=180)
 plt.close(fig)
+
+# Evolución de las principales etapas de solución como porcentaje del total.
+hist=pd.read_csv(root/'complementos'/'etapas_por_actividad_1995_2025.csv')
+hist['valor_num']=pd.to_numeric(hist.valor,errors='coerce')
+groups=[('minas_canteras','Minas y canteras'),
+        ('industrias_manufactureras','Manufactura'),
+        ('total_nacional','Total nacional')]
+stage_cats=[('negociacion_directa','Negociación directa','#28786B'),
+            ('conciliacion','Conciliación','#B87832'),
+            ('extra_proceso','Extra proceso','#788CA8')]
+fig,axes=plt.subplots(1,3,figsize=(14,4.8),sharex=True,sharey=True)
+for ax,(sector,title) in zip(axes,groups):
+    part=hist[hist.sector_id==sector].pivot(index='anio',columns='categoria',values='valor_num')
+    total=part['total']
+    for category,label,color in stage_cats:
+        share=100*part[category]/total
+        ax.plot(share.index,share,label=label,color=color,lw=2)
+    ax.set_title(title)
+    ax.set_xlabel('Año')
+    ax.set_ylim(0,105)
+    ax.grid(axis='y',alpha=.18)
+axes[0].set_ylabel('Porcentaje de convenios del sector')
+axes[1].legend(loc='upper center',bbox_to_anchor=(.5,-.2),ncol=3,frameon=False)
+fig.suptitle('Principales etapas de solución, 1995–2025',fontsize=16)
+fig.text(.055,.015,'Fuente: anuarios MTPE, cuadros nacionales por actividad. Los guiones de la fuente se mantienen como faltantes; no se convierten en cero.\nEl total nacional incluye todas las actividades. En 2025 se incluyen convenios de años anteriores cuya vigencia comprende 2025.',fontsize=9)
+fig.tight_layout(rect=(0,.14,1,.93))
+fig.savefig(out/'etapas_solucion_1995_2025.png',dpi=180)
+plt.close(fig)
+
+# Evolución de los tres tipos principales de organización sindical.
+org=pd.read_csv(root/'complementos'/'organizacion_por_actividad_1995_2025.csv')
+org['valor_num']=pd.to_numeric(org.valor,errors='coerce')
+org_cats=[('sindicato_empleados','Sindicato de empleados','#788CA8'),
+          ('sindicato_obreros','Sindicato de obreros','#B87832'),
+          ('sindicato_unico','Sindicato único','#28786B')]
+fig,axes=plt.subplots(1,3,figsize=(14,4.8),sharex=True,sharey=True)
+for ax,(sector,title) in zip(axes,groups):
+    part=org[org.sector_id==sector].pivot(index='anio',columns='categoria',values='valor_num')
+    total=part['total']
+    for category,label,color in org_cats:
+        share=100*part[category]/total
+        ax.plot(share.index,share,label=label,color=color,lw=2)
+    ax.set_title(title)
+    ax.set_xlabel('Año')
+    ax.set_ylim(0,100)
+    ax.grid(axis='y',alpha=.18)
+axes[0].set_ylabel('Porcentaje de convenios del sector')
+axes[1].legend(loc='upper center',bbox_to_anchor=(.5,-.2),ncol=3,frameon=False)
+fig.suptitle('Convenios por tipo de organización sindical, 1995–2025',fontsize=16)
+fig.text(.055,.015,'Fuente: anuarios MTPE, cuadros nacionales por actividad. Se muestran los tres tipos principales; federaciones, comités y delegados permanecen en la base.\nLas categorías clasifican convenios, no personas sindicalizadas ni el número de sindicatos existentes.',fontsize=9)
+fig.tight_layout(rect=(0,.14,1,.93))
+fig.savefig(out/'organizacion_sindical_1995_2025.png',dpi=180)
+plt.close(fig)

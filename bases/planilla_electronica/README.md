@@ -55,17 +55,26 @@ Este bloque **no se concatena como si fuera la misma serie** que Planilla Electr
 
 En 2007 la fuente cambia el cálculo del ingreso promedio y la hoja utilizada indica la eliminación de ingresos superiores a 200 mil. Por ello los promedios publicados de 2007 se conservan con salvedad metodológica y no se fuerzan a coincidir con una media ponderada basada en todos los trabajadores.
 
-## Límites de esta versión y trabajo pendiente
+## Límites de esta versión
 
-Aún falta revisar los años anteriores a 2002 y buscar terceros/intermediación en fuentes anteriores, empleo minero por región y rupturas metodológicas adicionales.
+La revisión de 1994–2001 no encontró una serie nacional por actividad comparable
+con las Hojas de Resumen de Planillas que comienzan en 2002. Esos capítulos se
+concentran en colocaciones, formación laboral, cierres y autorizaciones; los
+pocos cuadros de PEA corresponden a Lima Metropolitana. La evidencia se detalla
+en `nota_pre_2002_y_region.md`.
 
-Por tanto, 2008 es el comienzo recuperado de esta base de Planilla Electrónica, **no una afirmación de que antes no existan estadísticas**. También quedan pendientes la búsqueda de terceros/intermediación en fuentes anteriores, el empleo minero por región y la revisión de rupturas metodológicas.
+Por tanto, 2008 es el comienzo recuperado de la base de Planilla Electrónica y
+2002 el comienzo del puente de planillas, **no una afirmación de que antes no
+existan estadísticas laborales de ningún tipo**. La intermediación comparable
+comienza en 2009 y la tercerización en 2011; las ausencias anteriores no se
+convierten en cero. El empleo minero regional se resolvió mediante un módulo
+externo MINEM 2020–2026, mantenido separado por universo y definición.
 
 Los datos corresponden a cada edición anual de origen. No se han reemplazado por posibles revisiones en ediciones posteriores.
 
 ## Reproducción
 
-Desde la raíz del proyecto, con `pandas`, `openpyxl`, `xlrd` y `matplotlib` instalados:
+Desde la raíz del proyecto, con las dependencias del repositorio instaladas:
 
 ```text
 python scripts/extract_planilla_historica.py
