@@ -47,9 +47,17 @@ Hay 2.808 observaciones mensuales y 258 observaciones anuales. Los datos mensual
 - Los 504 pares mensuales de sindicalizados y empleo disponibles desde 2012 cumplen que sindicalizados no supera empleo.
 - Las notas de las fuentes cambian de Planillas Electrónicas a PDT 0601 / T-Registro y PLAME. Se conservaron en el inventario; falta una revisión específica de definiciones, cobertura y eventuales revisiones retrospectivas.
 
-## Límites de esta primera versión y trabajo pendiente
+## Puente histórico 2002–2007
 
-Se revisaron también encabezados de las Hojas de Resumen de Planillas de 2002–2007. Existen cuadros nacionales y de Lima referidos a **junio**, con estructuras por tamaño de empresa que comienzan en 5–9 trabajadores. Esos registros se conservan en los anuarios originales y deben extraerse como un tramo histórico distinto, sin tratarlos como promedios de doce meses ni suponer cobertura idéntica a la Planilla Electrónica. Aún falta revisar los años anteriores a 2002.
+Se extrajo un bloque separado de las Hojas de Resumen de Planillas: 54 observaciones para empleo, ingreso promedio y trabajadores sujetos a negociación colectiva, con minería, manufactura y total nacional. Los productos son `puente_junio_2002_2007.csv`, `resumen_puente_junio_2002_2007.csv`, `controles_puente_junio_2002_2007.csv`, `inventario_puente_junio_2002_2007.csv`, `cobertura_puente_junio_2002_2007.csv` y `puente_planillas_junio_2002_2007.png`.
+
+Este bloque **no se concatena como si fuera la misma serie** que Planilla Electrónica 2008–2025: es un corte de junio, cubre empresas privadas de 5 o más trabajadores y usa ingreso promedio, no la remuneración promedio posterior. Los trabajadores sujetos a negociación colectiva tampoco equivalen necesariamente a trabajadores sindicalizados.
+
+En 2007 la fuente cambia el cálculo del ingreso promedio y la hoja utilizada indica la eliminación de ingresos superiores a 200 mil. Por ello los promedios publicados de 2007 se conservan con salvedad metodológica y no se fuerzan a coincidir con una media ponderada basada en todos los trabajadores.
+
+## Límites de esta versión y trabajo pendiente
+
+Aún falta revisar los años anteriores a 2002 y buscar terceros/intermediación en fuentes anteriores, empleo minero por región y rupturas metodológicas adicionales.
 
 Por tanto, 2008 es el comienzo recuperado de esta base de Planilla Electrónica, **no una afirmación de que antes no existan estadísticas**. También quedan pendientes la búsqueda de terceros/intermediación en fuentes anteriores, el empleo minero por región y la revisión de rupturas metodológicas.
 
@@ -63,6 +71,9 @@ Desde la raíz del proyecto, con `pandas`, `openpyxl`, `xlrd` y `matplotlib` ins
 python scripts/extract_planilla_historica.py
 python scripts/validate_planilla_historica.py
 python scripts/plot_planilla_historica.py
+python scripts/extract_planilla_puente_2002_2007.py
+python scripts/validate_planilla_puente_2002_2007.py
+python scripts/plot_planilla_puente_2002_2007.py
 ```
 
 Los originales se leen sin modificarlos. El validador contrasta cada dato extraído con su celda fuente y vuelve a calcular los promedios anuales y tasas.

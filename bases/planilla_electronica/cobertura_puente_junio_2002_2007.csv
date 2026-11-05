@@ -1,0 +1,4 @@
+﻿indicador,primer_anio,ultimo_anio,mes_referencia,sectores,unidad,ruptura
+empleo,2002,2007,6,3,trabajadores,corte de junio; empresas privadas de 5 o mas
+trabajadores_sujetos_negociacion,2002,2007,6,3,trabajadores,no equivale a trabajadores sindicalizados
+ingreso_promedio,2002,2007,6,3,soles corrientes mensuales,"ingreso promedio, no remuneracion promedio de Planilla Electronica"

@@ -176,6 +176,9 @@ Para reconstruir, validar y graficar las series de Planilla Electrónica:
 python scripts/extract_planilla_historica.py
 python scripts/validate_planilla_historica.py
 python scripts/plot_planilla_historica.py
+python scripts/extract_planilla_puente_2002_2007.py
+python scripts/validate_planilla_puente_2002_2007.py
+python scripts/plot_planilla_puente_2002_2007.py
 ```
 
 Para reconstruir, validar y graficar las series de Registro Sindical:
@@ -205,6 +208,9 @@ python scripts/plot_registros_sindicales.py
 - los registros sindicales son flujos administrativos y no equivalen al stock de sindicatos activos; el único stock nacional hallado en estos anuarios corresponde a `2002` y se conserva en una base separada
 - en Registro Sindical, el cuadro por actividad del Anuario `2008` suma `203` sindicatos, mientras la serie retrospectiva del Anuario `2025` informa `201`; ambos valores se preservan y la diferencia queda marcada en los controles
 - en Registro Sindical, `explotación de minas y canteras` tampoco equivale exactamente a minería metálica y puede omitir contratistas clasificados en otras actividades
+- las Hojas de Resumen de Planillas de `2002-2007` son cortes de junio para empresas privadas de 5 o más trabajadores; se publican como puente separado y no como prolongación homogénea de Planilla Electrónica `2008-2025`
+- en ese puente, trabajadores sujetos a negociación colectiva no equivale necesariamente a trabajadores sindicalizados, e ingreso promedio no equivale a la remuneración promedio posterior
+- la fuente de `2007` cambia el cálculo del ingreso promedio y excluye ingresos superiores a 200 mil; la ruptura se conserva en los controles
 
 ## Sobre los HTML de mapas
 
