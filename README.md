@@ -227,4 +227,5 @@ En otras palabras:
 - `docs/limitaciones_fuente.md`
 - `bases/maestra/nota_sector_publico_privado.md`
 - `docs/nota_horas_hombre_arrastre.md`
+- `docs/actualizacion_huelgas_2025_articulo.md`
 - `docs/checklist_publicacion.md`
