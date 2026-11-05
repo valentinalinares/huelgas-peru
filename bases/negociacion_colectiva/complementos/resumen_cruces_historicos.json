@@ -1,0 +1,14 @@
+{
+  "years": [
+    1995,
+    2025
+  ],
+  "stage_rows": 3613,
+  "organization_rows": 3936,
+  "priority_rows": 1425,
+  "source_tables": 62,
+  "controls": 1962,
+  "discrepancies": 0,
+  "non_evaluable_symbol_controls": 34,
+  "partial_symbol_controls": 1
+}

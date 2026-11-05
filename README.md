@@ -30,6 +30,7 @@ El resultado principal es una base maestra donde cada año fue traducido a un id
 - `notebooks/`: procesamiento narrado, análisis, mapas interactivos y exploración del cruce sector-territorio
 - `bases/maestra/`: outputs finales ya generados
 - `bases/negociacion_colectiva/`: serie histórica del cuadro C-56 del MTPE para 1995-2025
+- `bases/inventario_anuarios/`: catálogo reproducible de 544 archivos y 8.155 hojas/cuadros de los anuarios 1993–2025
 - `bases/planilla_electronica/`: empleo, sindicalizados y remuneraciones (2008–2025), intermediación (2009–2025) y tercerización (2011–2025), para minería, manufactura y total nacional privado
 - `bases/cruce_sector_territorio/`: extracción complementaria del cuadro cruzado `actividad x territorio`
 - `bases/reportes/`: tablas de reporte ejecutivo para consulta rápida
@@ -93,12 +94,12 @@ En `bases/negociacion_colectiva/` están:
 - `serie_mineria_manufactura_total_1995_2025.csv`: comparación anual de minas y canteras, manufactura y total nacional
 - `validacion_c56_2024_vs_2025.csv`: auditoría de los 480 valores comunes entre ambos anuarios
 - `NOTA_METODOLOGICA.md`: criterios, fuente y precauciones de comparabilidad
-- `complementos/`: etapas nacionales (1997–2025), laudos (1993–2025) y cruces por actividad con etapas y organizaciones (2025), con celdas fuente y controles. Se conservan dos diferencias entre cuadros en arbitraje de 1998 y 1999.
+- `complementos/`: etapas nacionales (1997–2025), laudos (1993–2025) y cruces por actividad con etapas y organizaciones (1995–2025), con celdas fuente y controles. Los cuadros anuales confirman 8/5 arbitrajes en 1998/1999 frente a 7/4 laudos; ambas series se conservan como indicadores distintos.
 - `graficos/`: evolución de los convenios y etapas de solución en 2025.
 
-La ampliación de negociación colectiva se desarrolló posteriormente al artículo citado; no forma parte de sus insumos originales. Los cruces complementarios sectoriales de etapas y organizaciones aún deben extenderse a anuarios anteriores.
+La ampliación de negociación colectiva se desarrolló posteriormente al artículo citado; no forma parte de sus insumos originales. Los cruces complementarios sectoriales de etapas y organizaciones cubren 1995–2025 y preservan los símbolos originales sin convertirlos automáticamente en cero.
 
-La ampliación posterior de Planilla Electrónica contiene bases mensuales y anuales, tasa de sindicalización, celdas fuente, inventario con huellas de archivos, controles y gráficos. Para sindicalización y remuneraciones, 2008–2011 conserva promedios publicados; desde 2012 se calculan medias simples de doce meses. Las remuneraciones están en soles nominales. Véase `bases/planilla_electronica/README.md` para límites y una diferencia de dos trabajadores en el total de sindicalizados de junio de 2015. Los cortes de junio de las Hojas de Resumen anteriores a 2008 aún no se incorporan.
+La ampliación posterior de Planilla Electrónica contiene bases mensuales y anuales, tasa de sindicalización, celdas fuente, inventario con huellas de archivos, controles y gráficos. Para sindicalización y remuneraciones, 2008–2011 conserva promedios publicados; desde 2012 se calculan medias simples de doce meses. Las remuneraciones están en soles nominales. Véase `bases/planilla_electronica/README.md` para límites y una diferencia de dos trabajadores en el total de sindicalizados de junio de 2015. Los cortes de junio de 2002–2007 se incorporaron como puente separado, no como prolongación homogénea.
 
 ## Cobertura real
 
@@ -167,7 +168,14 @@ Para extraer los complementos y reproducir los gráficos:
 
 ```bash
 python scripts/extract_negociacion_complementos.py
+python scripts/extract_negociacion_cruces_historicos.py
 python scripts/plot_negociacion_colectiva.py
+```
+
+Para reconstruir el inventario detallado de anuarios:
+
+```bash
+python scripts/build_inventario_anuarios.py
 ```
 
 Para reconstruir, validar y graficar las series de Planilla Electrónica:
