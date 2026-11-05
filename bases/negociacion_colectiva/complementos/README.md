@@ -69,11 +69,14 @@ una extracción nominativa separada, si se decide priorizarla.
 
 ## Reproducción
 
-Desde la raíz del proyecto:
+Desde la raíz del proyecto. El inventario va primero porque los cruces históricos lo usan para elegir los cuadros fuente:
 
 ```powershell
+python scripts/build_inventario_anuarios.py
 python scripts/extract_negociacion_complementos.py
 python scripts/extract_negociacion_cruces_historicos.py
 ```
+
+También se puede correr todo el módulo con `python scripts/run_series_mineria.py --solo negociacion`, que agrega el inventario si falta.
 
 El programa lee el original sin modificarlo, preserva los símbolos y exporta controles independientes. Las diferencias entre fuentes se notifican sin borrar años ni observaciones.
