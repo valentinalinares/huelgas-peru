@@ -29,6 +29,7 @@ PASOS = [
     ("negociacion", "extract_negociacion_colectiva_c56.py", False),
     ("negociacion", "extract_negociacion_complementos.py", False),
     ("negociacion", "extract_negociacion_cruces_historicos.py", False),
+    ("negociacion", "extract_convenios_supraregionales.py", False),
     ("negociacion", "plot_negociacion_colectiva.py", True),
     ("planilla", "extract_planilla_historica.py", False),
     ("planilla", "validate_planilla_historica.py", False),

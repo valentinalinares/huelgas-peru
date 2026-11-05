@@ -31,7 +31,8 @@ Todos los CSV están codificados como UTF-8 con firma para conservar las tildes 
 ## Precauciones de interpretación
 
 - La categoría **“Explotación de minas y canteras”** no equivale exactamente a minería metálica. Algunos trabajadores de contratistas mineros pueden estar clasificados en otras actividades económicas.
-- El MTPE señala que el dato de **2025** incluye convenios solucionados en 2019–2024 cuya vigencia comprende 2025. Por ello no debe interpretarse automáticamente como convenios nuevos firmados durante 2025 ni compararse como una variación homogénea sin considerar esta nota.
+- Desde el **Anuario 2020**, cada edición indica que el dato del año incluye convenios solucionados en años anteriores cuya vigencia comprende ese año (por ejemplo, 2015–2019 en 2020 y 2019–2024 en 2025). El tramo 2020–2025 no debe interpretarse como convenios nuevos firmados en cada año ni compararse como una variación homogénea con los años previos. La columna `nota_comparabilidad` registra el rango de años que declara cada anuario.
+- Para **2013–2019**, los anuarios 2017–2019 indican que el cuadro nacional no incluye los convenios de carácter supraregional o nacional (D.S. 017-2012-TR, art. 3, inc. d), publicados aparte en el cuadro C-40. Se extraen en `complementos/convenios_supraregionales_2013_2019.csv`. Desde 2020 ese cuadro y la nota de exclusión desaparecen; no se pudo confirmar si pasaron a estar dentro del total.
 - El cuadro también incluye pliegos de reclamos presentados en años anteriores y solucionados a la fecha.
 
 ## Reproducción

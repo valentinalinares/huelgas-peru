@@ -24,6 +24,7 @@ mantiene separado porque usa otra institución, universo y definición.
 | Organización sindical de los convenios | 1995–2025 | Conteo anual publicado | Nacional, MTPE |
 | Pliegos y etapas nacionales (C-50) | 1997–2025 | Serie retrospectiva anual | Nacional, MTPE |
 | Laudos arbitrales | 1993–2025 | Conteo anual publicado | Nacional y actividad, MTPE |
+| Convenios supraregionales (D.S. 017-2012-TR) | 2013–2019 | Conteo anual publicado | Nacional y actividad, MTPE (C-40 del Anuario 2019) |
 | Planillas: empleo, ingreso y negociación | 2002–2007 | Corte de junio | Empresas privadas de 5 o más trabajadores, MTPE |
 | Planilla Electrónica: empleo | 2008–2025 | Promedio simple de 12 meses | Sector privado registrado, MTPE |
 | Trabajadores sindicalizados | 2008–2025 | Promedio publicado 2008–2011; media simple de 12 meses desde 2012 | Sector privado registrado, MTPE |
@@ -86,10 +87,22 @@ minero.
 
 ### Negociación colectiva
 
-El dato de 2025 incluye convenios solucionados en 2019–2024 cuya vigencia
-comprende 2025. No debe leerse automáticamente como convenios nuevos firmados en
-2025. Los tipos de organización clasifican convenios, no personas sindicalizadas
-ni sindicatos existentes.
+Desde el Anuario 2020, la nota de cada edición indica que el dato del año
+incluye convenios solucionados en años anteriores cuya vigencia comprende ese
+año (2015–2019 en 2020; 2019–2024 en 2025). No es exclusivo de 2025: el tramo
+2020–2025 no debe leerse como convenios nuevos firmados en cada año ni
+compararse sin cautela con los años previos. Los valores publicados no se
+revisan en ediciones posteriores. Los tipos de organización clasifican
+convenios, no personas sindicalizadas ni sindicatos existentes.
+
+Para 2013–2019, los anuarios 2017–2019 indican que el cuadro nacional no
+incluye los convenios de carácter supraregional o nacional (D.S. 017-2012-TR,
+art. 3, inc. d), que se publican aparte. La serie del Anuario 2025 conserva esos
+valores sin ellos. En minería son 0, 6, 6, 4, 5, 4 y 6 convenios entre 2013 y
+2019; `complementos/convenios_con_supraregionales_2013_2019.csv` muestra la
+suma referencial. Desde 2020 el cuadro aparte y la nota de exclusión
+desaparecen, y no se pudo confirmar con los cuadros publicados si esos
+convenios pasaron a estar dentro del total.
 
 Los cuadros de etapas informan 8 arbitrajes en 1998 y 5 en 1999; los cuadros de
 laudos registran 7 y 4. Los anuarios contemporáneos confirman los primeros
@@ -108,6 +121,15 @@ superiores a 200 mil. En junio de 2015 la suma de actividades sindicalizadas es
 2002 no se encontró una serie nacional por actividad comparable: los capítulos
 de empleo de 1994–2001 miden principalmente colocaciones, formación, cierres y
 autorizaciones, o PEA de Lima Metropolitana.
+
+Entre 2012 y 2013 hay una posible ruptura en sindicalización. El Anuario 2012
+declara como fuente PDT 0601 y T-Registro/PLAME, y desde 2013 solo
+T-Registro/PLAME. Los sindicalizados del total nacional pasan de 122 mil en
+setiembre de 2012 a 179 mil en enero de 2013, sin un salto equivalente del
+empleo, y el promedio anual de 2013 supera al de 2012 en 56% (37% en minería y
+34% en manufactura). Las comparaciones de sindicalización antes y después de
+2013 deben tratar 2012 como año de transición. La causa exacta queda por
+confirmar con el MTPE.
 
 ### Registros sindicales
 

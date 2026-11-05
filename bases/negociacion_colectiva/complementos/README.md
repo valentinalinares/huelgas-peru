@@ -14,6 +14,9 @@ Fuente: Anuario Estadístico Sectorial MTPE 2025, capítulo 2, archivo original 
 | controles_cruces_historicos | Sumas internas, cruces entre tablas y comparación con C-56 | 1995–2025 | 1.962 |
 | laudos_por_actividad_1993_2025 | C-68: laudos registrados por actividad | 15 actividades y total, 1993–2025 | 528 |
 | laudos_designacion_1993_2025 | C-70: designación de árbitros | Nacional, 1993–2025 | 231 |
+| convenios_supraregionales_2013_2019 | C-40 del Anuario 2019: convenios de carácter supraregional o nacional (D.S. 017-2012-TR), excluidos del cuadro nacional en 2013–2019 | 15 actividades y total, 2013–2019 | 112 |
+| convenios_con_supraregionales_2013_2019 | Minería, manufactura y total: C-56 más C-40 como suma referencial | 2013–2019 | 21 |
+| controles_supraregionales | Suma de actividades y comparación con los C-40 de 2017 y 2018 | 183 controles, todos coinciden | 183 |
 | controles_complementos | Sumas internas y comparación entre cuadros | 266 controles | 266 |
 | inventario_capitulo2_2025 | Títulos y ámbito de las hojas de cuadros | 31 hojas; una contiene C-75 y C-76 | 31 |
 
@@ -58,7 +61,7 @@ La nota de C-70 excluye a la Dirección Regional de Trabajo del Callao desde 201
 
 En C-62 se usan los encabezados de fila 8. La fila 9 contiene etiquetas auxiliares inconsistentes; por ejemplo, debajo de `SINDICATO DE OBREROS` dice `EMPLEADOS`. Las categorías conservadas corresponden al encabezado principal.
 
-Los datos de 2025 incluyen convenios solucionados en 2019–2024 cuya vigencia comprende 2025. Las organizaciones de C-62 clasifican **convenios**, no personas sindicalizadas ni número de sindicatos. Los ceros de laudos son los publicados en el cuadro; no prueban ausencia de todo arbitraje fuera de su cobertura.
+Desde 2020, cada año incluye convenios solucionados en años anteriores cuya vigencia comprende ese año, según la nota de cada anuario. Las organizaciones de C-62 clasifican **convenios**, no personas sindicalizadas ni número de sindicatos. Los ceros de laudos son los publicados en el cuadro; no prueban ausencia de todo arbitraje fuera de su cobertura.
 
 ## Registros nominativos
 
@@ -75,6 +78,7 @@ Desde la raíz del proyecto. El inventario va primero porque los cruces históri
 python scripts/build_inventario_anuarios.py
 python scripts/extract_negociacion_complementos.py
 python scripts/extract_negociacion_cruces_historicos.py
+python scripts/extract_convenios_supraregionales.py
 ```
 
 También se puede correr todo el módulo con `python scripts/run_series_mineria.py --solo negociacion`, que agrega el inventario si falta.

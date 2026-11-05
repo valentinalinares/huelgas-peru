@@ -179,6 +179,7 @@ Para extraer los complementos y reproducir los gráficos (requiere el inventario
 python scripts/build_inventario_anuarios.py
 python scripts/extract_negociacion_complementos.py
 python scripts/extract_negociacion_cruces_historicos.py
+python scripts/extract_convenios_supraregionales.py
 python scripts/plot_negociacion_colectiva.py
 ```
 

@@ -81,12 +81,30 @@ def analytic_group(sector_id: str) -> str:
     return "otras_actividades"
 
 
+# Nota 2 del cuadro nacional de convenios por actividad en cada anuario desde 2020
+# (C-28 en 2020-2021, C-68 en 2022, C-67 en 2023, C-56 en 2024-2025).
+VIGENCIA_ANOS_PREVIOS = {
+    2020: "2015-2016-2017-2018-2019",
+    2021: "2017-2018-2019-2020",
+    2022: "2018-2019-2020-2021",
+    2023: "2018-2020-2021-2022",
+    2024: "2019-2020-2021-2022-2023",
+    2025: "2019-2020-2021-2022-2023-2024",
+}
+
+
 def comparability_note(year: int, sector_id: str) -> str:
     notes: list[str] = []
-    if year == 2025:
+    if 2013 <= year <= 2019:
         notes.append(
-            "El MTPE indica que 2025 incluye convenios solucionados en 2019-2024 "
-            "cuya vigencia comprende 2025."
+            "No incluye los convenios de carácter supraregional o nacional (D.S. 017-2012-TR, "
+            "art. 3, inc. d), según la nota 2/ de los anuarios 2017-2019; ver "
+            "complementos/convenios_supraregionales_2013_2019.csv."
+        )
+    if year in VIGENCIA_ANOS_PREVIOS:
+        notes.append(
+            f"Según la nota del Anuario {year}, incluye convenios solucionados en años anteriores "
+            f"({VIGENCIA_ANOS_PREVIOS[year]}) cuya vigencia incluye {year}."
         )
     if sector_id == "minas_canteras":
         notes.append(

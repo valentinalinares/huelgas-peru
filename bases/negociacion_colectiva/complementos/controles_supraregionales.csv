@@ -1,0 +1,184 @@
+﻿control,anio,sector,valor,referencia,fuente_referencia,resultado
+suma_actividades_vs_total,2013,total_nacional,42,42,C-40 Anuario 2019,coincide
+suma_actividades_vs_total,2014,total_nacional,83,83,C-40 Anuario 2019,coincide
+suma_actividades_vs_total,2015,total_nacional,68,68,C-40 Anuario 2019,coincide
+suma_actividades_vs_total,2016,total_nacional,59,59,C-40 Anuario 2019,coincide
+suma_actividades_vs_total,2017,total_nacional,78,78,C-40 Anuario 2019,coincide
+suma_actividades_vs_total,2018,total_nacional,70,70,C-40 Anuario 2019,coincide
+suma_actividades_vs_total,2019,total_nacional,57,57,C-40 Anuario 2019,coincide
+anuario_2017_vs_2019,2013,"agricultura, ganaderia, caza y silvicult",1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,"agricultura, ganaderia, caza y silvicult",1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,"agricultura, ganaderia, caza y silvicult",2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,"agricultura, ganaderia, caza y silvicult",1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,"agricultura, ganaderia, caza y silvicult",0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,pesca,1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,pesca,5,5,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,pesca,1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,pesca,1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,pesca,5,5,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,mineria,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,mineria,6,6,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,mineria,6,6,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,mineria,4,4,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,mineria,5,5,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,manufactura,12,12,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,manufactura,19,19,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,manufactura,21,21,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,manufactura,19,19,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,manufactura,25,25,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,"suministro de electricidad, gas y agua",2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,"suministro de electricidad, gas y agua",5,5,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,"suministro de electricidad, gas y agua",3,3,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,"suministro de electricidad, gas y agua",4,4,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,"suministro de electricidad, gas y agua",5,5,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,construccion,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,construccion,1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,construccion,1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,construccion,2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,construccion,1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,"comercio por mayor y menor, rep. de vehi",2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,"comercio por mayor y menor, rep. de vehi",4,4,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,"comercio por mayor y menor, rep. de vehi",3,3,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,"comercio por mayor y menor, rep. de vehi",2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,"comercio por mayor y menor, rep. de vehi",4,4,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,hoteles y restaurantes,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,hoteles y restaurantes,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,hoteles y restaurantes,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,hoteles y restaurantes,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,hoteles y restaurantes,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,"transporte, almacenamiento y comunicacio",5,5,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,"transporte, almacenamiento y comunicacio",27,27,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,"transporte, almacenamiento y comunicacio",18,18,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,"transporte, almacenamiento y comunicacio",15,15,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,"transporte, almacenamiento y comunicacio",14,14,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,intermediacion financiera,5,5,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,intermediacion financiera,3,3,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,intermediacion financiera,7,7,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,intermediacion financiera,3,3,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,intermediacion financiera,10,10,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,"activ. inmobiliarias, empresariales y de",3,3,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,"activ. inmobiliarias, empresariales y de",3,3,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,"activ. inmobiliarias, empresariales y de",4,4,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,"activ. inmobiliarias, empresariales y de",4,4,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,"activ. inmobiliarias, empresariales y de",6,6,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,administracion publica y defensa,2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,administracion publica y defensa,5,5,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,administracion publica y defensa,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,administracion publica y defensa,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,administracion publica y defensa,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,ensenanza,2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,ensenanza,2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,ensenanza,1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,ensenanza,2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,ensenanza,2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,servicios sociales y de salud,6,6,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,servicios sociales y de salud,1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,servicios sociales y de salud,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,servicios sociales y de salud,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,servicios sociales y de salud,0,0,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,"otras activid. de serv. comunitarios, so",1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,"otras activid. de serv. comunitarios, so",1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,"otras activid. de serv. comunitarios, so",1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,"otras activid. de serv. comunitarios, so",2,2,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,"otras activid. de serv. comunitarios, so",1,1,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2013,total_nacional,42,42,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2014,total_nacional,83,83,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2015,total_nacional,68,68,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2016,total_nacional,59,59,C-40 Anuario 2017,coincide
+anuario_2017_vs_2019,2017,total_nacional,78,78,C-40 Anuario 2017,coincide
+anuario_2018_vs_2019,2013,"agricultura, ganaderia, caza y silvicult",1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,"agricultura, ganaderia, caza y silvicult",1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,"agricultura, ganaderia, caza y silvicult",2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,"agricultura, ganaderia, caza y silvicult",1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,"agricultura, ganaderia, caza y silvicult",0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,"agricultura, ganaderia, caza y silvicult",0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,pesca,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,pesca,5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,pesca,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,pesca,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,pesca,5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,pesca,3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,mineria,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,mineria,6,6,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,mineria,6,6,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,mineria,4,4,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,mineria,5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,mineria,4,4,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,manufactura,12,12,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,manufactura,19,19,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,manufactura,21,21,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,manufactura,19,19,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,manufactura,25,25,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,manufactura,20,20,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,"suministro de electricidad, gas y agua",2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,"suministro de electricidad, gas y agua",5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,"suministro de electricidad, gas y agua",3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,"suministro de electricidad, gas y agua",4,4,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,"suministro de electricidad, gas y agua",5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,"suministro de electricidad, gas y agua",5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,construccion,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,construccion,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,construccion,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,construccion,2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,construccion,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,construccion,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,"comercio por mayor y menor, rep. de vehi",2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,"comercio por mayor y menor, rep. de vehi",4,4,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,"comercio por mayor y menor, rep. de vehi",3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,"comercio por mayor y menor, rep. de vehi",2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,"comercio por mayor y menor, rep. de vehi",4,4,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,"comercio por mayor y menor, rep. de vehi",8,8,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,hoteles y restaurantes,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,hoteles y restaurantes,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,hoteles y restaurantes,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,hoteles y restaurantes,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,hoteles y restaurantes,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,hoteles y restaurantes,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,"transporte, almacenamiento y comunicacio",5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,"transporte, almacenamiento y comunicacio",27,27,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,"transporte, almacenamiento y comunicacio",18,18,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,"transporte, almacenamiento y comunicacio",15,15,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,"transporte, almacenamiento y comunicacio",14,14,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,"transporte, almacenamiento y comunicacio",15,15,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,intermediacion financiera,5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,intermediacion financiera,3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,intermediacion financiera,7,7,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,intermediacion financiera,3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,intermediacion financiera,10,10,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,intermediacion financiera,3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,"activ. inmobiliarias, empresariales y de",3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,"activ. inmobiliarias, empresariales y de",3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,"activ. inmobiliarias, empresariales y de",4,4,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,"activ. inmobiliarias, empresariales y de",4,4,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,"activ. inmobiliarias, empresariales y de",6,6,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,"activ. inmobiliarias, empresariales y de",3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,administracion publica y defensa,2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,administracion publica y defensa,5,5,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,administracion publica y defensa,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,administracion publica y defensa,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,administracion publica y defensa,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,administracion publica y defensa,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,ensenanza,2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,ensenanza,2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,ensenanza,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,ensenanza,2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,ensenanza,2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,ensenanza,3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,servicios sociales y de salud,6,6,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,servicios sociales y de salud,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,servicios sociales y de salud,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,servicios sociales y de salud,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,servicios sociales y de salud,0,0,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,servicios sociales y de salud,1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,"otras activid. de serv. comunitarios, so",1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,"otras activid. de serv. comunitarios, so",1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,"otras activid. de serv. comunitarios, so",1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,"otras activid. de serv. comunitarios, so",2,2,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,"otras activid. de serv. comunitarios, so",1,1,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,"otras activid. de serv. comunitarios, so",3,3,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2013,total_nacional,42,42,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2014,total_nacional,83,83,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2015,total_nacional,68,68,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2016,total_nacional,59,59,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2017,total_nacional,78,78,C-40 Anuario 2018,coincide
+anuario_2018_vs_2019,2018,total_nacional,70,70,C-40 Anuario 2018,coincide
