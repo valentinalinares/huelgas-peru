@@ -189,6 +189,14 @@ python scripts/validate_registros_sindicales.py
 python scripts/plot_registros_sindicales.py
 ```
 
+Para reconstruir, validar y graficar el módulo externo MINEM de empleo minero regional:
+
+```bash
+python scripts/extract_minem_empleo_regional.py
+python scripts/validate_minem_empleo_regional.py
+python scripts/plot_minem_empleo_regional.py
+```
+
 ## Límites importantes
 
 - `territorio` mezcla nivel regional y nivel zona en la fuente; por eso se usa con advertencia de `estructura_mixta`
@@ -211,6 +219,8 @@ python scripts/plot_registros_sindicales.py
 - las Hojas de Resumen de Planillas de `2002-2007` son cortes de junio para empresas privadas de 5 o más trabajadores; se publican como puente separado y no como prolongación homogénea de Planilla Electrónica `2008-2025`
 - en ese puente, trabajadores sujetos a negociación colectiva no equivale necesariamente a trabajadores sindicalizados, e ingreso promedio no equivale a la remuneración promedio posterior
 - la fuente de `2007` cambia el cálculo del ingreso promedio y excluye ingresos superiores a 200 mil; la ruptura se conserva en los controles
+- el módulo regional MINEM `2020-2026` usa ESTAMIN y empleo directo del subsector minero; se mantiene separado de MTPE porque no comparte exactamente universo, clasificación ni tratamiento de contratistas
+- el dato MINEM de `2026` solo cubre enero-agosto y es preliminar; no debe compararse como año completo con 2020-2025
 
 ## Sobre los HTML de mapas
 
