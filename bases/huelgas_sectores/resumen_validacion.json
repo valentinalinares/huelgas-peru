@@ -1,0 +1,13 @@
+{
+  "fuente": "anuarios/2025/CAP 04 - HUELGAS_2025_v2-JTR_OK_19_05_2026_FINAL.xlsx",
+  "sha256": "87f25f759bc83b689807b209f3bd59558be07dd1f0c98f584fb601b9d57a282a",
+  "total_nacional": "1970-2025 (C-92)",
+  "mineria_y_manufactura": "1990-2025 (C-93)",
+  "observaciones": 384,
+  "controles": {
+    "coincide": 402,
+    "coincide_sumando_petroleo": 3
+  },
+  "columnas_repetidas_ignoradas_c93": 0,
+  "diferencias_sin_explicar": []
+}
